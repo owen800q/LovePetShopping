@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="LP_BaseQuickAdapter_viewholder_support" type="id"/>
+    <item name="LP_BaseQuickAdapter_swiping_support" type="id"/>
+    <item name="LP_BaseQuickAdapter_dragging_support" type="id"/>
+    <item name="LP_BaseQuickAdapter_databinding_support" type="id"/>
+    <item name="LP_banner_indicatorId" type="id" />
+
+    <!--二维码-->
+    <item type="id" name="decode"/>
+    <item type="id" name="decode_failed"/>
+    <item type="id" name="decode_succeeded"/>
+    <item type="id" name="launch_product_query"/>
+    <item type="id" name="quit"/>
+    <item type="id" name="restart_preview"/>
+    <item type="id" name="return_scan_result"/>
+    <item name="statusbar_view" type="id"/>
+    <item name="translucent_view" type="id"/>
+</resources>

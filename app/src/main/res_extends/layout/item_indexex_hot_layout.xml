@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="start|center|top"
+    android:orientation="vertical">
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/cbnContentView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15.0dip"
+        android:textSize="12sp"
+        android:textColor="@color/common_h5"
+        android:text="鱼肉"
+        android:drawableRight="@drawable/item_img_selector"
+        android:button="@null"/>
+
+
+   <!-- <LinearLayout
+        android:id="@+id/contentView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/write"
+        android:gravity="start|center"
+        android:orientation="horizontal"
+        android:padding="10.0dip">
+
+        <TextView
+            android:id="@+id/contentTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="www.epet.com"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/contentCheck"
+            android:layout_width="20.0dip"
+            android:layout_height="20.0dip"
+            android:layout_gravity="end|center"
+            android:src="@drawable/check_gou_pink" />
+    </LinearLayout>-->
+</LinearLayout>

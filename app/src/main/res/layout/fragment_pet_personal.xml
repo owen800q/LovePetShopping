@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout   xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.design.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="@color/lightgray1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appbar"
+            app:elevation="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+            <android.support.design.widget.CollapsingToolbarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_scrollFlags="scroll|exitUntilCollapsed">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:background="@mipmap/personal_dog_bg"/>
+
+                <!--标题 -->
+                <android.support.v7.widget.Toolbar
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:elevation="0dp"
+                    app:contentInsetStart="0dp"
+                    app:layout_collapseMode="pin">
+                    <cn.lovepet.shops.helper.immersive.title.TitleBar
+                        android:id="@+id/shopcart1_title_bar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparent"
+                        app:elevation="0dp"
+                        app:title=""
+                        app:icon_back="false"
+                        app:layout_collapseMode="pin" />
+                </android.support.v7.widget.Toolbar>
+                <LinearLayout
+                    android:id="@+id/llHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:paddingTop="20dp"
+                    android:layout_marginLeft="10dp">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@mipmap/personal_dog_header_default"/>
+                    <TextView
+                        android:id="@+id/tvUserLogin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:layout_marginLeft="30dp"
+                        android:textSize="15sp"
+                        android:text="登录"/>
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@color/white"
+                        />
+                    <TextView
+                        android:id="@+id/tvUserRegister"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:textSize="15sp"
+                        android:text="注册"/>
+                    <ImageView
+                        android:id="@+id/ivMessage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:src="@mipmap/index_head_message"/>
+                </LinearLayout>
+
+
+                <!--  <RelativeLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent">
+                      <cn.lovepet.shops.view.MyImageView
+                          android:id="@+id/personalAnimCheckinAnimImage"
+                          android:layout_alignParentRight="true"
+                          android:layout_alignParentBottom="true"
+                          android:layout_marginBottom="10dp"
+                          android:layout_width="50dp"
+                          android:layout_height="80dp" />
+                  </RelativeLayout>-->
+            </android.support.design.widget.CollapsingToolbarLayout>
+
+        </android.support.design.widget.AppBarLayout>
+
+        <android.support.v4.widget.NestedScrollView
+            android:id="@+id/n_scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/lightgray1"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/tvSnap"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/white"/>
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/personalRecyclerView"
+                    android:paddingTop="20dp"
+                    android:background="@color/white"
+                    android:nestedScrollingEnabled="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </android.support.v7.widget.RecyclerView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0f0"
+                    android:textSize="200sp"/>
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+
+    </android.support.design.widget.CoordinatorLayout>
+    <cn.lovepet.shops.view.MyImageView
+        android:id="@+id/personalAnimCheckinAnimImage"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/usercenter_checkin_1"
+        android:layout_width="50dp"
+        android:layout_height="80dp" />
+</RelativeLayout>

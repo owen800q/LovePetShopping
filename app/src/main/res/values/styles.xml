@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@style/AppBaseTheme">
+        <item name="android:screenOrientation">portrait</item>
+        <item name="android:configChanges">keyboardHidden|orientation</item>
+        <item name="android:windowAnimationStyle">@style/activityAnimation</item>
+        <item name="windowActionBar">true</item>
+    </style>
+
+    <style name="activityAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/fang_slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/fang_zoom_out_center</item>
+        <item name="android:activityCloseEnterAnimation">@anim/fang_zoom_in_center</item>
+        <item name="android:activityCloseExitAnimation">@anim/fang_slide_out_right</item>
+        <item name="android:taskOpenEnterAnimation">@anim/fang_slide_in_right</item>
+        <item name="android:taskOpenExitAnimation">@anim/fang_zoom_out_center</item>
+        <item name="android:taskCloseEnterAnimation">@anim/fang_zoom_in_center</item>
+        <item name="android:taskCloseExitAnimation">@anim/fang_slide_out_right</item>
+    </style>
+
+    <style name="AppBaseTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowSoftInputMode">adjustResize</item>
+    </style>
+
+    <!--类型切换-->
+    <style name="epettype_item_layout">
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">30.0dip</item>
+        <item name="android:layout_marginBottom">20.0dip</item>
+    </style>
+
+    <!--旋转木马控件-->
+    <declare-styleable name="LoopRotarySwitchView">
+        <attr name="orientation">
+            <enum name="vertical" value="0"/>
+            <enum name="horizontal" value="1"/>
+        </attr>
+        <attr name="autoRotation" format="boolean"/>
+        <attr name="r" format="dimension"/>
+
+        <attr name="direction">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <style name="epettype_item_image">
+        <item name="android:layout_width">130.0dip</item>
+        <item name="android:layout_height">130.0dip</item>
+    </style>
+    <style name="epettype_item_text">
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:textColor">@color/main_color_txt_title</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5.0dip</item>
+    </style>
+
+    <!--宠物切换的风格-->
+    <style name="Transparent" parent="@style/AppTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowAnimationStyle">@style/fade</item>
+    </style>
+    <style name="fade" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/fade_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/fade_out</item>
+    </style>
+
+    <!--titleBar样式-->
+    <style name="ToolbarStyle" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="main_all_bg_style">
+        <item name="android:gravity">center|top</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:id">@id/main_back</item>
+        <item name="android:background">@color/main_bg</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+
+    <style name="epet_listview_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:listSelector">@android:color/transparent</item>
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+    </style>
+
+    <style name="address_change_pet_style">
+        <item name="android:textSize">@dimen/epet_text_size_center</item>
+        <item name="android:textColor">@color/btn_check_black_white_style</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/address_change_pettype_radiobutton_style</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:button">@null</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+
+    <style name="top_btn_style">
+        <item name="android:textSize">@dimen/main_size_ui_head_title</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/main_color_ui_head_title</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/btn_topbtn_bg_style</item>
+        <item name="android:padding">@dimen/padding_btn_activity_top_head</item>
+        <item name="android:layout_width">@dimen/height_activity_top_head</item>
+        <item name="android:layout_height">@dimen/height_activity_top_head</item>
+        <item name="android:src">@drawable/epet_photo_small_trans_bg</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="textview_style">
+        <item name="android:textSize">@dimen/text_size_center</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/text_color_style</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="epet_title_style" parent="@style/textview_style">
+        <item name="android:textSize">@dimen/epet_text_size_center</item>
+    </style>
+    <style name="fang_line_style_horizontal">
+        <item name="android:background">@color/lightgray1</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/fang_line_height</item>
+    </style>
+    <style name="fang_line_style_vertical">
+        <item name="android:background">@color/lightgray1</item>
+        <item name="android:layout_width">@dimen/fang_line_height</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="epet_title_gra_style" parent="@style/textview_style">
+        <item name="android:textSize">@dimen/epet_text_size_small</item>
+        <item name="android:textColor">@color/main_color_txt_gray</item>
+    </style>
+    <style name="edittext_style">
+        <item name="android:textSize">@dimen/text_size_center</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">start|center</item>
+        <item name="android:paddingLeft">5.0dip</item>
+        <item name="android:paddingRight">5.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">38.0dip</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="epet_input_edit_style" parent="@style/edittext_style">
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <declare-styleable name="RoundRectImageView">
+        <attr name="corner" format="dimension"></attr>
+    </declare-styleable>
+
+    <!--自定义progressDialog-->
+    <style name="progressDialog" parent="AppTheme">
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="colorAccent">#ffE91E63</item>
+    </style>
+
+    <style name="jz_style_dialog_progress" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/jz_popup_toast_anim</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="jz_popup_toast_anim" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <!--popupwindow动画风格 侧滑-->
+    <style name="popwin_anim_style" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_bottom</item>
+    </style>
+
+    <style name="button_style">
+        <item name="android:textSize">@dimen/text_size_center</item>
+        <item name="android:textColor">@color/button_color_style</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">@dimen/button_padding_left</item>
+        <item name="android:paddingTop">@dimen/button_padding_top</item>
+        <item name="android:paddingRight">@dimen/button_padding_left</item>
+        <item name="android:paddingBottom">@dimen/button_padding_top</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">35.0dip</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="fang_btn_gray_border_style" parent="@style/button_style">
+        <item name="android:textColor">@color/main_color_txt_gray</item>
+        <item name="android:background">@drawable/bg_fang_btn_gray_border_style</item>
+    </style>
+
+    <style name="fang_padding_edit">
+        <item name="android:paddingLeft">@dimen/fang_padding_left</item>
+        <item name="android:paddingTop">@dimen/fang_padding</item>
+        <item name="android:paddingRight">@dimen/fang_padding_left</item>
+        <item name="android:paddingBottom">@dimen/fang_padding</item>
+    </style>
+
+    <style name="fang_btn_red_style" parent="@style/button_style">
+        <item name="android:background">@drawable/bg_fang_btn_red_style</item>
+    </style>
+    <style name="OnClick">
+        <item name="android:clickable">true</item>
+        <item name="android:onClick">OnClick</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="ZxingTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#000000</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+    </style>
+</resources>

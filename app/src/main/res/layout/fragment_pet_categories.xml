@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/item_pet_category_top_search"
+        android:id="@+id/llCategorySearch"/>
+    <android.support.design.widget.TabLayout
+        android:id="@+id/categaryTab"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/llCategorySearch"
+        app:tabMode="fixed"
+        app:tabIndicatorColor="@color/red"
+        app:tabSelectedTextColor="@color/red"
+        app:tabTextColor="@color/common_h1"
+        app:tabGravity="center"
+        android:scrollIndicators="bottom"
+        android:layout_height="wrap_content">
+    </android.support.design.widget.TabLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/categaryViewPager"
+        android:layout_below="@+id/categaryTab"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>
+
+

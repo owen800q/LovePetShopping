@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/main_all_bg_style"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <cn.lovepet.shops.helper.immersive.title.TitleBar
+        android:id="@+id/siteTitlebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:title="选择地址"
+        app:size_title="16sp"
+        app:title_left="返回"
+        app:icon_left="@mipmap/rg_back_btn"
+        app:icon_back="true" />
+    <RadioGroup
+        android:id="@+id/choose_pettype_group"
+        android:layout_width="fill_parent"
+        android:layout_height="55.0dip"
+        android:background="@color/write"
+        android:orientation="horizontal"
+        android:padding="8.0dip">
+        <RadioButton
+            android:id="@+id/choose_pettype_dog"
+            style="@style/address_change_pet_style"
+            android:checked="true"
+            android:text="@string/staion_dog" />
+
+        <RadioButton
+            android:id="@+id/choose_pettype_cat"
+            style="@style/address_change_pet_style"
+            android:layout_marginLeft="8.0dip"
+            android:layout_marginRight="8.0dip"
+            android:checked="false"
+            android:text="@string/staion_cat" />
+
+        <RadioButton
+            android:id="@+id/choose_pettype_aquarium"
+            style="@style/address_change_pet_style"
+            android:checked="false"
+            android:text="@string/staion_aquarium" />
+    </RadioGroup>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <!--标题-->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:gravity="center|top"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/shape_item_normal_bg"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@mipmap/epet_ico_order_state2"
+                    android:tint="@color/colorAccent"/>
+
+                <TextView
+                    android:id="@+id/tvChoiceAddress"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:lines="1"
+                    android:text="请选择地址"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="13sp"/>
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:id="@+id/img_close"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@mipmap/check_gou_pink"
+                    android:tint="@color/colorAccent"/>
+            </LinearLayout>
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/siteRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/letter"
+            android:layout_width="80.0dip"
+            android:layout_height="80.0dip"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_fang_btn_green"
+            android:gravity="center"
+            android:text="A"
+            android:textColor="@color/write"
+            android:textSize="30.0sp"
+            android:visibility="gone" />
+    </FrameLayout>
+</LinearLayout>

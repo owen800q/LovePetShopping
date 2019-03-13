@@ -1,0 +1,92 @@
+{
+  "topdatas":[
+    {
+      "type":0,
+      "rank": [
+        {
+          "avatar": {
+            "image": "https://img1.epetbar.com/2016-04/26/06/6a048b1d46320132d20a16937d657204.png",
+            "img_size": "",
+            "target": {
+              "mode": "mengzhua_personhome",
+              "param": "1269082"
+            }
+          },
+          "uid": "1269082",
+          "username": "付小秋"
+        },
+        {
+          "avatar": {
+            "image": "https://img1.epetbar.com/2015-04/07/f65932ac458a39490f96e3ecbaceb677.jpg",
+            "img_size": "",
+            "target": {
+              "mode": "mengzhua_personhome",
+              "param": "616230"
+            }
+          },
+          "uid": "616230",
+          "username": "心字成灰"
+        },
+        {
+          "avatar": {
+            "image": "https://img1.epetbar.com/2017-04/10/08/85b939110918a67e0cdccc62c3dc10b5.jpg",
+            "img_size": "",
+            "target": {
+              "mode": "mengzhua_personhome",
+              "param": "1629766"
+            }
+          },
+          "uid": "1629766",
+          "username": "serenasmh"
+        },
+        {
+          "avatar": {
+            "image": "https://img1.epetbar.com/2018-09/15/10/1277e5ff2b7599307b126177a82e7e47.jpg",
+            "img_size": "",
+            "target": {
+              "mode": "mengzhua_personhome",
+              "param": "450574"
+            }
+          },
+          "uid": "450574",
+          "username": "苏苏、"
+        },
+        {
+          "avatar": {
+            "image": "https://static.epetbar.com/static_web/wap/src/images/qpet/app/trial/more_rank.png",
+            "img_size": "",
+            "target": {
+              "mode": "web",
+              "param": "https://wap.epet.com/union/trials_score_rank.html"
+            }
+          },
+          "uid": "0",
+          "username": "更多"
+        }
+      ]
+    },
+    {
+      "type":1,
+      "tiyan": {
+        "bg": {
+          "image": "https://static.epetbar.com/static_web/wap/src/images/qpet/app/trial/bg_img_trial.jpg",
+          "img_size": "750x590"
+        },
+        "bgcolor": "#70c8b0",
+        "left": {
+          "content": 245,
+          "image": "https://static.epetbar.com/static_web/wap/src/images/qpet/app/trial/left_trial.png",
+          "img_size": "100x40"
+        },
+        "right": {
+          "content": 1537,
+          "image": "https://static.epetbar.com/static_web/wap/src/images/qpet/app/trial/right_trial.png",
+          "img_size": "100x40"
+        }
+      }
+    }
+
+  ],
+  "message":"",
+  "status":""
+}

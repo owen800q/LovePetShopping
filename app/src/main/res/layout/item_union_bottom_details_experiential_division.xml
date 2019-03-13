@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/tools"
+    android:id="@+id/ll_goods_details_experiential_division"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip"
+    android:paddingBottom="10dp">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp">
+
+        <ImageView
+            android:id="@+id/iv_header_icon"
+            android:layout_width="45dip"
+            android:layout_height="45dip" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_toRightOf="@+id/iv_header_icon"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_header_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_toRightOf="@+id/iv_header_icon"
+                android:textColor="@color/main_color_ui_head_title"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvDivisionRole"
+                android:layout_width="50.0dip"
+                android:layout_height="16.0dip"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/iv_header_icon"
+                android:layout_below="@+id/tv_header_name"
+                android:background="@drawable/shape_super_experiencer"
+                android:gravity="center"
+                android:textColor="@color/color_experience_division_role_font"
+                android:textSize="8.0dip"
+                android:text=""/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvPetDes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentRight="true"
+            android:text=""
+            android:singleLine="true"
+            android:textColor="@color/common_h1"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <!--<cn.lovepet.shops.helper.imageview.RoundRectImageView-->
+    <!--<ImageView
+        android:id="@+id/ivMiddle"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:scaleType="centerCrop"/>-->
+    <cn.lovepet.shops.helper.imageview.ExpandImageView
+        android:id="@+id/ivMiddle"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        fresco:roundedCornerRadius="0dp"
+        android:layout_gravity="center_horizontal"
+        fresco:actualImageScaleType="fitXY"/>
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:id="@+id/tvTitleDescription"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxEms="20"
+            android:maxLines="1"
+            android:textColor="@color/main_color_ui_head_title"
+            android:textSize="13.0sp"
+            android:text=""/>
+        <TextView
+            android:id="@+id/bottom_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/tvTitleDescription"
+            android:background="@color/lightgray1"/>
+
+        <LinearLayout
+            android:id="@+id/llDivisionNotClick"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/bottom_line"
+            android:layout_marginTop="10dip"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tvcoverDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxEms="20"
+                android:maxLines="1"
+                android:textColor="@color/common_h3"
+                android:textSize="13.0sp"
+                android:text=""/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="right">
+                <ImageView
+                    android:layout_width="17.0dip"
+                    android:layout_height="17.0dip"
+                    android:background="@mipmap/goods_details_experiential_teacher_browse" />
+                <TextView
+                    android:id="@+id/tvDivisionWatch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5.0dip"
+                    android:maxLength="4"
+                    android:maxLines="1"
+                    android:textColor="@color/main_color_ui_head_title"
+                    android:textSize="12.0sp" />
+                <ImageView
+                    android:layout_width="17.0dip"
+                    android:layout_height="17.0dip"
+                    android:layout_marginLeft="10dp"
+                    android:background="@mipmap/goods_details_experiential_teacher_comment" />
+                <TextView
+                    android:id="@+id/tvDivisionComment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:maxLength="4"
+                    android:maxLines="1"
+                    android:textColor="@color/main_color_ui_head_title"
+                    android:textSize="12.0sp" />
+
+                <ImageView
+                    android:id="@+id/iv_experiential_division_zan"
+                    android:layout_width="17.0dip"
+                    android:layout_height="17.0dip"
+                    android:layout_marginLeft="10dp"
+                    android:background="@mipmap/goods_details_experiential_teacher_unlike" />
+
+                <TextView
+                    android:id="@+id/tvDivisionZan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:maxLength="4"
+                    android:maxLines="1"
+                    android:textColor="@color/main_color_ui_head_title"
+                    android:textSize="12.0sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

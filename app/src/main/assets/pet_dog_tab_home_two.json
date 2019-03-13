@@ -1,0 +1,80 @@
+{
+  "datas": [
+    {
+      "background_color": "",
+      "margin_bottom": 0,
+      "index": "2209",
+      "is_dynamic": "0",
+      "is_first": 1,
+      "is_show": 1,
+      "type": 101,
+      "type_name": "图片轮播广告",
+      "value_list": [
+        {
+          "advid": "31012",
+          "atid": "0",
+          "image": "http://img2.epetbar.com/nowater/2018-10/15/16/a05c9aa58b86d4c74eccab4090e3e394.jpg?x-oss-process=style/water",
+          "img_size": "750x320",
+          "mode": "web",
+          "param": "https://sale.epet.com/m/mould/activity/zt7144.html"
+        },
+        {
+          "advid": "31012",
+          "atid": "0",
+          "image": "http://img2.epetbar.com/nowater/2018-10/23/13/98883f760193880b5c60c3dbd7d605ef.jpg?x-oss-process=style/water",
+          "img_size": "750x320",
+          "mode": "web",
+          "param": "https://sale.epet.com/m/mould/activity/zt7144.html"
+        },
+        {
+          "advid": "31012",
+          "atid": "0",
+          "image": "http://img2.epetbar.com/nowater/2018-10/25/13/c8075ec46256d350b7c5d4e9cf5ea76f.jpg?x-oss-process=style/water",
+          "img_size": "750x320",
+          "mode": "web",
+          "param": "https://sale.epet.com/m/mould/activity/zt7144.html"
+        }
+      ]
+    },
+    {
+      "background_color": "",
+      "margin_bottom": 0,
+      "index": "2210",
+      "is_dynamic": "0",
+      "is_show": 1,
+      "type": 102,
+      "type_name": "二级可切换菜单",
+      "value_list": [
+        {
+          "menu_name": "国产主粮",
+          "image": "https://img1.epetbar.com/2018-10/18/17/6b8d0ffbe751450e077c0b7dbfbe1692.jpg",
+          "image_choose": "https://img1.epetbar.com/2018-10/18/17/b300afbd009c8c15d33c65ccaa68d444.jpg"
+        },
+        {
+          "menu_name": "进口主粮",
+          "image": "https://img1.epetbar.com/2018-10/18/17/83fcfe5cd3c237e788bf35316a455cc2.jpg",
+          "image_choose": "https://img1.epetbar.com/2018-10/18/17/dc44104041abd818ab8aea70a44acfa6.jpg"
+        },
+        {
+          "menu_name": "口味配方",
+          "image": "https://img1.epetbar.com/2018-10/18/17/61565e6a84043aa355e7f1de28876515.jpg",
+          "image_choose": "https://img1.epetbar.com/2018-10/18/17/655bc75303f28a4c5b1fce2a5a1d5d16.jpg"
+        },
+        {
+          "menu_name": "单斤价格",
+          "image": "https://img1.epetbar.com/2018-10/18/17/3e40291345cfe0f44d3cb286878362c8.jpg",
+          "image_choose": "https://img1.epetbar.com/2018-10/18/17/3f000737c690016a33bcca4ac96c9f15.jpg"
+        }
+      ]
+    }
+  ],
+  "epet_site": "epet",
+  "hash": "",
+  "is_dynamic": 0,
+  "login_status": 1,
+  "mall_uid": "epet_4094930",
+  "mall_user": "主人_wXK1v4LGip",
+  "msg": "",
+  "real_page_id": 123,
+  "sys_time": 1542285807
+}

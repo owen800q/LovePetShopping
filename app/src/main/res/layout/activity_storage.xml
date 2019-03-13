@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:background="?colorPrimary"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dialogHeight">
+        <cn.lovepet.reverse.view.StorageCircleView
+            android:id="@+id/circle_view"
+            android:layout_width="100.0dip"
+            android:layout_height="100.0dip"
+            android:layout_centerInParent="true" />
+        <TextView
+            android:id="@+id/tv_show_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="立即清理"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/widgetNomarlHeight"
+        android:layout_marginLeft="@dimen/activity_margin_left"
+        android:layout_marginTop="@dimen/marginDiver"
+        android:layout_marginRight="@dimen/activity_margin_right">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="App安装包"
+            android:layout_centerVertical="true" />
+        <TextView
+            android:id="@+id/tv_app_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="计算..."
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/widgetNomarlHeight"
+        android:layout_marginLeft="@dimen/activity_margin_left"
+        android:layout_marginTop="@dimen/marginDiver"
+        android:layout_marginRight="@dimen/activity_margin_right">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="录音文件"
+            android:layout_centerVertical="true" />
+        <TextView
+            android:id="@+id/tv_voice_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="计算..."
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/widgetNomarlHeight"
+        android:layout_marginLeft="@dimen/activity_margin_left"
+        android:layout_marginTop="@dimen/marginDiver"
+        android:layout_marginRight="@dimen/activity_margin_right">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="拍照文件"
+            android:layout_centerVertical="true" />
+        <TextView
+            android:id="@+id/tv_photo_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="计算..."
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

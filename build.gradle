@@ -1,0 +1,69 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.2.0'
+        classpath 'com.jakewharton:butterknife-gradle-plugin:8.4.0'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+//        maven { url 'https://maven.google.com' }
+//        jcenter { url "http://jcenter.bintray.com"}
+//        maven { url "https://jitpack.io" }
+
+        google()
+        jcenter()
+        maven { url "https://jitpack.io"}
+        maven {
+            url 'https://oss.sonatype.org/content/repositories/snapshots'
+        }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+ext {
+    // Sdk and tools
+    minSdkVersion = 17
+    targetSdkVersion = 28
+    compileSdkVersion = 28
+    buildToolsVersion = '28.0.3'
+    versioncode = 1
+    versionname = '1.2.1'
+
+    // App dependencies
+    supportLibraryVersion = '28.0.0'
+    constraintVersion = '1.1.0'
+    junitVersion = '4.12'
+    retrofitVersion = '2.2.0'
+    okhttpVersion = '3.6.0'
+    rxjavaVersion = '2.0.6'
+    rxandroidVersion = '2.0.1'
+    rxCacheVersion = '1.8.0-2.x'
+    rxCacheGsonVersion = '0.0.3'
+    espressoVersion = '2.2.2'
+    gsonVersion = '2.8.0'
+    daggerVersion = '2.9'
+    butterKnifeVersion = '8.4.0'
+//    frescoVersion = '1.2.0'
+    frescoVersion = '0.12.0'
+    arouterVersion = '1.4.1'
+    arouterCompilerVersion = '1.2.2'
+    easypermissionVersion = '0.3.1'
+    autoScrollViewPagerVersion = '2.1.7'
+
+    //控制模块是否参与编译
+    buildMain = true
+    buildTest = true
+}

@@ -1,0 +1,1642 @@
+{
+  "cateid": 3555,
+  "code": "succeed",
+  "default_params": [
+    {
+      "name": "search_site",
+      "value": ""
+    },
+    {
+      "name": "hide_recommend",
+      "value": 1
+    },
+    {
+      "name": "pet_arg",
+      "value": "dog"
+    }
+  ],
+  "epet_site": "epet",
+  "filterBoxData": [
+    {
+      "hot_rows": [
+        {
+          "type":0,
+          "title":"",
+          "zimulist":[
+            {
+              "checked": 1,
+              "name": "全部",
+              "id": "0",
+              "letter": ""
+            }
+          ]
+        },
+        {
+          "type":1,
+          "title":"A",
+          "zimulist":[
+            {
+              "letter": "A",
+              "checked": 0,
+              "name": "艾尔Aier",
+              "id": 1
+            }
+          ]
+        },
+        {
+          "type":2,
+          "title":"B",
+          "zimulist":[
+            {
+              "checked": 0,
+              "name": "伯纳天纯Pure&Natural",
+              "id": 775,
+              "letter": "B"
+            },
+            {
+              "checked": 0,
+              "name": "倍内菲",
+              "id": 100126,
+              "letter": "B"
+            },
+            {
+              "checked": 0,
+              "name": "比瑞吉Nature Bridge",
+              "id": 334,
+              "letter": "B"
+            },
+            {
+              "letter": "B",
+              "checked": 0,
+              "name": "百德加Pitegra",
+              "id": 1156
+            }
+          ]
+        },
+        {
+          "type":3,
+          "title":"C",
+          "zimulist":[
+            {
+              "checked": 0,
+              "name": "畅享Cheer Share",
+              "id": 1638,
+              "letter": "C"
+            }
+          ]
+        },
+        {
+          "type":4,
+          "title":"G",
+          "zimulist":[
+            {
+              "checked": 0,
+              "name": "贵族Natures Gift",
+              "id": 13,
+              "letter": "G"
+            },
+            {
+              "checked": 0,
+              "name": "贵芬GRIFFIN",
+              "id": 19,
+              "letter": "G"
+            },
+            {
+              "checked": 0,
+              "name": "冠能PRO PLAN",
+              "id": 120,
+              "letter": "G"
+            },
+            {
+              "letter": "G",
+              "checked": 0,
+              "name": "贵芸GRIFFIN",
+              "id": 1224
+            },
+            {
+              "letter": "G",
+              "checked": 0,
+              "name": "桂道PRO PLAN",
+              "id": 14
+            }
+          ]
+        },
+        {
+          "type":5,
+          "title":"H",
+          "zimulist":[
+            {
+              "letter": "H",
+              "checked": 0,
+              "name": "豪爵MAX POWER",
+              "id": 302
+            }
+          ]
+        },
+        {
+          "type":6,
+          "title":"J",
+          "zimulist":[
+            {
+              "letter": "J",
+              "checked": 0,
+              "name": "精灵猫Heart Link",
+              "id": 473
+            }
+          ]
+        },
+        {
+          "type":7,
+          "title":"K",
+          "zimulist":[
+            {
+              "letter": "K",
+              "checked": 0,
+              "name": "开饭乐Kitchen Flavor",
+              "id": 221
+            }
+          ]
+        },
+        {
+          "type":8,
+          "title":"L",
+          "zimulist":[
+            {
+              "letter": "L",
+              "checked": 0,
+              "name": "兰夏LANSHIER",
+              "id": 939
+            },
+            {
+              "checked": 0,
+              "name": "蓝氏LegendSandy",
+              "id": 351,
+              "letter": "B"
+            },
+            {
+              "letter": "L",
+              "checked": 0,
+              "name": "雷米高",
+              "id": 17
+            }
+          ]
+        },
+        {
+          "type":9,
+          "title":"M",
+          "zimulist":[
+            {
+              "letter": "M",
+              "checked": 0,
+              "name": "麦德琳MDARYN",
+              "id": 209
+            },
+            {
+              "letter": "M",
+              "checked": 0,
+              "name": "玫斯METZ",
+              "id": 1173
+            },
+            {
+              "letter": "M",
+              "checked": 0,
+              "name": "麦仕MOSHM",
+              "id": 1291
+            },
+            {
+              "letter": "M",
+              "checked": 0,
+              "name": "麦克哈特",
+              "id": 100071
+            },
+            {
+              "letter": "M",
+              "checked": 0,
+              "name": "沐果MUFRUIT",
+              "id": 2068
+            }
+          ]
+        },
+        {
+          "type":10,
+          "title":"N",
+          "zimulist":[
+            {
+              "letter": "N",
+              "checked": 0,
+              "name": "诺瑞Nory",
+              "id": 123
+            },
+            {
+              "letter": "N",
+              "checked": 0,
+              "name": "纽牌Health-Nu",
+              "id": 1201
+            }
+          ]
+        },
+        {
+          "type":11,
+          "title":"P",
+          "zimulist":[
+            {
+              "letter": "P",
+              "checked": 0,
+              "name": "佩玛思特PetMaster",
+              "id": 1323
+            },
+            {
+              "letter": "P",
+              "checked": 0,
+              "name": "帕特诺尔",
+              "id": 100115
+            }
+          ]
+        },
+        {
+          "type":12,
+          "title":"T",
+          "zimulist":[
+            {
+              "letter": "T",
+              "checked": 0,
+              "name": "汤恩贝TEB！",
+              "id": 100073
+            }
+          ]
+        },
+        {
+          "type":13,
+          "title":"W",
+          "zimulist":[
+            {
+              "letter": "W",
+              "checked": 0,
+              "name": "汪鲜饭",
+              "id": 100087
+            }
+          ]
+        },
+        {
+          "type":14,
+          "title":"Z",
+          "zimulist":[
+            {
+              "letter": "Z",
+              "checked": 0,
+              "name": "珍宝SANPO",
+              "id": 44
+            }
+          ]
+        }
+      ],
+      "flag":0,
+      "is_quick": 1,
+      "name": "品牌",
+      "rows": [
+        {
+          "items": [
+            {
+              "checked": 1,
+              "id": "0",
+              "name": "全部"
+            }
+          ],
+          "letter": "0"
+        },
+        {
+          "items": [
+            {
+              "checked": 0,
+              "id": 1,
+              "name": "艾尔Aier"
+            }
+          ],
+          "letter": "A"
+        },
+        {
+          "items": [
+            {
+              "checked": 0,
+              "id": 775,
+              "name": "伯纳天纯Pure&Natural"
+            },
+            {
+              "checked": 0,
+              "id": 100126,
+              "name": "倍内菲"
+            },
+            {
+              "checked": 0,
+              "id": 334,
+              "name": "比瑞吉Nature Bridge"
+            },
+            {
+              "checked": 0,
+              "id": 1156,
+              "name": "百德加Pitegra"
+            }
+          ],
+          "letter": "B"
+        },
+        {
+          "items": [
+            {
+              "checked": 0,
+              "id": 1638,
+              "name": "畅享Cheer Share"
+            }
+          ],
+          "letter": "C"
+        },
+        {
+          "items": [
+            {
+              "checked": 0,
+              "id": 13,
+              "name": "贵族Natures Gift"
+            },
+            {
+              "checked": 0,
+              "id": 1224,
+              "name": "贵芬GRIFFIN"
+            },
+            {
+              "checked": 0,
+              "id": 14,
+              "name": "冠能PRO PLAN"
+            }
+          ],
+          "letter": "G"
+        },
+        {
+          "items": [
+            {
+              "checked": 0,
+              "id": 302,
+              "name": "豪爵MAX POWER"
+            }
+          ],
+          "letter": "H"
+        },
+        {
+          "items": [
+            {
+              "checked": 0,
+              "id": 221,
+              "name": "开饭乐Kitchen Flavor"
+            }
+          ],
+          "letter": "K"
+        },
+        {
+          "items": [
+            {
+              "checked": 0,
+              "id": 351,
+              "name": "蓝氏LegendSandy"
+            },
+            {
+              "checked": 0,
+              "id": 939,
+              "name": "兰夏LANSHIER"
+            },
+            {
+              "checked": 0,
+              "id": 17,
+              "name": "雷米高"
+            }
+          ],
+          "letter": "L"
+        },
+        {
+          "items": [
+            {
+              "checked": 0,
+              "id": 204,
+              "name": "麦德琳MDARYN  "
+            },
+            {
+              "checked": 0,
+              "id": 1173,
+              "name": "玫斯METZ"
+            },
+            {
+              "checked": 0,
+              "id": 1291,
+              "name": "麦仕MOSHM"
+            },
+            {
+              "checked": 0,
+              "id": 100071,
+              "name": "麦克哈特"
+            },
+            {
+              "checked": 0,
+              "id": 2068,
+              "name": "沐果MUFRUIT"
+            }
+          ],
+          "letter": "M"
+        },
+        {
+          "items": [
+            {
+              "checked": 0,
+              "id": 123,
+              "name": "诺瑞Nory"
+            },
+            {
+              "checked": 0,
+              "id": 1201,
+              "name": "纽牌Health-Nu"
+            }
+          ],
+          "letter": "N"
+        },
+        {
+          "items": [
+            {
+              "checked": 0,
+              "id": 100115,
+              "name": "帕特诺尔"
+            },
+            {
+              "checked": 0,
+              "id": 1323,
+              "name": "佩玛思特PetMaster"
+            }
+          ],
+          "letter": "P"
+        },
+        {
+          "items": [
+            {
+              "checked": 0,
+              "id": 100073,
+              "name": "汤恩贝TEB！"
+            }
+          ],
+          "letter": "T"
+        },
+        {
+          "items": [
+            {
+              "checked": 0,
+              "id": 100087,
+              "name": "汪鲜饭"
+            }
+          ],
+          "letter": "W"
+        },
+        {
+          "items": [
+            {
+              "checked": 0,
+              "id": 473,
+              "name": "精灵猫Heart Link"
+            }
+          ],
+          "letter": "X"
+        },
+        {
+          "items": [
+            {
+              "checked": 0,
+              "id": 44,
+              "name": "珍宝SANPO"
+            }
+          ],
+          "letter": "Z"
+        }
+      ],
+      "varname": "brandid"
+    },
+    {
+      "flag":1,
+      "is_quick": 1,
+      "name": "年龄",
+      "rows": [
+        {
+          "checked": 0,
+          "id": 0,
+          "name": "不限制"
+        },
+        {
+          "checked": 0,
+          "id": 3979,
+          "name": "离乳&怀孕哺乳期"
+        },
+        {
+          "checked": 0,
+          "id": 3985,
+          "name": "幼犬期"
+        },
+        {
+          "checked": 0,
+          "id": 3981,
+          "name": "成犬期"
+        },
+        {
+          "checked": 0,
+          "id": 6520,
+          "name": "老犬期（低热量/减肥）"
+        },
+        {
+          "checked": 1,
+          "id": 3983,
+          "name": "全犬期"
+        }
+      ],
+      "varname": "attr_3389"
+    },
+    {
+      "flag":2,
+      "is_quick": 1,
+      "name": "体型",
+      "rows": [
+        {
+          "checked": 0,
+          "id": 0,
+          "name": "不限制"
+        },
+        {
+          "checked": 0,
+          "id": 6785,
+          "name": "迷你犬"
+        },
+        {
+          "checked": 0,
+          "id": 4939,
+          "name": "小型犬"
+        },
+        {
+          "checked": 0,
+          "id": 4937,
+          "name": "中大型犬"
+        },
+        {
+          "checked": 1,
+          "id": 4941,
+          "name": "全体型"
+        }
+      ],
+      "varname": "attr_3390"
+    },
+    {
+      "flag":3,
+      "is_quick": 1,
+      "name": "颗粒大小",
+      "rows": [
+        {
+          "checked": 1,
+          "id": 0,
+          "name": "不限制"
+        },
+        {
+          "checked": 0,
+          "id": 5975,
+          "name": "小颗粒"
+        },
+        {
+          "checked": 0,
+          "id": 5977,
+          "name": "标准粒"
+        },
+        {
+          "checked": 0,
+          "id": 6055,
+          "name": "大颗粒"
+        }
+      ],
+      "varname": "attr_5973"
+    },
+    {
+      "flag":4,
+      "is_quick": 0,
+      "name": "均价",
+      "rows": [
+        {
+          "checked": 1,
+          "id": 0,
+          "name": "不限制"
+        },
+        {
+          "checked": 0,
+          "id": 3993,
+          "name": "10元以下/斤"
+        },
+        {
+          "checked": 0,
+          "id": 3991,
+          "name": "10.1-15元/斤"
+        },
+        {
+          "checked": 0,
+          "id": 3989,
+          "name": "15.1-20元/斤"
+        },
+        {
+          "checked": 0,
+          "id": 3987,
+          "name": "20.1-25元/斤"
+        },
+        {
+          "checked": 0,
+          "id": 5933,
+          "name": "25.1-30元/斤"
+        },
+        {
+          "checked": 0,
+          "id": 5935,
+          "name": "30.1-40元/斤"
+        },
+        {
+          "checked": 0,
+          "id": 6031,
+          "name": "40.1-50元/斤"
+        },
+        {
+          "checked": 0,
+          "id": 6039,
+          "name": "50.1元以上/斤"
+        }
+      ],
+      "varname": "attr_3388"
+    },
+    {
+      "flag":5,
+      "is_quick": 0,
+      "name": "重量",
+      "rows": [
+        {
+          "checked": 1,
+          "id": 0,
+          "name": "不限制"
+        },
+        {
+          "checked": 0,
+          "id": 5939,
+          "name": "超小包（1.5kg以下）"
+        },
+        {
+          "checked": 0,
+          "id": 5941,
+          "name": "小包（1.5-5kg）"
+        },
+        {
+          "checked": 0,
+          "id": 5943,
+          "name": "中包（5.1-10kg）"
+        },
+        {
+          "checked": 0,
+          "id": 5945,
+          "name": "大包（10.1-25kg）"
+        }
+      ],
+      "varname": "attr_5937"
+    },
+    {
+      "flag":6,
+      "is_quick": 0,
+      "name": "主要配方",
+      "rows": [
+        {
+          "checked": 1,
+          "id": 0,
+          "name": "不限制"
+        },
+        {
+          "checked": 0,
+          "id": 4933,
+          "name": "鱼肉"
+        },
+        {
+          "checked": 0,
+          "id": 4931,
+          "name": "鸭肉"
+        },
+        {
+          "checked": 0,
+          "id": 4929,
+          "name": "鸡肉"
+        },
+        {
+          "checked": 0,
+          "id": 4927,
+          "name": "牛肉"
+        },
+        {
+          "checked": 0,
+          "id": 4925,
+          "name": "羊肉"
+        },
+        {
+          "checked": 0,
+          "id": 5931,
+          "name": "其它"
+        }
+      ],
+      "varname": "attr_3391"
+    }
+  ],
+  "goodsrank": [],
+  "hash": "",
+  "keyword": "",
+  "goodslist": [
+    {
+      "activityIcons": [],
+      "activityLabels": [
+        {
+          "image": "https://static.epetbar.com/static_wap/appmall/lib/list/cu.png?version=2016071303",
+          "img_size": "30X30",
+          "target": {}
+        }
+      ],
+      "asks": 5,
+      "brandid": 1638,
+      "cateid": 3555,
+      "comments": "互动:(98%好评)",
+      "country_photo": "",
+      "dprice": "49.66元/斤",
+      "extend_pam": "",
+      "fm_shareid": 217082,
+      "formats": " 1.5kg",
+      "formats_values": "",
+      "gid": 217081,
+      "goods_icon": "",
+      "goods_sign": 0,
+      "gspid": 107845,
+      "gtype_icon": {},
+      "isBest": 1,
+      "market_price": "178.80",
+      "order": "",
+      "photo": "https://img1.epetbar.com/2018-11/27/18/f67bcc9206ab913efdd6d907812f46cd.jpg",
+      "presubject": "抗炎通泪祛泪痕 保护视力 清润祛火",
+      "real_wid": 1,
+      "replys": 97,
+      "sale_price": "149.00",
+      "send_ware": "",
+      "site": 0,
+      "sold": "售出:157",
+      "stock": 1,
+      "stock_now": 1,
+      "stockmode": 2,
+      "subject": "畅享Cheer Share 功能粮 万寿菊祛泪痕全犬粮 1.5kg",
+      "subject_tip": "",
+      "unit": "袋",
+      "virtual_wid": 1,
+      "with_me": "",
+      "youhui_price": 0
+    },
+    {
+      "activityIcons": [],
+      "activityLabels": [
+        {
+          "image": "https://static.epetbar.com/static_wap/appmall/lib/list/cu.png?version=2016071303",
+          "img_size": "30X30",
+          "target": {}
+        }
+      ],
+      "asks": 42,
+      "brandid": 351,
+      "cateid": 3555,
+      "comments": "互动:(97%好评)",
+      "country_photo": "",
+      "dprice": "20.95元/斤",
+      "extend_pam": "",
+      "fm_shareid": 201377,
+      "formats": " 5磅",
+      "formats_values": "",
+      "gid": 201377,
+      "goods_icon": "",
+      "goods_sign": 0,
+      "gspid": 93196,
+      "gtype_icon": {},
+      "isBest": 1,
+      "market_price": "210.00",
+      "order": "",
+      "photo": "https://img1.epetbar.com/2018-03/26/17/290d329cb38f922ad03fc91613c863f4.jpg",
+      "presubject": "",
+      "real_wid": 1,
+      "replys": 556,
+      "sale_price": "95.00",
+      "send_ware": "",
+      "site": 0,
+      "sold": "售出:2572",
+      "stock": 1,
+      "stock_now": 1,
+      "stockmode": 2,
+      "subject": "蓝氏LegendSandy 三文鱼蛋黄全犬粮 5磅（2.26kg）",
+      "subject_tip": "",
+      "unit": "袋",
+      "virtual_wid": 1,
+      "with_me": "",
+      "youhui_price": 0
+    },
+    {
+      "activityIcons": [],
+      "activityLabels": [
+        {
+          "image": "https://static.epetbar.com/static_wap/appmall/lib/list/cu.png?version=2016071303",
+          "img_size": "30X30",
+          "target": {}
+        }
+      ],
+      "asks": 22,
+      "brandid": 204,
+      "cateid": 3555,
+      "comments": "互动:(97%好评)",
+      "country_photo": "https://img2.epetbar.com/nowater/2016-08/12/16/164f75ff6c7f3546796458b66617b528.jpg",
+      "dprice": "38.33元/斤",
+      "extend_pam": "",
+      "fm_shareid": 174145,
+      "formats": " 1.5kg",
+      "formats_values": "",
+      "gid": 174144,
+      "goods_icon": "",
+      "goods_sign": 0,
+      "gspid": 68077,
+      "gtype_icon": {},
+      "isBest": 1,
+      "market_price": "138.00",
+      "order": "",
+      "photo": "https://img1.epetbar.com/2018-04/08/10/ea1bdb4dfad37d3a9c727d258306b4b6.jpg",
+      "presubject": "无谷低敏配方 肠道零负担 爱宠更健康",
+      "real_wid": 1,
+      "replys": 80,
+      "sale_price": "115.00",
+      "send_ware": "",
+      "site": 0,
+      "sold": "售出:204",
+      "stock": 1,
+      "stock_now": 1,
+      "stockmode": 2,
+      "subject": "麦德琳MDARYN 无谷鸭肉关节保健配方全犬粮 1.5kg",
+      "subject_tip": "",
+      "unit": "袋",
+      "virtual_wid": 1,
+      "with_me": "",
+      "youhui_price": 0
+    },
+    {
+      "activityIcons": [],
+      "activityLabels": [
+        {
+          "image": "https://static.epetbar.com/static_wap/appmall/lib/list/cu.png?version=2016071303",
+          "img_size": "30X30",
+          "target": {}
+        }
+      ],
+      "asks": 5589,
+      "brandid": 351,
+      "cateid": 3555,
+      "comments": "互动:(96%好评)",
+      "country_photo": "",
+      "dprice": "16.54元/斤",
+      "extend_pam": "",
+      "fm_shareid": 117843,
+      "formats": " 9磅",
+      "formats_values": "",
+      "gid": 117849,
+      "goods_icon": "",
+      "goods_sign": 0,
+      "gspid": 17789,
+      "gtype_icon": {},
+      "isBest": 1,
+      "market_price": "171.50",
+      "order": "",
+      "photo": "https://img1.epetbar.com/2018-03/26/16/04bead6cc9eb9269d9a4b9c2e57b0779.jpg",
+      "presubject": "缓解泪痕 美毛亮毛 不含低敏感源 调节肠胃 提高免疫力",
+      "real_wid": 1,
+      "replys": 11592,
+      "sale_price": "135.00",
+      "send_ware": "",
+      "site": 0,
+      "sold": "售出:60873",
+      "stock": 1,
+      "stock_now": 1,
+      "stockmode": 2,
+      "subject": "蓝氏LegendSandy 牛肉海洋鱼全犬粮 9磅(4.08kg) ",
+      "subject_tip": "",
+      "unit": "袋",
+      "virtual_wid": 1,
+      "with_me": "",
+      "youhui_price": 0
+    },
+    {
+      "activityIcons": [],
+      "activityLabels": [],
+      "asks": 353,
+      "brandid": 13,
+      "cateid": 3555,
+      "comments": "互动:(96%好评)",
+      "country_photo": "https://img2.epetbar.com/nowater/2016-08/12/16/164f75ff6c7f3546796458b66617b528.jpg",
+      "dprice": "17.50元/斤",
+      "extend_pam": "",
+      "fm_shareid": 0,
+      "formats": "",
+      "formats_values": "",
+      "gid": 147325,
+      "goods_icon": "",
+      "goods_sign": 0,
+      "gspid": 45272,
+      "gtype_icon": {},
+      "isBest": 1,
+      "market_price": "490.00",
+      "order": "",
+      "photo": "https://img1.epetbar.com/2014-07/08/cd4cb6a5d921ccf9273a42cddd71910a.jpg",
+      "presubject": "澳大利亚品牌 添加鸸鹋油 健肤美毛",
+      "real_wid": 1,
+      "replys": 586,
+      "sale_price": "420.00",
+      "send_ware": "",
+      "site": 0,
+      "sold": "售出:2569",
+      "stock": 1,
+      "stock_now": 1,
+      "stockmode": 2,
+      "subject": "澳大利亚贵族Natures Gift 牛肉+三文鱼 全犬粮 12kg ",
+      "subject_tip": "",
+      "unit": "袋",
+      "virtual_wid": 1,
+      "with_me": "",
+      "youhui_price": 0
+    },
+    {
+      "activityIcons": [],
+      "activityLabels": [],
+      "asks": 18,
+      "brandid": 1323,
+      "cateid": 3555,
+      "comments": "互动:(96%好评)",
+      "country_photo": "",
+      "dprice": "57.25元/斤",
+      "extend_pam": "",
+      "fm_shareid": 171977,
+      "formats": "",
+      "formats_values": "",
+      "gid": 171977,
+      "goods_icon": "",
+      "goods_sign": 0,
+      "gspid": 66047,
+      "gtype_icon": {},
+      "isBest": 1,
+      "market_price": "286.25",
+      "order": "",
+      "photo": "https://img1.epetbar.com/2016-05/06/16/46fcef2dcf8e870c0663a824c171b224.jpg",
+      "presubject": "天然非转基因 提供天然特殊保护 无谷蛋白 营养更均衡",
+      "real_wid": 1,
+      "replys": 53,
+      "sale_price": "229.00",
+      "send_ware": "",
+      "site": 0,
+      "sold": "售出:319",
+      "stock": 1,
+      "stock_now": 1,
+      "stockmode": 2,
+      "subject": "佩玛思特 新鲜三文鱼+益生菌肠道舒适犬粮 2kg",
+      "subject_tip": "",
+      "unit": "袋",
+      "virtual_wid": 1,
+      "with_me": "",
+      "youhui_price": 0
+    },
+    {
+      "activityIcons": [],
+      "activityLabels": [
+        {
+          "image": "https://static.epetbar.com/static_wap/appmall/lib/list/cu.png?version=2016071303",
+          "img_size": "30X30",
+          "target": {}
+        }
+      ],
+      "asks": 822,
+      "brandid": 351,
+      "cateid": 3555,
+      "comments": "互动:(95%好评)",
+      "country_photo": "",
+      "dprice": "16.54元/斤",
+      "extend_pam": "",
+      "fm_shareid": 119419,
+      "formats": " 33磅",
+      "formats_values": "",
+      "gid": 119419,
+      "goods_icon": "",
+      "goods_sign": 0,
+      "gspid": 19358,
+      "gtype_icon": {},
+      "isBest": 1,
+      "market_price": "570.00",
+      "order": "",
+      "photo": "https://img1.epetbar.com/2018-03/26/16/286a2c590844210e18be37f5948a534f.jpg",
+      "presubject": "强化骨骼 提高免疫 营养健脑滋补",
+      "real_wid": 1,
+      "replys": 1586,
+      "sale_price": "495.00",
+      "send_ware": "",
+      "site": 0,
+      "sold": "售出:8467",
+      "stock": 1,
+      "stock_now": 1,
+      "stockmode": 2,
+      "subject": "蓝氏LegendSandy 天然鹿肉小米全犬粮 33磅(14.96kg) ",
+      "subject_tip": "",
+      "unit": "袋",
+      "virtual_wid": 1,
+      "with_me": "",
+      "youhui_price": 0
+    },
+    {
+      "activityIcons": [],
+      "activityLabels": [],
+      "asks": 14,
+      "brandid": 204,
+      "cateid": 3555,
+      "comments": "互动:(100%好评)",
+      "country_photo": "https://img2.epetbar.com/nowater/2016-08/12/16/164f75ff6c7f3546796458b66617b528.jpg",
+      "dprice": "25.00元/斤",
+      "extend_pam": "",
+      "fm_shareid": 174140,
+      "formats": " 10kg",
+      "formats_values": "",
+      "gid": 174140,
+      "goods_icon": "",
+      "goods_sign": 0,
+      "gspid": 68073,
+      "gtype_icon": {},
+      "isBest": 1,
+      "market_price": "600.00",
+      "order": "",
+      "photo": "https://img1.epetbar.com/2016-06/16/14/ad42b51a5f8db92b862c72b566f19bc9.jpg",
+      "presubject": "多元化美味食材 低敏配方 爱犬更健康",
+      "real_wid": 1,
+      "replys": 39,
+      "sale_price": "500.00",
+      "send_ware": "",
+      "site": 0,
+      "sold": "售出:112",
+      "stock": 1,
+      "stock_now": 1,
+      "stockmode": 2,
+      "subject": "麦德琳MDARYN 无谷鸡肉高能量配方狗用奶糕 10kg",
+      "subject_tip": "",
+      "unit": "袋",
+      "virtual_wid": 1,
+      "with_me": "",
+      "youhui_price": 0
+    },
+    {
+      "activityIcons": [],
+      "activityLabels": [],
+      "asks": 0,
+      "brandid": 1638,
+      "cateid": 3555,
+      "comments": "互动:(94%好评)",
+      "country_photo": "",
+      "dprice": "36.66元/斤",
+      "extend_pam": "",
+      "fm_shareid": 217079,
+      "formats": " 7.5kg",
+      "formats_values": "",
+      "gid": 217080,
+      "goods_icon": "",
+      "goods_sign": 0,
+      "gspid": 107844,
+      "gtype_icon": {},
+      "isBest": 1,
+      "market_price": "660.00",
+      "order": "",
+      "photo": "https://img1.epetbar.com/2018-11/27/18/3e92bd1e5f332470f360a9838a4668b4.jpg",
+      "presubject": "防结亮毛 修复防脱 请除体臭 滋养生毛",
+      "real_wid": 1,
+      "replys": 46,
+      "sale_price": "550.00",
+      "send_ware": "",
+      "site": 0,
+      "sold": "售出:80",
+      "stock": 1,
+      "stock_now": 1,
+      "stockmode": 2,
+      "subject": "畅享Cheer Share 功能粮 牛油果美毛全犬粮 7.5kg",
+      "subject_tip": "",
+      "unit": "袋",
+      "virtual_wid": 1,
+      "with_me": "",
+      "youhui_price": 0
+    },
+    {
+      "activityIcons": [],
+      "activityLabels": [],
+      "asks": 140,
+      "brandid": 123,
+      "cateid": 3555,
+      "comments": "互动:(99%好评)",
+      "country_photo": "",
+      "dprice": "13.45元/斤",
+      "extend_pam": "",
+      "fm_shareid": 130091,
+      "formats": " 10kg",
+      "formats_values": "",
+      "gid": 130091,
+      "goods_icon": "",
+      "goods_sign": 0,
+      "gspid": 28521,
+      "gtype_icon": {},
+      "isBest": 1,
+      "market_price": "657.00",
+      "order": "",
+      "photo": "https://img1.epetbar.com/2014-10/27/d9542d4b0b24722c196feb85ed1bac41.jpg",
+      "presubject": "增强机体抗病力",
+      "real_wid": 1,
+      "replys": 395,
+      "sale_price": "269.00",
+      "send_ware": "",
+      "site": 0,
+      "sold": "售出:1344",
+      "stock": 1,
+      "stock_now": 1,
+      "stockmode": 2,
+      "subject": "诺瑞 营养师系列 营养师高蛋白全期犬粮 10kg",
+      "subject_tip": "",
+      "unit": "袋",
+      "virtual_wid": 1,
+      "with_me": "",
+      "youhui_price": 0
+    },
+    {
+      "activityIcons": [],
+      "activityLabels": [],
+      "asks": 133,
+      "brandid": 13,
+      "cateid": 3555,
+      "comments": "互动:(99%好评)",
+      "country_photo": "",
+      "dprice": "19.33元/斤",
+      "extend_pam": "",
+      "fm_shareid": 161031,
+      "formats": " 15kg",
+      "formats_values": "",
+      "gid": 161031,
+      "goods_icon": "",
+      "goods_sign": 0,
+      "gspid": 57426,
+      "gtype_icon": {},
+      "isBest": 1,
+      "market_price": "696.00",
+      "order": "",
+      "photo": "https://img1.epetbar.com/2017-08/01/17/926886cf16965287084a16ba0b0338a9.jpg",
+      "presubject": "牛油果无谷配方 鸸鹋油美毛 营养加倍 健肤美毛",
+      "real_wid": 1,
+      "replys": 340,
+      "sale_price": "580.00",
+      "send_ware": "",
+      "site": 0,
+      "sold": "售出:1359",
+      "stock": 1,
+      "stock_now": 1,
+      "stockmode": 2,
+      "subject": "澳大利亚贵族Natures Gift 牛油果鸸鹋油配方 全犬粮 15kg",
+      "subject_tip": "",
+      "unit": "袋",
+      "virtual_wid": 1,
+      "with_me": "",
+      "youhui_price": 0
+    },
+    {
+      "activityIcons": [],
+      "activityLabels": [],
+      "asks": 585,
+      "brandid": 123,
+      "cateid": 3555,
+      "comments": "互动:(98%好评)",
+      "country_photo": "",
+      "dprice": "20.62元/斤",
+      "extend_pam": "",
+      "fm_shareid": 130085,
+      "formats": "",
+      "formats_values": "",
+      "gid": 117669,
+      "goods_icon": "",
+      "goods_sign": 0,
+      "gspid": 17610,
+      "gtype_icon": {},
+      "isBest": 1,
+      "market_price": "159.00",
+      "order": "",
+      "photo": "https://img1.epetbar.com/2018-07/18/14/4c9f868a7d172a41e06e5b58d176ea74.jpg",
+      "presubject": "添加牛油果精华 健肤美毛 焕发爱犬健康光彩 新老包装随机发",
+      "real_wid": 1,
+      "replys": 2485,
+      "sale_price": "66.00",
+      "send_ware": "",
+      "site": 0,
+      "sold": "售出:12004",
+      "stock": 1,
+      "stock_now": 1,
+      "stockmode": 2,
+      "subject": "诺瑞 营养师系列 牛油果靓犬全价全犬粮 1.6kg",
+      "subject_tip": "",
+      "unit": "袋",
+      "virtual_wid": 1,
+      "with_me": "",
+      "youhui_price": 0
+    },
+    {
+      "activityIcons": [],
+      "activityLabels": [],
+      "asks": 132,
+      "brandid": 334,
+      "cateid": 3555,
+      "comments": "互动:(98%好评)",
+      "country_photo": "",
+      "dprice": "41.00元/斤",
+      "extend_pam": "",
+      "fm_shareid": 152787,
+      "formats": "",
+      "formats_values": "",
+      "gid": 152787,
+      "goods_icon": "",
+      "goods_sign": 0,
+      "gspid": 50476,
+      "gtype_icon": {},
+      "isBest": 1,
+      "market_price": "399.00",
+      "order": "",
+      "photo": "https://img1.epetbar.com/2018-07/19/09/a9fa0694f2ac0f6e82e95d7836df31e6.jpg",
+      "presubject": "适合各生命阶段 天然调理 理气健脾 ",
+      "real_wid": 1,
+      "replys": 238,
+      "sale_price": "164.00",
+      "send_ware": "",
+      "site": 0,
+      "sold": "售出:1202",
+      "stock": 1,
+      "stock_now": 1,
+      "stockmode": 2,
+      "subject": "比瑞吉 山楂胃肠道全价全犬粮 2kg",
+      "subject_tip": "",
+      "unit": "包",
+      "virtual_wid": 1,
+      "with_me": "",
+      "youhui_price": 0
+    },
+    {
+      "activityIcons": [],
+      "activityLabels": [],
+      "asks": 485,
+      "brandid": 123,
+      "cateid": 3555,
+      "comments": "互动:(98%好评)",
+      "country_photo": "",
+      "dprice": "13.45元/斤",
+      "extend_pam": "",
+      "fm_shareid": 130085,
+      "formats": "",
+      "formats_values": "",
+      "gid": 130085,
+      "goods_icon": "",
+      "goods_sign": 0,
+      "gspid": 28515,
+      "gtype_icon": {},
+      "isBest": 1,
+      "market_price": "657.00",
+      "order": "",
+      "photo": "https://img1.epetbar.com/2018-07/18/15/517ca189e19f266f97d74f446df50a5d.jpg",
+      "presubject": "添加牛油果精华 健肤美毛 焕发爱犬健康光彩",
+      "real_wid": 1,
+      "replys": 2485,
+      "sale_price": "269.00",
+      "send_ware": "",
+      "site": 0,
+      "sold": "售出:12004",
+      "stock": 1,
+      "stock_now": 1,
+      "stockmode": 2,
+      "subject": "诺瑞 营养师系列 牛油果美毛营养全犬粮 10kg",
+      "subject_tip": "",
+      "unit": "袋",
+      "virtual_wid": 1,
+      "with_me": "",
+      "youhui_price": 0
+    },
+    {
+      "activityIcons": [],
+      "activityLabels": [],
+      "asks": 28,
+      "brandid": 334,
+      "cateid": 3555,
+      "comments": "互动:(98%好评)",
+      "country_photo": "",
+      "dprice": "41.00元/斤",
+      "extend_pam": "",
+      "fm_shareid": 152788,
+      "formats": "",
+      "formats_values": "",
+      "gid": 152788,
+      "goods_icon": "",
+      "goods_sign": 0,
+      "gspid": 50477,
+      "gtype_icon": {},
+      "isBest": 1,
+      "market_price": "399.00",
+      "order": "",
+      "photo": "https://img1.epetbar.com/2018-07/19/09/54dfbdb1e5e5163fa2e6245766ff8cfd.jpg",
+      "presubject": " 适合各生命阶段 天然调理 养元补气 调理肠胃",
+      "real_wid": 1,
+      "replys": 43,
+      "sale_price": "164.00",
+      "send_ware": "",
+      "site": 0,
+      "sold": "售出:238",
+      "stock": 1,
+      "stock_now": 1,
+      "stockmode": 2,
+      "subject": "比瑞吉 黄芪弱体质全价全犬粮 2kg",
+      "subject_tip": "",
+      "unit": "包",
+      "virtual_wid": 1,
+      "with_me": "",
+      "youhui_price": 0
+    },
+    {
+      "activityIcons": [],
+      "activityLabels": [
+        {
+          "image": "https://static.epetbar.com/static_wap/appmall/lib/list/cu.png?version=2016071303",
+          "img_size": "30X30",
+          "target": {}
+        }
+      ],
+      "asks": 247,
+      "brandid": 775,
+      "cateid": 3555,
+      "comments": "互动:(98%好评)",
+      "country_photo": "",
+      "dprice": "49.50元/斤",
+      "extend_pam": "",
+      "fm_shareid": 163650,
+      "formats": " 2kg",
+      "formats_values": "",
+      "gid": 163649,
+      "goods_icon": "",
+      "goods_sign": 0,
+      "gspid": 60029,
+      "gtype_icon": {},
+      "isBest": 1,
+      "market_price": "214.80",
+      "order": "",
+      "photo": "https://img1.epetbar.com/2018-11/26/13/870119d0c1b6675a67d8186d1876134d.jpg",
+      "presubject": "红肉配方 高能量 增活力 加营养",
+      "real_wid": 1,
+      "replys": 879,
+      "sale_price": "198.00",
+      "send_ware": "",
+      "site": 0,
+      "sold": "售出:4230",
+      "stock": 1,
+      "stock_now": 1,
+      "stockmode": 2,
+      "subject": "伯纳天纯 草原&红肉高能活力配方 全犬种粮 2kg ",
+      "subject_tip": "",
+      "unit": "包",
+      "virtual_wid": 1,
+      "with_me": "",
+      "youhui_price": 0
+    },
+    {
+      "activityIcons": [],
+      "activityLabels": [],
+      "asks": 43,
+      "brandid": 221,
+      "cateid": 3555,
+      "comments": "互动:(97%好评)",
+      "country_photo": "",
+      "dprice": "16.00元/斤",
+      "extend_pam": "",
+      "fm_shareid": 162286,
+      "formats": "",
+      "formats_values": "",
+      "gid": 162286,
+      "goods_icon": "",
+      "goods_sign": 0,
+      "gspid": 58667,
+      "gtype_icon": {},
+      "isBest": 1,
+      "market_price": "115.00",
+      "order": "",
+      "photo": "https://img1.epetbar.com/2018-04/08/11/232a6abfca77858a488751ddf1a54cf4.jpg",
+      "presubject": "美味农庄天然粮系列 爱吃易消化 健肤亮被毛 ",
+      "real_wid": 1,
+      "replys": 113,
+      "sale_price": "48.00",
+      "send_ware": "",
+      "site": 0,
+      "sold": "售出:643",
+      "stock": 1,
+      "stock_now": 1,
+      "stockmode": 2,
+      "subject": "诺瑞旗下品牌 开饭乐 泰迪贵宾全犬粮 1.5kg 爱吃易消化 健肤亮被毛",
+      "subject_tip": "",
+      "unit": "包",
+      "virtual_wid": 1,
+      "with_me": "",
+      "youhui_price": 0
+    },
+    {
+      "activityIcons": [],
+      "activityLabels": [
+        {
+          "image": "https://static.epetbar.com/static_wap/appmall/lib/list/cu.png?version=2016071303",
+          "img_size": "30X30",
+          "target": {}
+        }
+      ],
+      "asks": 284,
+      "brandid": 775,
+      "cateid": 3555,
+      "comments": "互动:(97%好评)",
+      "country_photo": "",
+      "dprice": "49.50元/斤",
+      "extend_pam": "",
+      "fm_shareid": 163647,
+      "formats": " 2kg",
+      "formats_values": "",
+      "gid": 163647,
+      "goods_icon": "",
+      "goods_sign": 0,
+      "gspid": 60027,
+      "gtype_icon": {},
+      "isBest": 1,
+      "market_price": "214.80",
+      "order": "",
+      "photo": "https://img1.epetbar.com/2018-11/26/13/046d105c61f37be5f35ebec7ad7a4859.jpg",
+      "presubject": "海洋鱼配方 添加海藻精华 健肤美毛 健康身形",
+      "real_wid": 1,
+      "replys": 1044,
+      "sale_price": "198.00",
+      "send_ware": "",
+      "site": 0,
+      "sold": "售出:4639",
+      "stock": 1,
+      "stock_now": 1,
+      "stockmode": 2,
+      "subject": "伯纳天纯 全鱼&海藻配方 全犬种粮 2kg ",
+      "subject_tip": "",
+      "unit": "包",
+      "virtual_wid": 1,
+      "with_me": "",
+      "youhui_price": 0
+    },
+    {
+      "activityIcons": [],
+      "activityLabels": [],
+      "asks": 4,
+      "brandid": 775,
+      "cateid": 3555,
+      "comments": "互动:(97%好评)",
+      "country_photo": "",
+      "dprice": "25.63元/斤",
+      "extend_pam": "",
+      "fm_shareid": 205683,
+      "formats": " 15kg",
+      "formats_values": "",
+      "gid": 205685,
+      "goods_icon": "",
+      "goods_sign": 0,
+      "gspid": 97357,
+      "gtype_icon": {},
+      "isBest": 1,
+      "market_price": "922.80",
+      "order": "",
+      "photo": "https://img1.epetbar.com/2017-06/30/12/0747626405b7696c23474a25eaf0cf3e.jpg",
+      "presubject": "优质肉类蛋白 低敏新体验 易吸收",
+      "real_wid": 1,
+      "replys": 132,
+      "sale_price": "769.00",
+      "send_ware": "",
+      "site": 0,
+      "sold": "售出:624",
+      "stock": 1,
+      "stock_now": 1,
+      "stockmode": 2,
+      "subject": "伯纳天纯 simple系列 火鸡&南瓜配方全犬粮 15kg",
+      "subject_tip": "",
+      "unit": "袋",
+      "virtual_wid": 1,
+      "with_me": "",
+      "youhui_price": 0
+    },
+    {
+      "activityIcons": [],
+      "activityLabels": [],
+      "asks": 140,
+      "brandid": 123,
+      "cateid": 3555,
+      "comments": "互动:(97%好评)",
+      "country_photo": "",
+      "dprice": "20.62元/斤",
+      "extend_pam": "",
+      "fm_shareid": 130091,
+      "formats": " 1.6kg",
+      "formats_values": "",
+      "gid": 117675,
+      "goods_icon": "",
+      "goods_sign": 0,
+      "gspid": 17616,
+      "gtype_icon": {},
+      "isBest": 1,
+      "market_price": "159.00",
+      "order": "",
+      "photo": "https://img1.epetbar.com/2018-04/08/10/a2b0cef67cc3667f25066d96490e921f.jpg",
+      "presubject": "高蛋白高营养 增强机体抗病力",
+      "real_wid": 1,
+      "replys": 395,
+      "sale_price": "66.00",
+      "send_ware": "",
+      "site": 0,
+      "sold": "售出:1344",
+      "stock": 1,
+      "stock_now": 1,
+      "stockmode": 2,
+      "subject": "诺瑞 营养师系列 高蛋白钙奶全期犬粮 1.6kg ",
+      "subject_tip": "",
+      "unit": "袋",
+      "virtual_wid": 1,
+      "with_me": "",
+      "youhui_price": 0
+    }
+  ],
+  "login_status": 0,
+  "mall_uid": "epet_0",
+  "mall_user": "",
+  "msg": "",
+  "redword": "",
+  "sort_rank": [
+    {
+      "sort_rank_list": [
+        {
+          "checked": 1,
+          "item": "默认排序",
+          "short_name": "默认",
+          "value": "def_desc"
+        },
+        {
+          "checked": 0,
+          "item": "按人气",
+          "short_name": "人气",
+          "value": "views_desc"
+        },
+        {
+          "checked": 0,
+          "item": "最新上架",
+          "short_name": "最新",
+          "value": "lastupdate_desc"
+        },
+        {
+          "checked": 0,
+          "item": "按评论",
+          "short_name": "评论",
+          "value": "replys_desc"
+        }
+      ],
+      "title": "默认",
+      "type": "default"
+    },
+    {
+      "sort_rank_list": [
+        {
+          "checked": 0,
+          "item": "销量",
+          "short_name": "销量",
+          "value": "sold_desc"
+        }
+      ],
+      "title": "销量",
+      "type": "sold"
+    },
+    {
+      "sort_rank_list": [
+        {
+          "checked": 0,
+          "item": "价格升",
+          "short_name": "价格升",
+          "value": "price_asc"
+        },
+        {
+          "checked": 0,
+          "item": "价格降",
+          "short_name": "价格降",
+          "value": "price_desc"
+        }
+      ],
+      "title": "价格",
+      "type": "price"
+    }
+  ],
+  "sys_time": 1545614490,
+  "total_count": 124,
+  "total_page": 7,
+  "typeid": "3355"
+}

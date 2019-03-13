@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="quickSideBarLetters">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+    </string-array>
+    <string-array name="ysf_dialog_items_queue">
+        <item>帮我排队</item>
+        <item>下次咨询</item>
+        <item>取消</item>
+    </string-array>
+    <string-array name="pet_main_title">
+        <item>首页</item>
+        <item>分类</item>
+        <item>联盟</item>
+        <item>购物车</item>
+        <item>我的E宠</item>
+    </string-array>
+    <string-array name="pet_search_remen_array">
+        <item>梳子</item>
+        <item>冰箱</item>
+        <item>联盟</item>
+        <item>取暖器</item>
+        <item>狗狗零食</item>
+        <item>狗窝</item>
+        <item>泰迪</item>
+        <item>强骨</item>
+        <item>保洁</item>
+        <item>幼犬</item>
+        <item>狗狗奶粉</item>
+        <item>狗狗驱虫药</item>
+        <item>渴望</item>
+        <item>狗狗娱乐</item>
+    </string-array>
+    <string-array name="pet_search_histoty">
+        <item>宝路</item>
+        <item>狗厕所</item>
+        <item>海洋之星</item>
+        <item>狗狗零食</item>
+        <item>皇家</item>
+    </string-array>
+</resources>

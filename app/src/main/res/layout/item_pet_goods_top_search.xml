@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llCategorySearch"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingBottom="15dp"
+    android:background="@color/white">
+    <ImageView
+        android:id="@+id/ivBack"
+        style="@style/top_btn_style"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="start|center"
+        android:src="@mipmap/rg_back_btn" />
+    <LinearLayout
+        android:id="@+id/goodsSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingBottom="8dp"
+        android:layout_toRightOf="@+id/ivBack"
+        android:paddingTop="8dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/shape_home_goods_search"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/goods_ico_top_search" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="搜索宝贝"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/common_h1"
+            android:textColorHint="@color/common_h3"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+
+

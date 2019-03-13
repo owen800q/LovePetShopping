@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/main_back"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/main">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/linear_bottom_select"
+        android:layout_alignParentTop="true"
+        android:gravity="center|top"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/write"
+            android:orientation="vertical">
+
+         <!--   <FrameLayout
+                android:id="@id/linearSearchRang"
+                style="@style/fang_padding_edit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/item_select_write_yellow"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@id/check_search_range"
+                    style="@style/epet_check_enable_style"
+                    android:layout_gravity="center|left"
+                    android:layout_marginLeft="@dimen/fang_padding_left"
+                    android:checked="true" />
+
+                <TextView
+                    style="@style/epet_title_small_style"
+                    android:layout_gravity="center|right"
+                    android:text="@string/search_range" />
+            </FrameLayout>-->
+
+            <View style="@style/fang_line_style_horizontal" />
+<!--
+            <FrameLayout
+                android:id="@id/linearOnlyStock"
+                style="@style/fang_padding_edit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/item_select_write_yellow"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@id/check_search_stock"
+                    style="@style/epet_check_enable_style"
+                    android:layout_gravity="center|left"
+                    android:layout_marginLeft="@dimen/fang_padding_left" />
+
+                <TextView
+                    style="@style/epet_title_small_style"
+                    android:layout_gravity="center|right"
+                    android:text="@string/only_dis_stock" />
+            </FrameLayout>-->
+        </LinearLayout>
+
+        <View style="@style/fang_line_style_horizontal" />
+
+        <View
+            style="@style/fang_line_style_horizontal"
+            android:layout_marginTop="@dimen/fang_padding_top" />
+
+        <ListView
+            android:id="@+id/selector_listview"
+            style="@style/epet_listview_style"
+            android:background="@color/write"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@id/linear_bottom_select"
+        style="@style/fang_padding_edit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@id/btn_clear_select"
+            style="@style/fang_btn_gray_border_style"
+            android:layout_width="0.0dip"
+            android:layout_weight="1.0"
+            android:text="@string/clear_condition" />
+
+        <Button
+            android:id="@id/btn_sure"
+            style="@style/fang_btn_red_style"
+            android:layout_width="0.0dip"
+            android:layout_marginLeft="@dimen/fang_padding_left"
+            android:layout_weight="1.0"
+            android:text="@string/sure" />
+    </LinearLayout>
+</RelativeLayout>

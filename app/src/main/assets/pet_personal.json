@@ -1,0 +1,588 @@
+{
+  "data": [
+    {
+      "typeInt": 0,
+      "type_name": "图文按钮",
+      "hasLine": true,
+      "num": 4,
+      "datas": [
+        {
+          "badge": "",
+          "bottom": "",
+          "hastoptext":false,
+          "first_img": "http://img1.epetbar.com/2018-01/16/15/25263afffa03d7c68297dbc98b53deae.png@!water",
+          "mode": "login",
+          "param": "1",
+          "epet_site": "epet",
+          "top": "待付款",
+          "type": 0
+        },
+        {
+          "badge": "",
+          "bottom": "",
+          "hastoptext":false,
+          "first_img": "http://img1.epetbar.com/2018-01/16/15/ef25b0a2c7b9b10b1fa2d77ddf8816b0.png@!water",
+          "epet_site": "epet",
+          "mode": "login",
+          "param": "2",
+          "top": "待收货",
+          "type": 0
+        },
+        {
+          "badge": "",
+          "bottom": "",
+          "hastoptext":false,
+          "first_img": "http://img1.epetbar.com/2018-01/16/15/0de3e845ca5175095933fcbb72b723d5.png@!water",
+          "epet_site": "epet",
+          "mode": "login",
+          "param": "",
+          "top": "待评价",
+          "type": 0
+        },
+        {
+          "badge": "",
+          "bottom": "",
+          "hastoptext":false,
+          "first_img": "https://static.epetbar.com/static_web/wap/dist/images/background/icon4_dog.png",
+          "epet_site": "epet",
+          "mode": "login",
+          "param": "",
+          "top": "全部订单",
+          "type": 0
+        }
+      ]
+    },
+    {
+      "typeInt": 0,
+      "type_name": "图文按钮",
+      "hasLine": true,
+      "num": 4,
+      "datas": [
+        {
+          "badge": "",
+          "bottom": "0",
+          "first_img": "",
+          "hastoptext":true,
+          "epet_site": "epet",
+          "mode": "login",
+          "param": "",
+          "top": "优惠券",
+          "type": 1
+        },
+        {
+          "badge": "",
+          "bottom": "0.00",
+          "first_img": "",
+          "hastoptext":true,
+          "epet_site": "epet",
+          "mode": "login",
+          "param": "",
+          "top": "E宠币",
+          "type": 1
+        },
+        {
+          "badge": "",
+          "bottom": "0.00",
+          "first_img": "",
+          "hastoptext":true,
+          "epet_site": "epet",
+          "mode": "login",
+          "param": "",
+          "top": "余额",
+          "type": 1
+        },
+        {
+          "badge": "",
+          "bottom": "",
+          "hastoptext":false,
+          "first_img": "https://static.epetbar.com/static_web/wap/dist/images/background/icon5_dog.png",
+          "epet_site": "epet",
+          "mode": "login",
+          "param": "",
+          "top": "我的钱包",
+          "type": 0
+        }
+      ]
+    },
+    {
+      "typeInt": 0,
+      "type_name": "图文按钮",
+      "hasLine": true,
+      "num": 4,
+      "datas": [
+        {
+          "badge": "",
+          "bottom": "",
+          "hastoptext":false,
+          "first_img": "http://img1.epetbar.com/2018-07/06/09/8f8ba089e5272e85d59d62ef8e90019f.png@!water",
+          "epet_site": "epet",
+          "mode": "login",
+          "param": "https://wap.epet.com/vip/luck/Main.html",
+          "top": "0元转盘",
+          "type": 0
+        },
+        {
+          "badge": "",
+          "bottom": "",
+          "hastoptext":false,
+          "first_img": "http://img1.epetbar.com/2018-07/06/09/335a95939fa20a47e1998de5d5dafd2f.png@!water",
+          "epet_site": "epet",
+          "mode": "login",
+          "param": "http://wap.epet.com/app/experience/index",
+          "top": "0元体验",
+          "type": 0
+        },
+        {
+          "badge": "",
+          "bottom": "",
+          "hastoptext":false,
+          "first_img": "http://img1.epetbar.com/2018-07/06/09/70e401cab205273deb64784059a8b886.png@!water",
+          "epet_site": "epet",
+          "mode": "login",
+          "param": "http://wap.epet.com/app/medical",
+          "top": "医疗服务",
+          "type": 0
+        },
+        {
+          "badge": "",
+          "bottom": "",
+          "hastoptext":false,
+          "first_img": "https://static.epetbar.com/static_web/wap/dist/images/background/vip_dog.png",
+          "epet_site": "epet",
+          "mode": "login",
+          "param": "https://wap.epet.com/vip/Main.html",
+          "top": "VIP俱乐部",
+          "type": 0
+        }
+      ]
+    },
+    {
+      "typeInt": 1,
+      "type_name": "图标按钮",
+      "num": 4,
+      "hasdash": true,
+      "hasLine": false,
+      "datas": [
+        {
+          "img_model": {
+            "image": "http://img1.epetbar.com/2018-10/31/16/0fd6b3321aa1775b90854774222c35fd.png@!water",
+            "img_size": "187x190"
+          },
+          "target": {
+            "epet_site": "epet",
+            "mode": "login",
+            "param": "https://wap.epet.com/app/"
+          }
+        },
+        {
+          "img_model": {
+            "image": "http://img1.epetbar.com/2018-10/31/16/93683d6f26a702a54226343875a38d52.png@!water",
+            "img_size": "187x190"
+          },
+          "target": {
+            "epet_site": "epet",
+            "mode": "login",
+            "param": "https://sale.epet.com/m/model/preSale/main.html"
+          }
+        },
+        {
+          "img_model": {
+            "image": "http://img1.epetbar.com/2018-10/31/16/1675b90c8d02ee45716242fcdcae9f76.png@!water",
+            "img_size": "187x190"
+          },
+          "target": {
+            "epet_site": "epet",
+            "mode": "login",
+            "param": "https://sale.epet.com/m/1811/myReserve.html"
+          }
+        },
+        {
+          "img_model": {
+            "image": "http://img1.epetbar.com/2018-10/31/16/5ad9bbf51bd146fe92c6e5665f802ff3.png@!water",
+            "img_size": "187x190"
+          },
+          "target": {
+            "epet_site": "epet",
+            "mode": "login",
+            "param": "https://sale.epet.com/m/1811/myShare.html"
+          }
+        }
+      ]
+    },
+    {
+      "typeInt": 2,
+      "type_name": "列表导航",
+      "num": 1,
+      "datas": [
+        {
+          "badge": "",
+          "bottom": "查看直邮商品",
+          "hassubtitle": true,
+          "hasdash": false,
+          "first_img": "http://img1.epetbar.com/2018-01/16/16/6d18b0394a7ca30eafbea3c03bbef88a.png@!water",
+          "epet_site": "epet",
+          "mode": "login",
+          "param": "https://wap.epetht.com/user/Main.html",
+          "top": "E宠国际订单",
+          "type": 0
+        }
+      ]
+    },
+    {
+      "typeInt": 2,
+      "type_name": "列表导航",
+      "num": 1,
+      "datas": [
+        {
+          "badge": "",
+          "bottom": "",
+          "hassubtitle": false,
+          "hasdash": false,
+          "first_img": "http://img1.epetbar.com/2018-01/22/15/8304a95df69e7f7748dc4157d1682faa.png@!water",
+          "epet_site": "epet",
+          "mode": "login",
+          "param": "https://sale.epet.com/m/model/fashion/myFashion.html",
+          "top": "潮品预售",
+          "type": 0
+        }
+      ]
+    },
+    {
+      "typeInt": 2,
+      "type_name": "列表导航",
+      "num": 1,
+      "datas": [
+        {
+          "badge": "",
+          "bottom": "",
+          "hassubtitle": false,
+          "hasdash": false,
+          "first_img": "http://img1.epetbar.com/2018-11/01/13/7f955f5e669812cdb69d27ef3316c231.png@!water",
+          "epet_site": "epet",
+          "mode": "login",
+          "param": "https://wap.epet.com/app/kawaii/invitation",
+          "top": "萌萌圈",
+          "type": 0
+        }
+      ]
+    },
+    {
+      "typeInt": 2,
+      "type_name": "列表导航",
+      "num": 1,
+      "datas": [
+        {
+          "badge": "",
+          "bottom": "",
+          "hassubtitle": false,
+          "hasdash": false,
+          "first_img": "http://img1.epetbar.com/2018-10/23/16/33e2807c35c1bbec0c2856c66e936979.png@!water",
+          "epet_site": "epet",
+          "mode": "login",
+          "param": "https://wap.epet.com/group/meng/main.html?pettype=dog&fw=0",
+          "top": "E秒团狗站",
+          "type": 0
+        }
+      ]
+    },
+    {
+      "typeInt": 2,
+      "type_name": "列表导航",
+      "num": 1,
+      "datas": [
+        {
+          "badge": "",
+          "bottom": "",
+          "hassubtitle": false,
+          "hasdash": false,
+          "first_img": "http://img1.epetbar.com/2018-10/23/16/499443537a4cd91afd11279adeaaaad0.png@!water",
+          "epet_site": "epet",
+          "mode": "login",
+          "param": "https://wap.epet.com/group/meng/main.html?pettype=cat&fw=0",
+          "top": "E秒团猫站",
+          "type": 0
+        }
+      ]
+    },
+    {
+      "typeInt": 2,
+      "type_name": "列表导航",
+      "num": 1,
+      "datas": [
+        {
+          "badge": "",
+          "bottom": "",
+          "hassubtitle": false,
+          "hasdash": false,
+          "first_img": "http://img1.epetbar.com/2018-10/31/11/96d253859888610c7deb829ebaf86770.png@!water",
+          "epet_site": "epet",
+          "mode": "login",
+          "param": "https://sale.epet.com/m/1811/myShare.html?do=MyShare",
+          "top": "我的拉新",
+          "type": 0
+        }
+      ]
+    },
+    {
+      "typeInt": 2,
+      "type_name": "列表导航",
+      "num": 1,
+      "datas": [
+        {
+          "badge": "",
+          "bottom": "",
+          "hassubtitle": false,
+          "hasdash": false,
+          "first_img": "http://img1.epetbar.com/2018-01/16/16/9702c68bcb6fd1c8d94f201da778ce63.png@!water",
+          "epet_site": "epet",
+          "mode": "login",
+          "param": "https://wap.epet.com/group/v226/mydetail.html",
+          "top": "我的团购",
+          "type": 0
+        }
+      ]
+    },
+    {
+      "typeInt": 2,
+      "type_name": "列表导航",
+      "num": 1,
+      "datas": [
+        {
+          "badge": "",
+          "bottom": "",
+          "hassubtitle": false,
+          "hasdash": false,
+          "first_img": "http://img1.epetbar.com/2018-01/31/09/b210baad5cd513d38766a9d0516454f1.png@!water",
+          "epet_site": "epet",
+          "mode": "login",
+          "param": "https://wap.epet.com/union/trials_my_main.html",
+          "top": "萌爪联盟",
+          "type": 0
+        }
+      ]
+    },
+    {
+      "typeInt": 2,
+      "type_name": "列表导航",
+      "num": 1,
+      "datas": [
+        {
+          "badge": "",
+          "bottom": "",
+          "hassubtitle": false,
+          "hasdash": false,
+          "first_img": "http://img1.epetbar.com/2018-01/16/16/5939d4b4e42a0fc992102ccee73e5d01.png@!water",
+          "epet_site": "epet",
+          "mode": "login",
+          "param": "",
+          "top": "宠物资料",
+          "type": 0
+        }
+      ]
+    },
+    {
+      "typeInt": 2,
+      "type_name": "列表导航",
+      "num": 1,
+      "datas": [
+        {
+          "badge": "",
+          "bottom": "",
+          "hassubtitle": false,
+          "hasdash": true,
+          "first_img": "http://img1.epetbar.com/2018-07/18/18/0311e6544512da1762ab3136645779c7.png@!water",
+          "epet_site": "epet",
+          "mode": "login",
+          "param": "https://sale.epet.com/m/mould/brandDay/myPrizeList.html",
+          "top": "品牌日奖品",
+          "type": 0
+        }
+      ]
+    },
+    {
+      "typeInt": 2,
+      "type_name": "列表导航",
+      "num": 1,
+      "datas": [
+        {
+          "badge": "",
+          "bottom": "",
+          "hassubtitle": false,
+          "hasdash": false,
+          "first_img": "http://img1.epetbar.com/2018-01/16/16/abb9bef731f409cb9e60e6652f2d4791.png@!water",
+          "epet_site": "epet",
+          "mode": "login",
+          "param": "",
+          "top": "退换货记录",
+          "type": 0
+        }
+      ]
+    },
+    {
+      "typeInt": 2,
+      "type_name": "列表导航",
+      "num": 1,
+      "datas": [
+        {
+          "badge": "",
+          "bottom": "",
+          "hassubtitle": false,
+          "hasdash": false,
+          "first_img": "http://img1.epetbar.com/2018-01/16/16/34891f4f2a0cb45c5c5da0c78a305bf7.png@!water",
+          "epet_site": "epet",
+          "mode": "login",
+          "param": "",
+          "top": "我的评价",
+          "type": 0
+        }
+      ]
+    },
+    {
+      "typeInt": 2,
+      "type_name": "列表导航",
+      "num": 1,
+      "datas": [
+        {
+          "badge": "",
+          "bottom": "",
+          "hassubtitle": false,
+          "hasdash": false,
+          "first_img": "http://img1.epetbar.com/2018-01/16/16/dbe9349f211e0e7d5f0b8332cbe1941f.png@!water",
+          "epet_site": "epet",
+          "mode": "login",
+          "param": "https://wap.epet.com/user/myconsult.html?fw=0",
+          "top": "我的咨询",
+          "type": 0
+        }
+      ]
+    },
+    {
+      "typeInt": 2,
+      "type_name": "列表导航",
+      "num": 1,
+      "datas": [
+        {
+          "badge": "",
+          "bottom": "",
+          "hassubtitle": false,
+          "hasdash": false,
+          "first_img": "http://img1.epetbar.com/2018-09/03/21/38b413db52720b52f109e855cac7671d.png@!water",
+          "epet_site": "epet",
+          "mode": "login",
+          "param": "",
+          "top": "我的收藏",
+          "type": 0
+        }
+      ]
+    },
+    {
+      "typeInt": 2,
+      "type_name": "列表导航",
+      "num": 1,
+      "datas": [
+        {
+          "badge": "",
+          "bottom": "",
+          "hassubtitle": false,
+          "hasdash": false,
+          "first_img": "http://img1.epetbar.com/2018-06/20/16/201258ff8fde9d721a3046eed61c8fe2.png@!water",
+          "epet_site": "epet",
+          "mode": "login",
+          "param": "https://sale.epet.com/m/mould/loveGrain/myDonation.html",
+          "top": "我的捐赠",
+          "type": 0
+        }
+      ]
+    },
+    {
+      "typeInt": 2,
+      "type_name": "列表导航",
+      "num": 1,
+      "datas": [
+        {
+          "badge": "",
+          "bottom": "",
+          "hassubtitle": false,
+          "hasdash": true,
+          "first_img": "http://img1.epetbar.com/2018-01/16/16/659566fc76795a2c9585b3c5a017cb08.png@!water",
+          "epet_site": "epet",
+          "mode": "login",
+          "param": "",
+          "top": "我的兑换",
+          "type": 0
+        }
+      ]
+    },
+    {
+      "typeInt": 2,
+      "type_name": "列表导航",
+      "num": 1,
+      "datas": [
+        {
+          "badge": "",
+          "bottom": "",
+          "hassubtitle": false,
+          "hasdash": false,
+          "first_img": "http://img1.epetbar.com/2018-01/16/16/b3dcfdf14fbfa3a076df0a7856091ea6.png@!water",
+          "epet_site": "epet",
+          "mode": "login",
+          "param": "",
+          "top": "联系客服",
+          "type": 2
+        }
+      ]
+    }
+  ],
+  "login_status": 0,
+  "mall_uid": "epet_0",
+  "mall_user": "",
+  "msg": "",
+  "push_alias": "appmall_6e9d29b6e5f565b4d7ede3d5ddfbebaa",
+  "push_tags": "version410",
+  "service_info": {
+    "content": [
+      {
+        "label": "热线时间",
+        "value": "09:00 - 18:30"
+      }
+    ],
+    "online_service": {
+      "label": "在线客服时间",
+      "value": "09:00 - 24:00"
+    },
+    "phone": "4008889200",
+    "title": "400-888-9200"
+  },
+  "sign_pam": {
+    "mode": "web",
+    "param": "https://wap.epet.com/user/sign/UserSign.html"
+  },
+  "sys_time": 1541558007,
+  "userinfo": {
+    "avatar": "https://static.epetbar.com/static_wap/appmall/avatar/dog.png",
+    "bdmobilephone": "",
+    "cart_num": 2,
+    "credits": "",
+    "email": "",
+    "emoney": "",
+    "group_icon": "",
+    "grouptitle": "",
+    "leftmoney": "",
+    "pettype": "dog",
+    "show_sign": 1,
+    "signed": 0,
+    "top_img": "https://static.epetbar.com/static_web/wap/dist/images/background/dog.jpg",
+    "unred_msg": "",
+    "username": "",
+    "vip": {
+      "image": "https://static.epetbar.com/static_web/wap/dist/images/background/v0.png",
+      "name": "VIP俱乐部",
+      "target": {
+        "mode": "web",
+        "param": "https://wap.epet.com/vip/Main.html"
+      }
+    }
+  }
+}
+
+

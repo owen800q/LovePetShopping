@@ -1,0 +1,114 @@
+apply plugin: 'com.android.application'
+//apply plugin: 'com.jakewharton.butterknife'
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+//    buildToolsVersion "27.0.3"
+    //取消对.9图片不规范监测
+    aaptOptions.cruncherEnabled = false
+    aaptOptions.useNewCruncher = false
+    defaultConfig {
+        applicationId "cn.lovepet.shops"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    repositories{
+        flatDir{
+            dirs 'libs'
+        }
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+//            res.srcDirs += ['res_extends']
+            res.srcDirs = [
+                    'src/main/res', //默认只有这一个路径
+                    'src/main/res_extends',  //声明gradle在编译的时候到这个文件夹找资源文件
+                    'src/main/res_shophome'
+            ]
+        }
+    }
+
+    lintOptions{
+        checkReleaseBuilds false
+        abortOnError false
+        //关闭检索的功能
+        disable 'GoogleAppIndexingWarning'
+        baseline file("lint-baseline.xml")
+    }
+
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+
+    lintOptions{
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+    packagingOptions {
+        exclude 'META-INFTICE.txt'
+        exclude 'META-INF/maven/data.domybox.com/data.sdk/pom.properties'
+        exclude 'META-INF/maven/data.domybox.com/data.sdk/pom.xml'
+        exclude 'META-INF/LICENSE.txt'
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation "com.android.support.constraint:constraint-layout:$rootProject.constraintVersion"
+    implementation "com.android.support:recyclerview-v7:27.0.0"
+    implementation "com.android.support:cardview-v7:27.0.0"
+    implementation "com.android.support:appcompat-v7:27.0.0"
+    implementation "com.android.support:design:27.0.0"
+//    implementation 'com.android.support:cardview-v7:27.0.0'
+    api(name: 'base_quick_adpter', ext: 'aar')
+    //butterknife
+    implementation 'com.jakewharton:butterknife:8.4.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
+    //Retrofit2.0
+    implementation 'io.reactivex.rxjava2:rxjava:2.0.7'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    implementation 'com.squareup.retrofit2:retrofit:2.1.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.2.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.1.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.5.0'
+//    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30'
+    //SmartRefresh
+    implementation 'com.scwang.smartrefresh:SmartRefreshHeader:1.0.4-7'
+    //版本随意（非必须，引用可以解决无法预览问题）
+    implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.3'
+    //noinspection GradleDependency
+    implementation 'com.github.bumptech.glide:glide:3.7.0'
+    //banner
+    implementation 'com.youth.banner:banner:1.4.10'
+    //流式列表
+    implementation 'com.jetlee:FlowTagLayout:1.0.1'
+    //播放器
+    implementation 'tv.danmaku.ijk.media:ijkplayer-java:0.8.8'
+    implementation 'com.danikula:videocache:2.7.1'
+    implementation project(':poplib')
+    //fresco
+    // 其他依赖
+    implementation "com.facebook.fresco:fresco:$rootProject.frescoVersion"
+    //权限
+//    api 'pub.devrel:easypermissions:1.3.0'
+    implementation 'pub.devrel:easypermissions:1.0.1'
+    implementation 'com.yanzhenjie:permission:2.0.0-rc4'
+    implementation files('libs/core-3.3.3.jar')
+}

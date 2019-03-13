@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F4F4"
+    tools:context="cn.lovepet.shops.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:collapsedTitleGravity="center"
+            app:expandedTitleGravity="center"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:title="折叠效果">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/title_bar_head"
+                app:layout_collapseMode="parallax" />
+
+            <android.support.v7.widget.Toolbar
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="?android:attr/actionBarSize"
+                app:layout_collapseMode="pin" />
+
+            <cn.lovepet.shops.helper.immersive.title.TitleBar
+                android:layout_width="match_parent"
+                android:layout_height="?android:attr/actionBarSize"
+                app:bar_style="transparent"
+                app:layout_collapseMode="pin" />
+
+            <TextView
+                android:id="@+id/tv_about_version"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:text="搭配CoordinatorLayout使用"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                app:layout_collapseMode="parallax" />
+
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <cn.lovepet.shops.helper.immersive.title.TitleBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="400dp"
+                app:title="默认的标题栏" />
+
+            <cn.lovepet.shops.helper.immersive.title.TitleBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:icon_back="false"
+                app:title="不带箭头的标题栏" />
+
+            <cn.lovepet.shops.helper.immersive.title.TitleBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:line="false"
+                app:title="不带分割线的标题栏" />
+
+            <cn.lovepet.shops.helper.immersive.title.TitleBar
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                app:title="自定义高度的标题栏" />
+
+            <cn.lovepet.shops.helper.immersive.title.TitleBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:icon_left="@mipmap/ic_launcher"
+                app:icon_right="@mipmap/ic_launcher"
+                app:title="带图标的标题栏" />
+
+            <cn.lovepet.shops.helper.immersive.title.TitleBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:icon_back="false"
+                app:title="带文本的标题栏\n12345"
+                app:title_left="左边"
+                app:title_right="右边" />
+
+            <cn.lovepet.shops.helper.immersive.title.TitleBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:color_left="#FF3300"
+                app:color_right="#0033FF"
+                app:icon_back="false"
+                app:size_left="18sp"
+                app:size_right="18sp"
+                app:size_title="20sp"
+                app:title="文字大小和颜色"
+                app:title_left="左边"
+                app:title_right="右边" />
+
+            <cn.lovepet.shops.helper.immersive.title.TitleBar
+                android:id="@+id/tb_main_title_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:icon_left="@mipmap/ic_launcher"
+                app:icon_right="@mipmap/ic_launcher"
+                app:title="监听事件的标题栏"
+                app:title_left="左边"
+                app:title_right="右边" />
+
+            <cn.lovepet.shops.helper.immersive.title.TitleBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:bar_style="night"
+                app:title="夜间模式的标题栏"
+                app:title_left="返回"
+                app:title_right="设置" />
+
+            <cn.lovepet.shops.helper.immersive.title.TitleBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/gray"
+                app:bar_style="transparent"
+                app:title="自定义TitleBar">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/ic_launcher" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="TitleBar可以当做FrameLayout使用\n也可以在这里也可以添加自定义布局"
+                        android:textColor="#FFFFFF" />
+                </LinearLayout>
+
+            </cn.lovepet.shops.helper.immersive.title.TitleBar>
+
+            <cn.lovepet.shops.helper.immersive.title.TitleBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape_gradient"
+                app:bar_style="transparent"
+                app:title="仿QQ渐变样式"
+                app:title_left="返回"
+                app:title_right="设置" />
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

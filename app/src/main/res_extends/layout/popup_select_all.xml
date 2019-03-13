@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <RelativeLayout
+        android:id="@id/main_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:gravity="center|top"
+            android:orientation="vertical">
+            <LinearLayout
+                android:weightSum="4"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:orientation="horizontal">
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/classic_recycle"
+                    style="@style/epet_listview_style"
+                    android:layout_weight="1.2"
+                    android:background="@color/white"
+                    android:visibility="visible" />
+                <View style="@style/fang_line_style_vertical" />
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rightRecyclerView"
+                    style="@style/epet_listview_style"
+                    android:layout_weight="2.8"
+                    android:background="@color/white"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <View style="@style/fang_line_style_horizontal" />
+            <LinearLayout
+                android:weightSum="4"
+                android:id="@+id/linear_bottom_select"
+                android:layout_width="match_parent"
+                android:background="@color/white"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tvTotal"
+                    android:layout_weight="1.2"
+                    android:layout_width="0dp"
+                    android:gravity="center"
+                    android:textSize="9sp"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/color_orange_red"
+                    android:text="有154件商品"/>
+                <View style="@style/fang_line_style_vertical"/>
+                <Button
+                    android:layout_weight="1.4"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_clear_select"
+                    android:background="@null"
+                    android:textColor="@color/common_h4"
+                    android:textSize="14sp"
+                    android:layout_width="0dp"
+                    android:text="重置" />
+
+                <Button
+                    android:id="@+id/btn_sure"
+                    android:layout_height="wrap_content"
+                    android:background="@color/red"
+                    android:layout_width="0dip"
+                    android:layout_weight="1.4"
+                    android:textSize="14sp"
+                    android:textColor="@color/white"
+                    android:text="@string/sure" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

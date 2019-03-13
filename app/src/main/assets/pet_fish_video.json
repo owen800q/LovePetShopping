@@ -1,0 +1,127 @@
+{
+  "alert_target": [
+    {
+      "target": "",
+      "text": "我知道了"
+    }
+  ],
+  "code": "succeed",
+  "epet_site": "epet",
+  "goods": [
+    {
+      "extend_pam": "buytype:trendy_video|gid:204770|pam:167|pam1:1638|buynum:1",
+      "gid": "204770",
+      "is_stock": 1,
+      "nagpre": "5.0",
+      "photo": "https://img1.epetbar.com/2017-10/12/09/a2a7acb2a067725c063e6634b205a2e0.jpg@!water",
+      "presubject": "源自台湾 专注水草养护",
+      "price": "125.00",
+      "subject": "Dr.Tank坦克 水草护理组合包 250ml*4",
+      "tags": [
+        "水草药剂"
+      ],
+      "vgid": "1638",
+      "vid": "167"
+    },
+    {
+      "extend_pam": "buytype:trendy_video|gid:209725|pam:167|pam1:1639|buynum:1",
+      "gid": "209725",
+      "is_stock": 1,
+      "nagpre": "5.0",
+      "photo": "https://img1.epetbar.com/2017-12/11/14/f529785e9fe49ecedce0620681a0fcd3.jpg@!water",
+      "presubject": "减少有机废物 降低鱼缸维护成本",
+      "price": "85.00",
+      "subject": "HaGen希瑾富华 富华 生态化粪除藻剂 250毫升",
+      "tags": [
+        "水草药剂"
+      ],
+      "vgid": "1639",
+      "vid": "167"
+    },
+    {
+      "extend_pam": "buytype:trendy_video|gid:208884|pam:167|pam1:1640|buynum:1",
+      "gid": "208884",
+      "is_stock": 1,
+      "nagpre": "5.0",
+      "photo": "https://img1.epetbar.com/2017-09/22/17/75a6189dd10ff6374922e94be1bf7d28.jpg@!water",
+      "presubject": "净化水质 高效节能 超静音",
+      "price": "278.00",
+      "subject": "atman创星 三合一静音外置过滤器 CF-800",
+      "tags": [
+        "过滤桶"
+      ],
+      "vgid": "1640",
+      "vid": "167"
+    },
+    {
+      "extend_pam": "buytype:trendy_video|gid:212499|pam:167|pam1:1641|buynum:1",
+      "gid": "212499",
+      "is_stock": 1,
+      "nagpre": "5.0",
+      "photo": "https://img1.epetbar.com/2017-08/29/09/653748b826d7941f99ed4ffe351bf0f5.jpg@!water",
+      "presubject": "水草灯珠 节能环保 亮度可调 铝合金外壳",
+      "price": "347.00",
+      "subject": "千寻 A系列LED水草照明灯 A1201（含调光器 free dimmer）",
+      "tags": [
+        "LED水草灯"
+      ],
+      "vgid": "1641",
+      "vid": "167"
+    },
+    {
+      "extend_pam": "buytype:trendy_video|gid:222308|pam:167|pam1:1642|buynum:1",
+      "gid": "222308",
+      "is_stock": 1,
+      "nagpre": "5.0",
+      "photo": "https://img1.epetbar.com/2018-04/04/14/85cbde7ea957ccd96ad050ad940f25de.jpg@!water",
+      "presubject": "天然土壤原料泥质细腻不浑水 利于大部分水草生长",
+      "price": "358.00",
+      "subject": "日本进口ADA 亚马逊黑泥 9升 细",
+      "tags": [
+        "水草泥"
+      ],
+      "vgid": "1642",
+      "vid": "167"
+    }
+  ],
+  "hash": "",
+  "login_status": 0,
+  "mall_uid": "epet_0",
+  "mall_user": "",
+  "msg": "",
+  "recommend": [],
+  "recommend_style": 1,
+  "sys_time": 1540359466,
+  "video": {
+    "cateid": "30",
+    "cover": {
+      "image": "https://img1.epetbar.com/2018-03/22/15/f1caf482ce3f7279b048f677d33055ad.png",
+      "img_size": "750X421"
+    },
+    "link": "http://player.epetbar.com/c1bdd0ff1e3545fca63edfbf57849efa/f91099c6666645c79113d421b1583ff0-5287d2089db37e62345123a1be272f8b.mp4",
+    "share_target": {
+      "mode": "shareto",
+      "param": {
+        "content": "品质养宠·尽在E宠",
+        "image": "https://img1.epetbar.com/2018-03/22/15/f1caf482ce3f7279b048f677d33055ad.png@!50w-c",
+        "title": "大型草缸作品《白山之路》建缸过程",
+        "types": "weixin,weixin_ring,qq,qzone,sina",
+        "url": "https://wap.epet.com/article/video/View.html?vid=167&fw=0"
+      }
+    },
+    "target": {
+      "epet_site": "epet",
+      "mode": "chao_video",
+      "param": "167"
+    },
+    "time": "03:25",
+    "title": "大型草缸作品《白山之路》建缸过程",
+    "vid": "167",
+    "video_size": "23.47",
+    "visit": 22112,
+    "visit_img": {
+      "image": "https://static.epetbar.com/static_web/wap/dist/images/views-gray.png",
+      "img_size": "30x25"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:topLeftRadius="@dimen/cu_dialog_radius" android:topRightRadius="@dimen/cu_dialog_radius" />
+    <solid android:color="@color/cu_config_color_white" />
+</shape>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/llRankItem"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="15dp"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@+id/rankImage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="fitXY"/>
+    <TextView
+        android:id="@+id/rankName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textSize="13sp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/common_h1"
+        android:text="胡小秋dsdds"/>
+
+</LinearLayout>

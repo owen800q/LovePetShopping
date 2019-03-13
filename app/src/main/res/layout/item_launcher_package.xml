@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:id="@+id/rlPackage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:padding="5dp">
+        <!--最优方案，也就是本文的第三种方案 -->
+        <!--<cn.lovepet.shops.helper.imageview.CircleImageview-->
+            <!--android:id="@+id/ivPackageIcon"-->
+            <!--android:layout_width="50dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:background="@color/white"-->
+            <!--android:src="@mipmap/grid1"-->
+            <!--app:backgroundHeadColor="@color/yellow"-->
+            <!--app:circleBorderHeadWidth="2dp"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--app:ringHeadColor="@color/colorAccent" />-->
+        <ImageView
+            android:id="@+id/ivPackageIcon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:src="@mipmap/grid1"
+            android:layout_centerVertical="true"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/ivPackageIcon"
+            android:layout_marginLeft="30dp">
+            <TextView
+                android:id="@+id/tvPackageName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="保卫萝卜"
+                android:textSize="15sp"
+                android:textColor="@color/common_h1"/>
+            <TextView
+                android:id="@+id/tvPackageSrc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="com.bwluobo.game"
+                android:textSize="15sp"
+                android:textColor="@color/common_h2"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

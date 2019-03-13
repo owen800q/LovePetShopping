@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.lovepet.shops">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 选择照片所需权限 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <!--相机-->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <!--震动-->
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <!--手电筒-->
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name=".base.MApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/app_ico"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".view.ui.activity.content.PetMainActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:persistableMode="persistAcrossReboots"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--切换宠物站-->
+        <activity android:label="切换宠物站"
+            android:name=".view.ui.activity.home.PetTypeSwitchActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Transparent"/>
+        <!--安装应用列表-->
+        <activity
+            android:name=".view.ui.activity.personal.LauncherAllActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <!--登录、H5加载-->
+        <activity
+            android:name=".view.ui.activity.publical.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".view.ui.activity.content.ScrollTopActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <!--站点、位置选择-->
+        <activity
+            android:name=".view.ui.activity.home.tab.SiteAndPositionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <!--搜索、查询-->
+        <activity
+            android:name=".view.ui.activity.home.tab.SearchQueryActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <!--消息-->
+        <activity
+            android:name=".view.ui.activity.home.tab.PetMessageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <!--消息-->
+        <activity
+            android:name=".view.ui.activity.home.tab.SearchGoodsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <!--商品详情-->
+        <activity
+            android:name=".view.ui.activity.content.PetGoodsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <!--设置-->
+        <activity
+            android:name=".view.ui.activity.personal.SettingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <!--商品资讯-->
+        <activity
+            android:name=".view.ui.activity.content.GoodsNewsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <!--商品展览-->
+        <activity
+            android:name=".view.ui.activity.content.albumhomegoods.MainGoodsShopActivity"
+            android:screenOrientation="portrait"/>
+
+        <!--Zxing-->
+        <activity
+            android:name=".view.ui.activity.content.ZxingQrcodeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".view.ui.activity.content.zxing.EasyCaptureActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".view.ui.activity.content.zxing.CustomCaptureActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".view.ui.activity.content.zxing.CodeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".helper.zxing.multizxing.android.CaptureMultiActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".helper.zxing.CaptureActivity"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

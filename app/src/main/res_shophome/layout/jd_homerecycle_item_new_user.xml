@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:orientation="vertical">
+
+    <cn.lovepet.shops.view.widget.aspect_ratio_layout.AspectRatioFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:Layout_viewAspectRatio="1.95">
+
+        <cn.lovepet.shops.helper.imageview.ExpandImageView
+            android:id="@+id/new_user_bg_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <cn.lovepet.shops.view.widget.percentlayout.PercentRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:padding="10dp">
+
+            <cn.lovepet.shops.helper.imageview.ExpandImageView
+                android:id="@+id/new_user_red_envelopes"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_widthPercent="50%"
+                app:viewAspectRatio="1.37" />
+
+            <cn.lovepet.shops.helper.imageview.ExpandImageView
+                android:id="@+id/new_uer_free_postage"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/new_user_red_envelopes"
+                app:layout_widthPercent="50%"
+                app:viewAspectRatio="2.74" />
+
+            <cn.lovepet.shops.helper.imageview.ExpandImageView
+                android:id="@+id/new_user_basic_necessities_of_life"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/new_uer_free_postage"
+                android:layout_toRightOf="@+id/new_user_red_envelopes"
+                app:layout_widthPercent="50%"
+                app:viewAspectRatio="2.74" />
+        </cn.lovepet.shops.view.widget.percentlayout.PercentRelativeLayout>
+    </cn.lovepet.shops.view.widget.aspect_ratio_layout.AspectRatioFrameLayout>
+
+    <cn.lovepet.shops.helper.imageview.ExpandImageView
+        android:id="@+id/new_user_packs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:viewAspectRatio="9.55" />
+</LinearLayout>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/main_all_bg_style"
+    android:background="@color/white"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        style="@style/main_all_bg_style"
+        android:background="@color/white"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:id="@+id/uiHead_back"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/height_activity_top_head"
+            android:orientation="horizontal">
+
+            <!--android:onClick="BackListener"-->
+            <ImageView
+                android:id="@+id/ivBack"
+                style="@style/top_btn_style"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="start|center"
+                android:src="@mipmap/rg_back_btn" />
+
+            <FrameLayout
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="8.0dip"
+                android:layout_marginTop="8.0dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/bg_fang_btn_gray_f6f6f6"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/index_search_edit"
+                    style="@style/epet_input_edit_style"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="start|center"
+                    android:background="@null"
+                    android:completionThreshold="1"
+                    android:dropDownVerticalOffset="1.0dip"
+                    android:gravity="start|center"
+                    android:hint="@string/please_input_keyword"
+                    android:imeOptions="actionSearch"
+                    android:paddingLeft="41.0dip"
+                    android:textColor="#ff999999"
+                    android:textColorHint="#ff999999" />
+
+                <ImageView
+                    android:layout_width="30.0dip"
+                    android:layout_height="30.0dip"
+                    android:layout_gravity="center_vertical"
+                    android:background="@null"
+                    android:onClick="searchKeyWord"
+                    android:src="@mipmap/goods_ico_top_search" />
+            </FrameLayout>
+
+            <TextView
+                style="@style/top_btn_style"
+                android:clickable="true"
+                android:gravity="center"
+                android:padding="0.0dip"
+                android:text="搜索"
+                android:textColor="#ff666666" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start|center"
+                    android:paddingBottom="15dp"
+                    android:paddingLeft="20.0dip"
+                    android:paddingTop="15dp">
+
+                    <TextView
+                        style="@style/epet_title_style"
+                        android:text="@string/hot_serch"
+                        android:textColor="@color/main_color_ui_head_title"
+                        android:textSize="14.0dip"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="20dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/icon_search_shake" />
+
+                    <TextView
+                        style="@style/epet_title_style"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="5dp"
+                        android:text="@string/try_rock_phone"
+                        android:textColor="#ff666666"
+                        android:textSize="12dp" />
+                </LinearLayout>
+
+                <com.jet.flowtaglayout.FlowTagLayout
+                    android:id="@+id/flowTagLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    app:item_background="@drawable/shape_search"
+                    app:item_bottomMargin="5dp"
+                    app:item_bottomPadding="6dp"
+                    app:item_leftMargin="5dp"
+                    app:item_leftPadding="10dp"
+                    app:item_rightMargin="5dp"
+                    app:item_rightPadding="10dp"
+                    app:item_textColor="@color/common_h2"
+                    app:item_textSize="12sp"
+                    app:item_topMargin="5dp"
+                    app:item_topPadding="6dp" />
+
+                <View
+                    android:id="@+id/line2"
+                    style="@style/fang_line_style_horizontal"
+                    android:layout_marginTop="15dp" />
+
+                <LinearLayout
+                    android:id="@+id/historyRecordLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="15dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingTop="15dp"
+                    android:visibility="visible">
+
+                    <TextView
+                        style="@style/epet_title_style"
+                        android:layout_width="0.0dip"
+                        android:layout_weight="1.0"
+                        android:text="@string/last_serch"
+                        android:textColor="@color/main_color_ui_head_title"
+                        android:textSize="14.0dip"
+                        android:textStyle="bold" />
+                    <LinearLayout
+                        android:id="@+id/llClearAll"
+                        android:clickable="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/icon_search_time" />
+
+                        <TextView
+                            style="@style/epet_title_gra_style"
+                            android:layout_height="fill_parent"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="5dp"
+                            android:text="@string/clear_history"
+                            android:textColor="#ff666666"
+                            android:textSize="12dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <com.jet.flowtaglayout.FlowTagLayout
+                    android:id="@+id/flowTagLayout_history"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    app:item_background="@drawable/shape_search"
+                    app:item_bottomMargin="5dp"
+                    app:item_bottomPadding="6dp"
+                    app:item_leftMargin="5dp"
+                    app:item_leftPadding="10dp"
+                    app:item_rightMargin="5dp"
+                    app:item_rightPadding="10dp"
+                    app:item_textColor="@color/common_h2"
+                    app:item_textSize="12sp"
+                    app:item_topMargin="5dp"
+                    app:item_topPadding="6dp" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <View style="@style/fang_line_style_horizontal"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

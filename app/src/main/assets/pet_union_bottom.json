@@ -1,0 +1,75 @@
+{
+  "code": "succeed",
+  "bottomdata": {
+    "cate": [
+      {
+        "image": "https://static.epetbar.com/static_web/wap/src/images/qpet/app/trial/all.png",
+        "img_size": "",
+        "tag_name": "全部",
+        "tid": "-2"
+      },
+      {
+        "image": "https://static.epetbar.com/static_web/wap/src/images/qpet/app/trial/handpick.png",
+        "img_size": "",
+        "tag_name": "精选",
+        "tid": "-1"
+      },
+      {
+        "image": "https://img2.epetbar.com/nowater/2018-01/31/09/3f04c26a090de46ce6d11abea6f37f7d.png",
+        "img_size": "",
+        "tag_name": "主粮",
+        "tid": "159"
+      },
+      {
+        "image": "https://img2.epetbar.com/nowater/2018-01/31/09/41fda4a6a885c469a53a90f9e7765433.png",
+        "img_size": "",
+        "tag_name": "零食",
+        "tid": "160"
+      },
+      {
+        "image": "https://img2.epetbar.com/nowater/2018-01/31/09/94204f6bcda3b256b3b19f68192875d7.png",
+        "img_size": "",
+        "tag_name": "玩具",
+        "tid": "161"
+      },
+      {
+        "image": "https://img2.epetbar.com/nowater/2018-01/31/11/b5984812aafc4a212e84388cac7b5bf0.png",
+        "img_size": "",
+        "tag_name": "保健",
+        "tid": "162"
+      },
+      {
+        "image": "https://img2.epetbar.com/nowater/2018-01/31/11/f14dfe5f9b85137cdbc17405c16a0efe.png",
+        "img_size": "",
+        "tag_name": "医疗",
+        "tid": "163"
+      },
+      {
+        "image": "https://img2.epetbar.com/nowater/2018-01/31/11/215dfed5fd7f2b81d2d0e2e676becb96.png",
+        "img_size": "",
+        "tag_name": "日用",
+        "tid": "164"
+      },
+      {
+        "image": "https://img2.epetbar.com/nowater/2018-01/31/11/ca00aa378295aaa0ea5172023741b658.png",
+        "img_size": "",
+        "tag_name": "出行",
+        "tid": "165"
+      },
+      {
+        "image": "https://img2.epetbar.com/nowater/2018-01/31/11/005c5e4e02ad90aa3f05919f8c67a1fb.png",
+        "img_size": "",
+        "tag_name": "香波",
+        "tid": "166"
+      }
+    ],
+    "cate_color": "#70c8b0"
+  },
+  "epet_site": "epet",
+  "hash": "",
+  "login_status": 0,
+  "mall_uid": "epet_0",
+  "mall_user": "",
+  "msg": "",
+  "sys_time": 1544664460
+}

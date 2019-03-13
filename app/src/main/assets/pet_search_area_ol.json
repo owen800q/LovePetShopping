@@ -1,0 +1,154 @@
+{
+  "default_place_show": "北京 东城区",
+  "epet_site": "epet",
+  "places": [
+    {
+      "name": "重庆",
+      "placeid": 24
+    },
+    {
+      "name": "北京",
+      "placeid": 1
+    },
+    {
+      "name": "天津",
+      "placeid": 2
+    },
+    {
+      "name": "上海",
+      "placeid": 9
+    },
+    {
+      "name": "河北省",
+      "placeid": 3
+    },
+    {
+      "name": "山西省",
+      "placeid": 4
+    },
+    {
+      "name": "内蒙古自治区",
+      "placeid": 5
+    },
+    {
+      "name": "辽宁省",
+      "placeid": 6
+    },
+    {
+      "name": "吉林省",
+      "placeid": 7
+    },
+    {
+      "name": "黑龙江省",
+      "placeid": 8
+    },
+    {
+      "name": "江苏省",
+      "placeid": 10
+    },
+    {
+      "name": "浙江省",
+      "placeid": 11
+    },
+    {
+      "name": "安徽省",
+      "placeid": 12
+    },
+    {
+      "name": "福建省",
+      "placeid": 13
+    },
+    {
+      "name": "江西省",
+      "placeid": 14
+    },
+    {
+      "name": "山东省",
+      "placeid": 15
+    },
+    {
+      "name": "台湾",
+      "placeid": 16
+    },
+    {
+      "name": "河南省",
+      "placeid": 17
+    },
+    {
+      "name": "湖北省",
+      "placeid": 18
+    },
+    {
+      "name": "湖南省",
+      "placeid": 19
+    },
+    {
+      "name": "广东省",
+      "placeid": 20
+    },
+    {
+      "name": "海南省",
+      "placeid": 21
+    },
+    {
+      "name": "香港特别行政区",
+      "placeid": 22
+    },
+    {
+      "name": "澳门特别行政区",
+      "placeid": 23
+    },
+    {
+      "name": "四川省",
+      "placeid": 25
+    },
+    {
+      "name": "贵州省",
+      "placeid": 26
+    },
+    {
+      "name": "云南省",
+      "placeid": 27
+    },
+    {
+      "name": "广西壮族自治区",
+      "placeid": 28
+    },
+    {
+      "name": "西藏自治区",
+      "placeid": 29
+    },
+    {
+      "name": "陕西省",
+      "placeid": 30
+    },
+    {
+      "name": "甘肃省",
+      "placeid": 31
+    },
+    {
+      "name": "青海省",
+      "placeid": 32
+    },
+    {
+      "name": "宁夏回族自治区",
+      "placeid": 33
+    },
+    {
+      "name": "新疆维吾尔自治区",
+      "placeid": 34
+    },
+    {
+      "name": "钓鱼岛",
+      "placeid": 49574
+    },
+    {
+      "name": "南沙群岛",
+      "placeid": 49579
+    },
+    {
+      "name": "海外",
+      "placeid": 49877
+    }
+  ]
+}

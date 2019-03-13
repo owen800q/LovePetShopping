@@ -1,0 +1,64 @@
+{
+  "value":[
+    {
+      "menu_line_color": "#459d36",
+      "menu_name": "首页",
+      "menu_param": "0",
+      "menu_shareid": "1",
+      "menu_target": "",
+      "menu_type": 0
+    },
+    {
+      "image": "https://img2.epetbar.com/2018-10/23/21/fb37da2471179c74775ab8592c49281b.png",
+      "img_size": "162X54",
+      "selected_image": "https://img2.epetbar.com/2018-10/23/21/e821af56ec4749aede00ec98a1eff3f6.png",
+      "selected_img_size": "162X54",
+      "menu_line_color": "#459d36",
+      "menu_name": "双11攻略",
+      "menu_param": "",
+      "menu_shareid": "0",
+      "menu_target": "https://sale.epet.com/m/mould/activity/zt7252.html",
+      "menu_type": 1
+    },
+    {
+      "menu_line_color": "#459d36",
+      "menu_name": "狗狗主粮",
+      "menu_param": "123",
+      "menu_shareid": "372",
+      "menu_target": "",
+      "menu_type": 0
+    },
+    {
+      "menu_line_color": "#459d36",
+      "menu_name": "狗狗零食",
+      "menu_param": "174",
+      "menu_shareid": "375",
+      "menu_target": "",
+      "menu_type": 0
+    },
+    {
+      "menu_line_color": "#459d36",
+      "menu_name": "医疗保健",
+      "menu_param": "172",
+      "menu_shareid": "374",
+      "menu_target": "",
+      "menu_type": 0
+    },
+    {
+      "menu_line_color": "#459d36",
+      "menu_name": "玩具",
+      "menu_param": "168",
+      "menu_shareid": "0",
+      "menu_target": "",
+      "menu_type": 0
+    },
+    {
+      "menu_line_color": "#459d36",
+      "menu_name": "外出",
+      "menu_param": "173",
+      "menu_shareid": "371",
+      "menu_target": "",
+      "menu_type": 0
+    }
+  ]
+}

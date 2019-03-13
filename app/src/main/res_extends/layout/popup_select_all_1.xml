@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <RelativeLayout
+        android:id="@id/main_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/main">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentTop="true"
+            android:gravity="center|top"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/write"
+                android:orientation="vertical">
+
+                <!--<FrameLayout
+                    android:id="@id/linearSearchRang"
+                    style="@style/fang_padding_edit"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/item_select_write_yellow"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@id/check_search_range"
+                        style="@style/epet_check_enable_style"
+                        android:layout_gravity="center|left"
+                        android:layout_marginLeft="@dimen/fang_padding_left"
+                        android:checked="true" />
+
+                    <TextView
+                        style="@style/epet_title_small_style"
+                        android:layout_gravity="center|right"
+                        android:text="@string/search_range" />
+                </FrameLayout>
+
+                <View style="@style/fang_line_style" />
+
+                <FrameLayout
+                    android:id="@id/linearOnlyStock"
+                    style="@style/fang_padding_edit"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/item_select_write_yellow"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@id/check_search_stock"
+                        style="@style/epet_check_enable_style"
+                        android:layout_gravity="center|left"
+                        android:layout_marginLeft="@dimen/fang_padding_left" />
+
+                    <TextView
+                        style="@style/epet_title_small_style"
+                        android:layout_gravity="center|right"
+                        android:text="@string/only_dis_stock" />
+                </FrameLayout>-->
+            </LinearLayout>
+
+            <View style="@style/fang_line_style_horizontal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/classic_recycle"
+                    style="@style/epet_listview_style"
+                    android:layout_weight="2"
+                    android:background="@color/write"
+                    android:visibility="visible" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rightRecyclerView"
+                    style="@style/epet_listview_style"
+                    android:layout_weight="6"
+                    android:background="@color/write"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <!--style="@style/fang_padding_edit"-->
+            <View style="@style/fang_line_style_horizontal" />
+            <LinearLayout
+                android:id="@id/linear_bottom_select"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="共计15件商品"/>
+                <View style="@style/fang_line_style_vertical"
+                    android:layout_marginLeft="5dp"/>
+                <LinearLayout
+                    android:layout_weight="2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+                    <Button
+
+                        android:layout_weight="1.0"
+                        android:layout_height="wrap_content"
+                        android:id="@id/btn_clear_select"
+                        android:background="@null"
+                        android:layout_width="0.0dip"
+                        android:text="@string/clear_condition" />
+
+                    <Button
+                        android:id="@id/btn_sure"
+                        android:layout_height="wrap_content"
+                        android:background="@color/red"
+                        android:layout_width="0.0dip"
+                        android:layout_weight="1.0"
+                        android:text="@string/sure" />
+                </LinearLayout>
+            </LinearLayout>
+            <View style="@style/fang_line_style_horizontal" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

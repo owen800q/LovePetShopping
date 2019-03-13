@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckBox xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cbnFilter"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left|center_vertical"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
+    android:drawablePadding="10dp"
+    android:drawableLeft="@drawable/item_img_selector"
+    android:button="@null"
+    android:text=""
+    android:textColor="@color/item_text_filter_color"
+    android:textSize="12sp">
+</CheckBox>

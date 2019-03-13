@@ -1,0 +1,1508 @@
+{
+  "category_main": {
+    "tuijian": [
+      {
+        "menulist": [
+          {
+            "id_param": "cateid_10",
+            "name": "国产狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2018-08/14/21/87aa3e41aa86317af010c6b1af29064f.jpg"
+          }
+        ],
+        "rigth_img": {
+          "image": "",
+          "img_size": ""
+        },
+        "title": "最近浏览",
+        "type": 1
+      },
+      {
+        "flag_icon": "",
+        "menulist": [
+          {
+            "id_param": "cateid_10",
+            "name": "磨牙洁齿",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/26/10/2eeb97d6268f555de24ec370fd0de2ad.jpg"
+          },
+          {
+            "id_param": "cateid_521",
+            "name": "体内驱虫",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/81f4ac6b5b31143c056046bd9dc14b9e.jpg"
+          },
+          {
+            "id_param": "cateid_756",
+            "name": "肠胃调理",
+            "photo": "https://img2.epetbar.com/nowater/2016-08/20/14/8095e54e9414a06705acb7471eac7629.jpg"
+          },
+          {
+            "id_param": "cateid_7",
+            "name": "进口狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2016-07/21/14/0f972761c08a37c8baff88fa9302053d.jpg"
+          },
+          {
+            "id_param": "cateid_413",
+            "name": "强化免疫",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/04/16/fd206e6489657294e9067d349ea297f1.jpg"
+          },
+          {
+            "id_param": "cateid_3555",
+            "name": "国产狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2018-08/14/21/87aa3e41aa86317af010c6b1af29064f.jpg"
+          }
+        ],
+        "rigth_img": {
+          "image": "",
+          "img_size": ""
+        },
+        "title": "热门分类",
+        "type": 1
+      }
+    ],
+    "epet_guoji": [
+      {
+        "flag_icon": "",
+        "menulist": [
+          {
+            "id_param": "epethk_103554",
+            "name": "处方粮",
+            "photo": "https://img.epetht.com/nowater/cates/2014-03/24/3512594b71a2efd14b5c5925848d2e5a.jpg"
+          },
+          {
+            "id_param": "epethk_104307",
+            "name": "冻干粮",
+            "photo": "https://img.epetht.com/nowater/2017-09/01/16/4e3455a75bc8d75be71816e51b917103.jpg"
+          },
+          {
+            "id_param": "epethk_104311",
+            "name": "幼犬粮",
+            "photo": "https://img.epetht.com/nowater/2017-09/21/20/95ef871eb30d94dda553b3d728ffdab2.png"
+          },
+          {
+            "id_param": "epethk_104312",
+            "name": "成犬粮",
+            "photo": "https://img.epetht.com/nowater/2017-09/21/20/1a512b46eb283c302c194ad73d59d5b8.jpg"
+          },
+          {
+            "id_param": "epethk_104313",
+            "name": "全犬粮",
+            "photo": "https://img.epetht.com/nowater/2017-09/21/20/30796efbf55685efc2b93e34ce51eb4c.jpg"
+          },
+          {
+            "id_param": "epethk_104314",
+            "name": "老犬粮",
+            "photo": "https://img.epetht.com/nowater/2017-09/21/20/760d407f3934b1e8fc788f089ff8daea.jpg"
+          }
+        ],
+        "rigth_img": {
+          "image": "http://static.epetht.com/static_wap/appmall/lib/goods/cate_right_img.png",
+          "img_size": "138x30",
+          "mode": "goods_list",
+          "param": "epet_site:hk|cateid:100005"
+        },
+        "title": "狗狗主粮",
+        "type": 1
+      },
+      {
+        "flag_icon": "",
+        "menulist": [
+          {
+            "id_param": "epethk_100010",
+            "name": "磨牙洁齿",
+            "photo": "https://img.epetht.com/nowater/2017-09/25/10/6cc904e7c60c6ab284879b23a707165b.jpg"
+          },
+          {
+            "id_param": "epethk_100132",
+            "name": "肉制零食",
+            "photo": "https://img.epetht.com/nowater/2017-09/25/10/8a7ebfc02676be87aa7cf9c51b7e56e5.jpg"
+          },
+          {
+            "id_param": "epethk_100133",
+            "name": "点心饮料",
+            "photo": "https://img.epetht.com/nowater/2017-09/26/09/059a34335da87c9a79dcab13d197f537.jpg"
+          },
+          {
+            "id_param": "epethk_100135",
+            "name": "罐头湿粮",
+            "photo": "https://img.epetht.com/nowater/2017-09/25/10/da871ab8405cbcd339c69b18376720e4.jpg"
+          },
+          {
+            "id_param": "epethk_104306",
+            "name": "磨牙饼干",
+            "photo": "https://img.epetht.com/nowater/2017-09/25/10/2998780093b613e981521526f9c3f073.jpg"
+          },
+          {
+            "id_param": "epethk_104308",
+            "name": "冻干零食",
+            "photo": "https://img.epetht.com/nowater/2017-09/25/13/734e33cb328f073c22b71d69243c18b9.jpg"
+          }
+        ],
+        "rigth_img": {
+          "image": "http://static.epetht.com/static_wap/appmall/lib/goods/cate_right_img.png",
+          "img_size": "138x30",
+          "mode": "goods_list",
+          "param": "epet_site:hk|cateid:100006"
+        },
+        "title": "狗狗零食",
+        "type": 1
+      },
+      {
+        "flag_icon": "",
+        "menulist": [
+          {
+            "id_param": "epethk_103584",
+            "name": "处方粮",
+            "photo": "https://img.epetht.com/nowater/cates/2014-03/24/91b72c999f5a69f527abfbe8ff74620c.jpg"
+          },
+          {
+            "id_param": "epethk_104316",
+            "name": "幼猫粮",
+            "photo": "https://img.epetht.com/nowater/2017-09/22/15/31f57e99c194836885125039d4830957.jpg"
+          },
+          {
+            "id_param": "epethk_104317",
+            "name": "成猫粮",
+            "photo": "https://img.epetht.com/nowater/2017-09/22/15/9bc9417533cb457f186a2e448e73c0e4.jpg"
+          },
+          {
+            "id_param": "epethk_104318",
+            "name": "全猫粮",
+            "photo": "https://img.epetht.com/nowater/2017-09/22/15/81c0c3170475ab5355b4eda3000363b3.jpg"
+          },
+          {
+            "id_param": "epethk_104319",
+            "name": "老猫粮",
+            "photo": "https://img.epetht.com/nowater/2017-09/22/15/3be23b2002d9ae66a0ce38e4eabdd61d.jpg"
+          }
+        ],
+        "rigth_img": {
+          "image": "http://static.epetht.com/static_wap/appmall/lib/goods/cate_right_img.png",
+          "img_size": "138x30",
+          "mode": "goods_list",
+          "param": "epet_site:hk|cateid:100721"
+        },
+        "title": "猫咪主粮",
+        "type": 1
+      },
+      {
+        "flag_icon": "",
+        "menulist": [
+          {
+            "id_param": "epethk_100947",
+            "name": "主食罐",
+            "photo": "https://img.epetht.com/nowater/2017-09/25/13/024a9f863f442859f268d1190ee21dbe.jpg"
+          },
+          {
+            "id_param": "epethk_101857",
+            "name": "专用零食",
+            "photo": "https://img.epetht.com/nowater/2017-09/25/14/98488ddcd2e51ec3b3c7f89d75b776fd.jpg"
+          },
+          {
+            "id_param": "epethk_104169",
+            "name": "美味零食",
+            "photo": "https://img.epetht.com/nowater/2017-09/25/14/041d36c0c6bf6c60f2e15fdcab09a9d7.jpg"
+          },
+          {
+            "id_param": "epethk_104320",
+            "name": "零食罐",
+            "photo": "https://img.epetht.com/nowater/2017-09/25/14/73c0bbe216fedf3bbce6795c6144435d.jpg"
+          }
+        ],
+        "rigth_img": {
+          "image": "http://static.epetht.com/static_wap/appmall/lib/goods/cate_right_img.png",
+          "img_size": "138x30",
+          "mode": "goods_list",
+          "param": "epet_site:hk|cateid:103580"
+        },
+        "title": "猫咪零食",
+        "type": 1
+      },
+      {
+        "flag_icon": "",
+        "menulist": [
+          {
+            "id_param": "epethk_104322",
+            "name": "狗狗护理",
+            "photo": "https://img.epetht.com/nowater/2017-09/25/13/1f3bd92170badf719742ea3d610d69a3.jpg"
+          },
+          {
+            "id_param": "epethk_104323",
+            "name": "猫咪护理",
+            "photo": "https://img.epetht.com/nowater/2017-09/25/13/88fc63bac6681507878483dff2555813.jpg"
+          }
+        ],
+        "rigth_img": {
+          "image": "http://static.epetht.com/static_wap/appmall/lib/goods/cate_right_img.png",
+          "img_size": "138x30",
+          "mode": "goods_list",
+          "param": "epet_site:hk|cateid:104321"
+        },
+        "title": "生活超市",
+        "type": 1
+      },
+      {
+        "flag_icon": "",
+        "menulist": [
+          {
+            "logo": "https://img.epetht.com/nowater/2016-08/18/16/637879a33f1ea84ccdbfa2dc1b3de16e.jpg",
+            "name": "海洋之星Fish4Dogs",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "goods_list",
+            "param": "keyword:海洋之星Fish4Dogs|search_site:hk"
+          },
+          {
+            "logo": "https://img.epetht.com/nowater/brand_logo/2013-01/28/87feaa80f9fbed84c37a7b07da6324a1.jpg",
+            "name": "原始猎食渴望Orijen",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "goods_list",
+            "param": "keyword:原始猎食渴望Orijen|search_site:hk"
+          }
+        ],
+        "rigth_img": {
+          "image": "",
+          "img_size": ""
+        },
+        "title": "热门品牌",
+        "type": 2
+      }
+    ],
+    "dog_clothes": [
+      {
+        "flag_icon": "",
+        "menulist": [
+          {
+            "id_param": "cateid_4373",
+            "name": "御寒棉服",
+            "photo": "https://img2.epetbar.com/nowater/2018-10/12/00/556a307689a1bda2299be27956015cd4.jpg"
+          },
+          {
+            "id_param": "cateid_4372",
+            "name": "时尚卫衣",
+            "photo": "https://img2.epetbar.com/nowater/2018-10/12/00/332cb407ae3df288233aa8e46507ccde.jpg"
+          },
+          {
+            "id_param": "cateid_4371",
+            "name": "潮流四脚",
+            "photo": "https://img2.epetbar.com/nowater/2018-10/12/00/51e8e71ae5afe739039bf46ff5057c8e.jpg"
+          },
+          {
+            "id_param": "cateid_4374",
+            "name": "针织毛衣",
+            "photo": "https://img2.epetbar.com/nowater/2018-10/12/00/b537f6235f3cab502e8703699150ede4.jpg"
+          },
+          {
+            "id_param": "cateid_4375",
+            "name": "甜美淑女",
+            "photo": "https://img2.epetbar.com/nowater/2018-10/12/00/0071af1e77ccd8f4d7872790aa92479b.jpg"
+          },
+          {
+            "id_param": "cateid_336",
+            "name": "四季雨衣",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/7feeef10bab3d2e8df8a9149e0cb7c70.jpg"
+          },
+          {
+            "id_param": "cateid_337",
+            "name": "精美配饰",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/1d55d100e176bd571e4b0fd85604a14d.jpg"
+          },
+          {
+            "id_param": "cateid_4310",
+            "name": "断码反季",
+            "photo": "https://img2.epetbar.com/nowater/2017-10/10/16/d55b1ff4802aa8b6eb402c6292022084.jpg"
+          }
+        ],
+        "rigth_img": {
+          "image": "https://static.epetbar.com/static_wap/appmall/lib/goods/cate_right_img.png",
+          "img_size": "138x30",
+          "mode": "goods_list",
+          "param": "cateid:55"
+        },
+        "title": "狗狗服饰",
+        "type": 1
+      },
+      {
+        "flag_icon": "",
+        "menulist": [
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-09/22/8/c0dab99c5239d783320175df8998554a.jpg",
+            "name": "Opawz",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "1424"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2015-08/14/14/42ab9ac9118609ec64e43e95f922bd29.jpg",
+            "name": "拉夫威尔RW",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "1046"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/16/ef99f84749812353fb8b402a25120f6a.jpg",
+            "name": "彼痞客ppark",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "972"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-01/21/10/ec41f0dc6478fd51ffe733c6cba49592.jpg",
+            "name": "韵新Wincent",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "912"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2015-10/20/12/3f7158a46ddf789d5ab39495cbc7a585.jpg",
+            "name": "贝欧BEOW",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "906"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-06/24/aba86b0caa1438bffcfc810b1bab9ee7.jpg",
+            "name": "Touchdog",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "152"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2015-09/16/14/1181716b37eecd340407f7991efb297e.jpg",
+            "name": "KOJIMA",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "131"
+          },
+          {
+            "logo": "https://static.epetbar.com/static_wap/appmall/lib/goods/more_brand.png",
+            "name": "",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_list",
+            "param": ""
+          }
+        ],
+        "rigth_img": {
+          "image": "",
+          "img_size": ""
+        },
+        "title": "热门品牌",
+        "type": 2
+      }
+    ],
+    "dog_wodian": [
+      {
+        "flag_icon": "",
+        "menulist": [
+          {
+            "id_param": "cateid_4378",
+            "name": "深睡眠窝",
+            "photo": "https://img2.epetbar.com/nowater/2018-10/11/23/9992306702d0257c7605d31cb8dfd904.jpg"
+          },
+          {
+            "id_param": "cateid_4379",
+            "name": "柔软睡垫",
+            "photo": "https://img2.epetbar.com/nowater/2018-10/11/23/e5c30119eb36ad6b45173dac6b38a27e.jpg"
+          },
+          {
+            "id_param": "cateid_4380",
+            "name": "睡床沙发",
+            "photo": "https://img2.epetbar.com/nowater/2018-10/11/23/85f7ec76b05ebacb8c9972ddfb2ed4e4.jpg"
+          },
+          {
+            "id_param": "cateid_4381",
+            "name": "智能窝垫",
+            "photo": "https://img2.epetbar.com/nowater/2018-10/11/23/dece3cc8ca59cd3431f395cd61ccf6d0.jpg"
+          }
+        ],
+        "rigth_img": {
+          "image": "https://static.epetbar.com/static_wap/appmall/lib/goods/cate_right_img.png",
+          "img_size": "138x30",
+          "mode": "goods_list",
+          "param": "cateid:4377"
+        },
+        "title": "狗狗窝垫",
+        "type": 1
+      }
+    ],
+    "dog_zhuliang": [
+      {
+        "advid": "31010",
+        "mode": "web",
+        "param": "https://sale.epet.com/m/mould/activity/zt7144.html",
+        "src": "https://img2.epetbar.com/nowater/2018-10/15/15/fb917aaba7bcff31f9b2d345cc8a132a.jpg@!water",
+        "title": "秋日暖心放粮季",
+        "type": 0
+      },
+      {
+        "flag_icon": "",
+        "menulist": [
+          {
+            "id_param": "cateid_7",
+            "name": "进口狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2016-07/21/14/0f972761c08a37c8baff88fa9302053d.jpg"
+          },
+          {
+            "id_param": "cateid_3555",
+            "name": "国产狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2018-08/14/21/87aa3e41aa86317af010c6b1af29064f.jpg"
+          },
+          {
+            "id_param": "cateid_3554",
+            "name": "处方狗粮",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/3512594b71a2efd14b5c5925848d2e5a.jpg"
+          },
+          {
+            "id_param": "cateid_4307",
+            "name": "冻干狗粮",
+            "photo": "https://img2.epetbar.com/nowater/2017-09/01/16/4e3455a75bc8d75be71816e51b917103.jpg"
+          }
+        ],
+        "rigth_img": {
+          "image": "https://static.epetbar.com/static_wap/appmall/lib/goods/cate_right_img.png",
+          "img_size": "138x30",
+          "mode": "goods_list",
+          "param": "cateid:5"
+        },
+        "title": "狗狗主粮",
+        "type": 1
+      },
+      {
+        "flag_icon": "",
+        "menulist": [
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-06/28/c72319096507029d8d145c6b18aabda2.jpg",
+            "name": "天衡宝Natural Balance",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "82"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2017-08/09/20/64ac5fd97740cb0fab0cfe3eac1d27f7.jpg",
+            "name": "滋益巅峰Ziwi Peak",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "725"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/c2adde2885a24e1152d744524a1d2c67.jpg",
+            "name": "比瑞吉Nature Bridge",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "334"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2012-12/06/b13de5404822dec7fec61a1fc4ba29c6.jpg",
+            "name": "牛油果AVODerm",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "20"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/859ee74368cc7990c61d89e66a3af151.jpg",
+            "name": "枫树大道Maples",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "291"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-01/28/87feaa80f9fbed84c37a7b07da6324a1.jpg",
+            "name": "原始猎食渴望Orijen",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "142"
+          },
+          {
+            "logo": "https://img1.epetbar.com/brand/brandLogo/purchase_suppliers_file_1537950336.png",
+            "name": "伯纳天纯Pure&Natural",
+            "recommend": 0,
+            "tagongyi": 1,
+            "mode": "brand_homepage",
+            "param": "775"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-09/28/10/3b236d1731bd91004bffcec3515e1a0a.jpg",
+            "name": "冠能PRO PLAN",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "14"
+          }
+        ],
+        "rigth_img": {
+          "image": "",
+          "img_size": ""
+        },
+        "title": "热门品牌",
+        "type": 2
+      }
+    ],
+    "dog_lingshi": [
+      {
+        "advid": "30677",
+        "mode": "web",
+        "param": "https://sale.epet.com/m/mould/activity/d7214.html",
+        "src": "https://img2.epetbar.com/nowater/2018-10/23/16/fcea9d447624ba71b40159472129cb35.jpg@!water",
+        "title": "零食5折再299-150",
+        "type": 0
+      },
+      {
+        "flag_icon": "",
+        "menulist": [
+          {
+            "id_param": "cateid_10",
+            "name": "磨牙洁齿",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/26/10/2eeb97d6268f555de24ec370fd0de2ad.jpg"
+          },
+          {
+            "id_param": "cateid_132",
+            "name": "肉制零食",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/26/10/d50177937573448726b3fb99b5d48274.jpg"
+          },
+          {
+            "id_param": "cateid_133",
+            "name": "点心饮料",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/f6c39185cb72a306122dd403c94c3a10.jpg"
+          },
+          {
+            "id_param": "cateid_135",
+            "name": "罐头湿粮",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/9a7eb995107ffdfd1a6b5fa8928cfc02.jpg"
+          },
+          {
+            "id_param": "cateid_4306",
+            "name": "磨牙饼干",
+            "photo": "https://img2.epetbar.com/nowater/2017-09/01/15/2e603a140e903ece0d8e9a86fcb97464.jpg"
+          },
+          {
+            "id_param": "cateid_4308",
+            "name": "冻干零食",
+            "photo": "https://img2.epetbar.com/nowater/2017-09/01/17/4bf6a8f261337e34e38d4d8b43d149f1.jpg"
+          }
+        ],
+        "rigth_img": {
+          "image": "https://static.epetbar.com/static_wap/appmall/lib/goods/cate_right_img.png",
+          "img_size": "138x30",
+          "mode": "goods_list",
+          "param": "cateid:6"
+        },
+        "title": "狗狗零食",
+        "type": 1
+      },
+      {
+        "flag_icon": "",
+        "menulist": [
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/16/dca58009b64dba66a1025358ced2df9a.jpg",
+            "name": "纽萃宝NUTRIPE",
+            "recommend": 0,
+            "tagongyi": 0,
+            "target": {
+              "mode": "brand_homepage",
+              "param": "1327"
+            }
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/19/10/ff40e64b2bd1a45631b3ac2fe06fe3a2.jpg",
+            "name": "SmartBones",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "529"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-11/16/14/e7efaff14c0926ac7e797603bcacf5e6.jpg",
+            "name": "K9Natural",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "495"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/f72f0855fa02052f23c3d19b22f8242c.jpg",
+            "name": "路斯LUSCIOUS",
+            "recommend": 0,
+            "tagongyi": 1,
+            "mode": "brand_homepage",
+            "param": "318"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-06/28/0e2d0da1945c8097a7a7e09327eb8319.jpg",
+            "name": "绿的Greenies",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "159"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/d79dbf085149f97b2d518d3ccdc91437.jpg",
+            "name": "宝路Pedigree",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "47"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-01/25/0db2ba34e5d995d07590a16942411669.jpg",
+            "name": "约翰农场",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "348"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/2016-08/18/18/f02f4ec6603b8ac8ee8e79e4a4fd6c8b.jpg",
+            "name": "梵米派Famipet",
+            "recommend": 0,
+            "tagongyi": 1,
+            "mode": "brand_homepage",
+            "param": "1187"
+          }
+        ],
+        "rigth_img": {
+          "image": "",
+          "img_size": ""
+        },
+        "title": "热门品牌",
+        "type": 2
+      }
+    ],
+    "dog_wanju": [
+      {
+        "advid": "31014",
+        "mode": "web",
+        "param": "https://sale.epet.com/m/mould/activity/zt7185.html",
+        "src": "https://img2.epetbar.com/nowater/2018-10/15/16/4491ec88d1d049f6006a0fe2a95f4df7.jpg@!water",
+        "title": "KONG全场5折起 低至24元",
+        "type": 0
+      },
+      {
+        "flag_icon": "",
+        "menulist": [
+          {
+            "id_param": "cateid_210",
+            "name": "棉制玩具",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/fcab37ead00d77bcdddf7dabe6c817d7.jpg"
+          },
+          {
+            "id_param": "cateid_211",
+            "name": "橡胶玩具",
+            "photo": "https://img2.epetbar.com/nowater/2016-07/21/14/874299e54a8cf1488d6b1bead8f8e9bb.jpg"
+          },
+          {
+            "id_param": "cateid_212",
+            "name": "塑料玩具",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/df1ed7120376370a4b5badaae61a0a7e.jpg"
+          },
+          {
+            "id_param": "cateid_3088",
+            "name": "食用玩具",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/a5c7619872749790f6d6fd1ff3eccedc.jpg"
+          },
+          {
+            "id_param": "cateid_4157",
+            "name": "木质玩具",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/e9145de044fd5cec4c9b8ed47360d98f.jpg"
+          },
+          {
+            "id_param": "cateid_4326",
+            "name": "乳胶玩具",
+            "photo": "https://img2.epetbar.com/nowater/2018-01/23/16/00d7fbacb6042ccbf4348711788bf496.jpg"
+          }
+        ],
+        "rigth_img": {
+          "image": "https://static.epetbar.com/static_wap/appmall/lib/goods/cate_right_img.png",
+          "img_size": "138x30",
+          "mode": "goods_list",
+          "param": "cateid:53"
+        },
+        "title": "狗狗玩具",
+        "type": 1
+      },
+      {
+        "flag_icon": "",
+        "menulist": [
+          {
+            "logo": "https://img2.epetbar.com/nowater/2016-09/27/14/6ee8a646d754969b0b16494834b72791.jpg",
+            "name": "KONG",
+            "recommend": 1,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "317"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/19/10/001bc93001b123d3abf7c37e435ba19b.jpg",
+            "name": "贝适安PetSafe",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "779"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/2016-08/18/18/f02f4ec6603b8ac8ee8e79e4a4fd6c8b.jpg",
+            "name": "梵米派Famipet",
+            "recommend": 0,
+            "tagongyi": 1,
+            "mode": "brand_homepage",
+            "param": "1187"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-12/12/18/26d9e239dd3b06bb53ac30023d1eb614.jpg",
+            "name": "莱诺LaRoo",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "129"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-10/20/20/8753b081d5a23e95fdd81cbfff790f34.jpg",
+            "name": "SodaPup",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "1443"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/8b8aef29422b8a74ebe095517451ed51.jpg",
+            "name": "红脚丫Red Paw",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "767"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2013-06/30/72ab214047dac261b276d1f1588ffe98.jpg",
+            "name": "星记STARMARK",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "130"
+          },
+          {
+            "logo": "https://static.epetbar.com/static_wap/appmall/lib/goods/more_brand.png",
+            "name": "",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_list",
+            "param": ""
+          }
+        ],
+        "rigth_img": {
+          "image": "",
+          "img_size": ""
+        },
+        "title": "热门品牌",
+        "type": 2
+      }
+    ],
+    "dog_qingjie": [
+      {
+        "flag_icon": "",
+        "menulist": [
+          {
+            "id_param": "cateid_4316",
+            "name": "狗狗厕所",
+            "photo": "https://img2.epetbar.com/nowater/2017-10/11/16/d5ade0444ad0945d671c0a2f914e30fd.jpg"
+          },
+          {
+            "id_param": "cateid_4317",
+            "name": "狗狗尿片",
+            "photo": "https://img2.epetbar.com/nowater/2017-10/11/16/ba4a24c920d1c9c0a5ee43555f8b900b.jpg"
+          },
+          {
+            "id_param": "cateid_4318",
+            "name": "狗狗湿巾",
+            "photo": "https://img2.epetbar.com/nowater/2017-10/11/16/5a980a2b9737177177c01fc187f52109.jpg"
+          },
+          {
+            "id_param": "cateid_4319",
+            "name": "清洁除臭",
+            "photo": "https://img2.epetbar.com/nowater/2017-10/11/16/601461874134987b3d4b6c345f398dd4.jpg"
+          }
+        ],
+        "rigth_img": {
+          "image": "https://static.epetbar.com/static_wap/appmall/lib/goods/cate_right_img.png",
+          "img_size": "138x30",
+          "mode": "goods_list",
+          "param": "cateid:4315"
+        },
+        "title": "狗狗清洁",
+        "type": 1
+      }
+    ],
+    "dog_baojian": [
+      {
+        "advid": "31320",
+        "mode": "web",
+        "param": "https://sale.epet.com/m/mould/activity/zt7294.html",
+        "src": "https://img2.epetbar.com/nowater/2018-10/24/13/ee473cca5394cccb0ab634eb8919f157.jpg@!water",
+        "title": "保健专场",
+        "type": 0
+      },
+      {
+        "flag_icon": "",
+        "menulist": [
+          {
+            "id_param": "cateid_413",
+            "name": "强化免疫",
+            "photo": "https://img2.epetbar.com/nowater/2017-05/04/16/fd206e6489657294e9067d349ea297f1.jpg"
+          },
+          {
+            "id_param": "cateid_414",
+            "name": "美毛增毛",
+            "photo": "https://img2.epetbar.com/nowater/2018-03/19/16/c6b483208a67559089342a910c94e548.jpg"
+          },
+          {
+            "id_param": "cateid_756",
+            "name": "肠胃调理",
+            "photo": "https://img2.epetbar.com/nowater/2016-08/20/14/8095e54e9414a06705acb7471eac7629.jpg"
+          },
+          {
+            "id_param": "cateid_415",
+            "name": "补钙强骨",
+            "photo": "https://img2.epetbar.com/nowater/2016-08/20/14/19c089474d2c89f98435b088fb30b404.jpg"
+          },
+          {
+            "id_param": "cateid_416",
+            "name": "微量元素",
+            "photo": "https://img2.epetbar.com/nowater/2016-08/20/14/55aff065670558cb4ff66423f9ebc09e.jpg"
+          },
+          {
+            "id_param": "cateid_4230",
+            "name": "关节呵护",
+            "photo": "https://img2.epetbar.com/nowater/2016-08/20/14/cc2ec24f1b68fe6f648aada3bc707959.jpg"
+          }
+        ],
+        "rigth_img": {
+          "image": "https://static.epetbar.com/static_wap/appmall/lib/goods/cate_right_img.png",
+          "img_size": "138x30",
+          "mode": "goods_list",
+          "param": "cateid:48"
+        },
+        "title": "狗狗保健",
+        "type": 1
+      },
+      {
+        "flag_icon": "",
+        "menulist": [
+          {
+            "logo": "https://img2.epetbar.com/nowater/2016-08/18/16/31b7dfdd08ce602f1239ae8ce7954802.jpg",
+            "name": "麦德氏",
+            "recommend": 0,
+            "tagongyi": 1,
+            "mode": "brand_homepage",
+            "param": "186"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2015-10/17/12/d9e05c4a2d35c88ffee0dcec98fba6a4.jpg",
+            "name": "MAG",
+            "recommend": 0,
+            "tagongyi": 1,
+            "mode": "brand_homepage",
+            "param": "830"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/16/276527f25e9151ef48b0b8d2dba79d29.jpg",
+            "name": "谷登GOLDEN",
+            "recommend": 0,
+            "tagongyi": 1,
+            "mode": "brand_homepage",
+            "param": "829"
+          },
+          {
+            "logo": "https://img1.epetbar.com/brand/brandLogo/purchase_suppliers_file_1536307182.png",
+            "name": "凯久K9 Super Health",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "104"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/13/16/be4c1125ac976e9771117a59af6d874e.jpg",
+            "name": "小宠",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "205"
+          },
+          {
+            "logo": "https://img1.epetbar.com/brand/brandLogo/purchase_suppliers_file_1536661037.png",
+            "name": "发育宝",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "36"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/7dac564a72c7ac184120c61c699bfa2a.jpg",
+            "name": "维克Virbac",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "254"
+          },
+          {
+            "logo": "https://static.epetbar.com/static_wap/appmall/lib/goods/more_brand.png",
+            "name": "",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_list",
+            "param": ""
+          }
+        ],
+        "rigth_img": {
+          "image": "",
+          "img_size": ""
+        },
+        "title": "热门品牌",
+        "type": 2
+      }
+    ],
+    "dog_huli": [
+      {
+        "flag_icon": "",
+        "menulist": [
+          {
+            "id_param": "cateid_522",
+            "name": "体外驱虫",
+            "photo": "https://img2.epetbar.com/nowater/2016-07/23/14/c52111e9c4150f10ef7c5f9a1806fc93.jpg"
+          },
+          {
+            "id_param": "cateid_521",
+            "name": "体内驱虫",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/81f4ac6b5b31143c056046bd9dc14b9e.jpg"
+          },
+          {
+            "id_param": "cateid_523",
+            "name": "皮肤护理",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/a47022c467818d51964196a63d706b76.jpg"
+          },
+          {
+            "id_param": "cateid_4330",
+            "name": "耳部护理",
+            "photo": "https://img2.epetbar.com/nowater/2018-01/25/11/ea59a2101f28f3a78b94e1e1671e35af.jpg"
+          },
+          {
+            "id_param": "cateid_4331",
+            "name": "眼部护理",
+            "photo": "https://img2.epetbar.com/nowater/2018-01/25/14/4b27726f0f1a44b34cfe9a32965ceafb.jpg"
+          },
+          {
+            "id_param": "cateid_4332",
+            "name": "口鼻护理",
+            "photo": "https://img2.epetbar.com/nowater/2018-01/25/15/137ab5ae324905b93aa37503b053ad19.jpg"
+          },
+          {
+            "id_param": "cateid_527",
+            "name": "家庭常备",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/7d009bab6bcdaeb941f18bd510aa9d56.jpg"
+          }
+        ],
+        "rigth_img": {
+          "image": "https://static.epetbar.com/static_wap/appmall/lib/goods/cate_right_img.png",
+          "img_size": "138x30",
+          "mode": "goods_list",
+          "param": "cateid:49"
+        },
+        "title": "狗狗护理",
+        "type": 1
+      },
+      {
+        "flag_icon": "",
+        "menulist": [
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2012-12/19/fed6547b142c4a53584a0a886a65b707.jpg",
+            "name": "犬心保Heartgard",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "487"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/7f05c5e0fb15da2f14748c19d23a7334.jpg",
+            "name": "福来恩FRONTLINE",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "145"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/16/4c37fc2c6578742b2a7747c135c5aef4.jpg",
+            "name": "麦高臣MicrocynAH",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "1207"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/0f7e2127c9d9defebe8d49ec98792cc4.jpg",
+            "name": "多美洁Tropiclean",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "461"
+          },
+          {
+            "logo": "https://img1.epetbar.com/brand/brandLogo/purchase_suppliers_file_1537174351.png",
+            "name": "红狗RedDog",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "380"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/7dac564a72c7ac184120c61c699bfa2a.jpg",
+            "name": "维克Virbac",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "254"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/13/16/be4c1125ac976e9771117a59af6d874e.jpg",
+            "name": "小宠",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "205"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/16/0c858d3e3373a1845bb94b685a1474f8.jpg",
+            "name": "AKC",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "347"
+          }
+        ],
+        "rigth_img": {
+          "image": "",
+          "img_size": ""
+        },
+        "title": "热门品牌",
+        "type": 2
+      }
+    ],
+    "dog_shenghuo": [
+      {
+        "advid": "30968",
+        "mode": "web",
+        "param": "https://sale.epet.com/m/mould/activity/zt7163.html",
+        "src": "https://img2.epetbar.com/nowater/2018-10/11/17/493a1ca526fb072742fbc83ee80e5019.jpg@!water",
+        "title": "狗狗餐具特辑"
+      },
+      {
+        "flag_icon": "",
+        "menulist": [
+          {
+            "id_param": "cateid_259",
+            "name": "狗狗餐具",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/b686acdc3b8a6e0e635fac80f1311214.jpg"
+          },
+          {
+            "id_param": "cateid_262",
+            "name": "狗狗外出",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/643e72faf7dd1659ed632b2f40e59e75.jpg"
+          },
+          {
+            "id_param": "cateid_990",
+            "name": "狗狗住所",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/1078c799ae6f02bf4255fd0919b813e9.jpg"
+          },
+          {
+            "id_param": "cateid_4343",
+            "name": "户外运动",
+            "photo": "https://img2.epetbar.com/nowater/2018-03/29/10/f8cc4d8fbf1d940f99531d73d770876d.jpg"
+          },
+          {
+            "id_param": "cateid_2402",
+            "name": "狗狗训练",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/590d323712426cc4383209983d4599eb.jpg"
+          },
+          {
+            "id_param": "cateid_4333",
+            "name": "智能黑科技",
+            "photo": "https://img2.epetbar.com/nowater/2018-03/16/13/86ddf4ab08773578109e1ef1b892d8ef.jpg"
+          },
+          {
+            "id_param": "cateid_4338",
+            "name": "主人专享",
+            "photo": "https://img2.epetbar.com/nowater/2018-03/29/10/8cd0158bc6fef2009533679c02319219.jpg"
+          }
+        ],
+        "rigth_img": {
+          "image": "https://static.epetbar.com/static_wap/appmall/lib/goods/cate_right_img.png",
+          "img_size": "138x30",
+          "mode": "goods_list",
+          "param": "cateid:54"
+        },
+        "title": "狗狗生活",
+        "type": 1
+      },
+      {
+        "flag_icon": "",
+        "menulist": [
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/1092d2c62e93afc60e6924c71cf8d8a9.jpg",
+            "name": "悠润",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "633"
+          },
+          {
+            "logo": "https://img1.epetbar.com/brand/brandLogo/purchase_suppliers_file_1536825322.png",
+            "name": "合盾倍安POSITIVECARE",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "1358"
+          },
+          {
+            "logo": "https://img1.epetbar.com/brand/brandLogo/purchase_suppliers_file_1537431924.png",
+            "name": "可悠Cocoyo",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "1214"
+          },
+          {
+            "logo": "https://img1.epetbar.com/brand/brandLogo/purchase_suppliers_file_1536221734.png",
+            "name": "Pioneer Pet",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "1003"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-11/16/16/1bb4f65b4e891ca0c21dfb8a9e2fc83a.jpg",
+            "name": "Industripet",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "1439"
+          },
+          {
+            "logo": "https://img1.epetbar.com/brand/brandLogo/purchase_suppliers_file_1536282869.png",
+            "name": "宠博士CHONG BO SHI",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "119"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/2016-08/18/18/f02f4ec6603b8ac8ee8e79e4a4fd6c8b.jpg",
+            "name": "梵米派Famipet",
+            "recommend": 0,
+            "tagongyi": 1,
+            "mode": "brand_homepage",
+            "param": "1187"
+          },
+          {
+            "logo": "https://static.epetbar.com/static_wap/appmall/lib/goods/more_brand.png",
+            "name": "",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_list",
+            "param": ""
+          }
+        ],
+        "rigth_img": {
+          "image": "",
+          "img_size": ""
+        },
+        "title": "热门品牌",
+        "type": 2
+      }
+    ],
+    "dog_qianyin": [
+      {
+        "advid": "31296",
+        "mode": "web",
+        "param": "https://sale.epet.com/m/mould/activity/zt7291.html",
+        "src": "https://img2.epetbar.com/nowater/2018-10/23/13/e2a54596e1c543e080e4ca5b89693164.jpg@!water",
+        "title": "狗狗牵引 最高立省174！"
+      },
+      {
+        "flag_icon": "",
+        "menulist": [
+          {
+            "id_param": "cateid_3274",
+            "name": "伸缩牵引",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/3cc32faf42f48f93b2534bef920623ee.jpg"
+          },
+          {
+            "id_param": "cateid_2699",
+            "name": "日常颈圈",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/934bbc53f04789a194bddf4007af984c.jpg"
+          },
+          {
+            "id_param": "cateid_2700",
+            "name": "日常拉带",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/7b322fbe812723d414b51e703052c7d8.jpg"
+          },
+          {
+            "id_param": "cateid_2702",
+            "name": "拉颈套装",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/363a030ee7a5c9a4c46870ba74ef5d96.jpg"
+          },
+          {
+            "id_param": "cateid_2701",
+            "name": "拉胸套装",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/ea817e6228e36533399ea6cbac068ee5.jpg"
+          },
+          {
+            "id_param": "cateid_2703",
+            "name": "P链/蛇链",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/6e7c85be18f569be27d58d1c50f06b85.jpg"
+          }
+        ],
+        "rigth_img": {
+          "image": "https://static.epetbar.com/static_wap/appmall/lib/goods/cate_right_img.png",
+          "img_size": "138x30",
+          "mode": "goods_list",
+          "param": "cateid:2652"
+        },
+        "title": "狗狗牵引",
+        "type": 1
+      },
+      {
+        "flag_icon": "",
+        "menulist": [
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/19/10/5ec59d56a043f70086ba870494013017.jpg",
+            "name": "福莱希flexi",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "240"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/16/657a5590cb712ec28cfb380a72c8ad0e.jpg",
+            "name": "Julius k9",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "943"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2015-08/14/14/42ab9ac9118609ec64e43e95f922bd29.jpg",
+            "name": "拉夫威尔RW",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "1046"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/16/53d658a30760c86268b70e960617e6d5.jpg",
+            "name": "瑞鼎狗RedDingo",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "1320"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/16/8f328b276a78cb591164ab0a535ba46c.jpg",
+            "name": "多尼斯DOGNESS",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "1263"
+          },
+          {
+            "logo": "https://img1.epetbar.com/brand/brandLogo/purchase_suppliers_file_1536558642.png",
+            "name": "伊丽Elite",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "990"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/b9b738ebf2224f5dc700eea53857f00e.jpg",
+            "name": "意潇",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "315"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-12/20/10/69b266f8d8272fe3d4586bf8425e4c84.jpg",
+            "name": "Timberwolf",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "1477"
+          }
+        ],
+        "rigth_img": {
+          "image": "",
+          "img_size": ""
+        },
+        "title": "热门品牌",
+        "type": 2
+      }
+    ],
+    "dog_meirong": [
+      {
+        "flag_icon": "",
+        "menulist": [
+          {
+            "id_param": "cateid_2653",
+            "name": "梳剪工具",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/9e337e765abe013fd2b4742076dfbac8.jpg"
+          },
+          {
+            "id_param": "cateid_2654",
+            "name": "护理工具",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/1e78dcc3b144aa0e5fdfc9fcea1b1be3.jpg"
+          },
+          {
+            "id_param": "cateid_2655",
+            "name": "美容配套",
+            "photo": "https://img2.epetbar.com/nowater/2016-02/18/16/e1b0d47ed59204385e33be0bf078513e.jpg"
+          }
+        ],
+        "rigth_img": {
+          "image": "https://static.epetbar.com/static_wap/appmall/lib/goods/cate_right_img.png",
+          "img_size": "138x30",
+          "mode": "goods_list",
+          "param": "cateid:2651"
+        },
+        "title": "狗狗美容",
+        "type": 1
+      },
+      {
+        "flag_icon": "",
+        "menulist": [
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/7391d24d851c6fe5a34de10e777a504f.jpg",
+            "name": "千羽SOLEIL",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "28"
+          },
+          {
+            "logo": "https://img1.epetbar.com/brand/brandLogo/purchase_suppliers_file_1536282869.png",
+            "name": "宠博士CHONG BO SHI",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "119"
+          },
+          {
+            "logo": "https://img1.epetbar.com/brand/brandLogo/purchase_suppliers_file_1536649258.png",
+            "name": "皇冠Crown Royale",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "339"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/a938be16ed441a0103f901df3217be1a.jpg",
+            "name": "春舟chunzhou",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "647"
+          },
+          {
+            "logo": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/d2d544344f481f164c4e74b107a9143b.jpg",
+            "name": "科德士Codos",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "675"
+          },
+          {
+            "logo": "https://img1.epetbar.com/brand/brandLogo/upload_file_1541153040.jpg",
+            "name": "欧维华AVEVA",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "924"
+          },
+          {
+            "logo": "https://img1.epetbar.com/brand/brandLogo/purchase_suppliers_file_1536742481.png",
+            "name": "华尔WAHL",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_homepage",
+            "param": "1030"
+          },
+          {
+            "logo": "https://static.epetbar.com/static_wap/appmall/lib/goods/more_brand.png",
+            "name": "",
+            "recommend": 0,
+            "tagongyi": 0,
+            "mode": "brand_list",
+            "param": ""
+          }
+        ],
+        "rigth_img": {
+          "image": "",
+          "img_size": ""
+        },
+        "title": "热门品牌",
+        "type": 2
+      }
+    ],
+    "dog_chuyouxizao": [
+      {
+        "flag_icon": "",
+        "menulist": [
+          {
+            "id_param": "cateid_4147",
+            "name": "专用香波",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/ec484631ffe713596eebce2797a8b21f.jpg"
+          },
+          {
+            "id_param": "cateid_4151",
+            "name": "日常洗护",
+            "photo": "https://img2.epetbar.com/nowater/2018-07/18/16/57b2254d23adfd82a25a2f65c6adc789.jpg"
+          },
+          {
+            "id_param": "cateid_3210",
+            "name": "免洗干洗",
+            "photo": "https://img2.epetbar.com/nowater/cates/2014-03/24/e5197ce68f598bfaa20cda64460fb26b.jpg"
+          },
+          {
+            "id_param": "cateid_4182",
+            "name": "洗澡工具",
+            "photo": "https://img2.epetbar.com/nowater/2016-02/18/16/365564368d9b40cca9833adafb6ed63f.jpg"
+          }
+        ],
+        "rigth_img": {
+          "image": "https://static.epetbar.com/static_wap/appmall/lib/goods/cate_right_img.png",
+          "img_size": "138x30",
+          "mode": "goods_list",
+          "param": "cateid:4334"
+        },
+        "title": "出游洗澡",
+        "type": 1
+      }
+    ]
+  },
+  "code": "succeed",
+  "epet_site": "epet",
+  "hash": "",
+  "login_status": 1,
+  "mall_uid": "epet_2680119",
+  "mall_user": "主人_Fp10RPZ6n1",
+  "msg": "",
+  "show_history": 1,
+  "sys_time": 1541595611
+}

@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/lightgray">
+    <cn.lovepet.shops.helper.customview.BackGroundImage
+        android:id="@+id/backGroundImage"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/lightgray"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/activity_business_district_library_left_layout"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="9dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/icon_back"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="商圈"
+            android:textColor="@color/white"
+            android:textSize="18sp"/>
+
+        <LinearLayout
+            android:id="@+id/activity_business_district_library_right_layout"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical|right"
+            android:visibility="gone"
+            android:paddingRight="12dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/iv_djjg_normal" />
+        </LinearLayout>
+    </RelativeLayout>
+    <cn.lovepet.shops.view.ui.activity.content.StickyScrollView
+        android:id="@+id/slv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/line_bg_color2"
+        android:fillViewport="false">
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/bannerTop"
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:background="@mipmap/image1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:gravity="center_vertical"
+                android:background="@color/white"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="48dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@mipmap/tuijian_01"/>
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/noticeBoard"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="12dp"
+                    android:textColor="@color/black"
+                    android:gravity="center_vertical"
+                    android:text="君不见，黄河之水天上来\n君不见，高堂明镜悲白发"
+                    android:textSize="12sp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/lightgray1"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@color/white"
+                android:weightSum="4">
+                <LinearLayout
+                    android:id="@+id/shanghuili"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="49dp"
+                        android:layout_height="49dp"
+                        android:src="@mipmap/icon_shop_cart"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="14dp"
+                        android:text="商会"
+                        android:layout_marginTop="8dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/xiehuili"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="49dp"
+                        android:layout_height="49dp"
+                        android:src="@mipmap/icon_shop_cart"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="14dp"
+                        android:text="协会"
+                        android:layout_marginTop="8dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/quanzili"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="49dp"
+                        android:layout_height="49dp"
+                        android:src="@mipmap/icon_shop_cart"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="14dp"
+                        android:text="圈子"
+                        android:layout_marginTop="8dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/yuanquli"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="49dp"
+                        android:layout_height="49dp"
+                        android:src="@mipmap/icon_shop_cart"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="14dp"
+                        android:text="园区"
+                        android:layout_marginTop="8dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/lightgray1"></LinearLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:background="@color/white"
+                android:layout_alignParentTop="true"
+                android:tag="sticky">
+
+                <TextView
+                    android:id="@+id/activity_business_district_library_area"
+                    android:layout_width="wrap_content"
+                    android:layout_height="49dp"
+                    android:layout_centerVertical="true"
+                    android:drawablePadding="4dp"
+                    android:drawableRight="@mipmap/icon_shop_cart"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="20dp"
+                    android:text="区域"
+                    android:textColor="@color/common_h1"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:id="@+id/activity_business_district_library_industry"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:drawablePadding="4dp"
+                    android:drawableRight="@mipmap/icon_shop_cart"
+                    android:text="行业"
+                    android:textColor="@color/common_h1"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:id="@+id/activity_business_district_library_shangxi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="4dp"
+                    android:drawableRight="@mipmap/icon_shop_cart"
+                    android:text="商系"
+                    android:textColor="@color/common_h1"
+                    android:textSize="14sp"
+                    android:layout_alignBaseline="@+id/activity_business_district_library_industry"
+                    android:layout_alignBottom="@+id/activity_business_district_library_industry"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="19dp"
+                    android:layout_marginEnd="19dp"/>
+
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/lightgray1">
+
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/activity_business_district_library_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white">
+
+            </android.support.v7.widget.RecyclerView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:text="fdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksd"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:text="fdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksd"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:text="fdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksd"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:text="fdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksd"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:text="fdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksd"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:text="fdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksd"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:text="fdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksdfdhdks fhsdkfhlskdhfsdhfksd"/>
+
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0.5dp"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:layout_marginBottom="5dp"-->
+            <!--android:background="@color/gray_white"/>-->
+
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:background="@drawable/line"/>-->
+
+        </LinearLayout>
+    </cn.lovepet.shops.view.ui.activity.content.StickyScrollView>
+
+
+</LinearLayout>

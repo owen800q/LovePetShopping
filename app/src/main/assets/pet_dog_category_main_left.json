@@ -1,0 +1,74 @@
+{
+  "alert_target": [
+    {
+      "target": "",
+      "text": "我知道了"
+    }
+  ],
+  "categorys": [
+    {
+      "cateid": 88888,
+      "name": "为您推荐"
+    },
+    {
+      "cateid": "88888888",
+      "name": "E宠国际"
+    },
+    {
+      "cateid": "55",
+      "name": "狗狗服饰"
+    },
+    {
+      "cateid": "4377",
+      "name": "狗狗窝垫"
+    },
+    {
+      "cateid": "5",
+      "name": "狗狗主粮"
+    },
+    {
+      "cateid": "6",
+      "name": "狗狗零食"
+    },
+    {
+      "cateid": "53",
+      "name": "狗狗玩具"
+    },
+    {
+      "cateid": "4315",
+      "name": "狗狗清洁"
+    },
+    {
+      "cateid": "48",
+      "name": "狗狗保健"
+    },
+    {
+      "cateid": "49",
+      "name": "狗狗护理"
+    },
+    {
+      "cateid": "54",
+      "name": "狗狗生活"
+    },
+    {
+      "cateid": "2652",
+      "name": "狗狗牵引"
+    },
+    {
+      "cateid": "2651",
+      "name": "狗狗美容"
+    },
+    {
+      "cateid": "4334",
+      "name": "出游洗澡"
+    }
+  ],
+  "code": "succeed",
+  "epet_site": "epet",
+  "hash": "",
+  "login_status": 1,
+  "mall_uid": "epet_1307256",
+  "mall_user": "HLOVEL",
+  "msg": "",
+  "sys_time": 1541591974
+}

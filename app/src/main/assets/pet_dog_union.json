@@ -1,0 +1,504 @@
+{
+  "code": "succeed",
+  "data": {
+    "cate": [
+      {
+        "image": "https://static.epetbar.com/static_web/wap/src/images/qpet/app/trial/all.png",
+        "img_size": "",
+        "tag_name": "全部",
+        "tid": "-2"
+      },
+      {
+        "image": "https://static.epetbar.com/static_web/wap/src/images/qpet/app/trial/handpick.png",
+        "img_size": "",
+        "tag_name": "精选",
+        "tid": "-1"
+      },
+      {
+        "image": "https://img2.epetbar.com/nowater/2018-01/31/09/3f04c26a090de46ce6d11abea6f37f7d.png",
+        "img_size": "",
+        "tag_name": "主粮",
+        "tid": "159"
+      },
+      {
+        "image": "https://img2.epetbar.com/nowater/2018-01/31/09/41fda4a6a885c469a53a90f9e7765433.png",
+        "img_size": "",
+        "tag_name": "零食",
+        "tid": "160"
+      },
+      {
+        "image": "https://img2.epetbar.com/nowater/2018-01/31/09/94204f6bcda3b256b3b19f68192875d7.png",
+        "img_size": "",
+        "tag_name": "玩具",
+        "tid": "161"
+      },
+      {
+        "image": "https://img2.epetbar.com/nowater/2018-01/31/11/b5984812aafc4a212e84388cac7b5bf0.png",
+        "img_size": "",
+        "tag_name": "保健",
+        "tid": "162"
+      },
+      {
+        "image": "https://img2.epetbar.com/nowater/2018-01/31/11/f14dfe5f9b85137cdbc17405c16a0efe.png",
+        "img_size": "",
+        "tag_name": "医疗",
+        "tid": "163"
+      },
+      {
+        "image": "https://img2.epetbar.com/nowater/2018-01/31/11/215dfed5fd7f2b81d2d0e2e676becb96.png",
+        "img_size": "",
+        "tag_name": "日用",
+        "tid": "164"
+      },
+      {
+        "image": "https://img2.epetbar.com/nowater/2018-01/31/11/ca00aa378295aaa0ea5172023741b658.png",
+        "img_size": "",
+        "tag_name": "出行",
+        "tid": "165"
+      },
+      {
+        "image": "https://img2.epetbar.com/nowater/2018-01/31/11/005c5e4e02ad90aa3f05919f8c67a1fb.png",
+        "img_size": "",
+        "tag_name": "香波",
+        "tid": "166"
+      }
+    ],
+    "cate_color": "#70c8b0",
+    "list": [
+      {
+        "comment_K": "1",
+        "cover": [
+          {
+            "image": "https://img1.epetbar.com/2018-10/29/12/dffda8aebbb7566a7b60cc53319154e1.jpg",
+            "img_size": ""
+          }
+        ],
+        "is_zan": 0,
+        "showtime": "2天前",
+        "taid": "0",
+        "mode": "web",
+        "param": "https://wap.epet.com/union/trials_report_detail.html?trid=1827",
+        "title": "【半斤测评】 与渴望同源，来自加拿大的天然呵护--派斯宝",
+        "trid": "1827",
+        "type": 2,
+        "uid": "3345916",
+        "user": {
+          "avatar": {
+            "image": "https://img1.epetbar.com/2018-09/03/13/d88d40f10ed718a66c2a561c2eb6df0c.jpg",
+            "img_size": "",
+            "target": {
+              "mode": "mengzhua_personhome",
+              "param": "3345916"
+            }
+          },
+          "petmsg": "柯基犬 7个月16天",
+          "role": [
+            {
+              "background": "#e4f9e3",
+              "color": "#6fc8b0",
+              "title": "体验师"
+            }
+          ],
+          "username": "半斤_八两"
+        },
+        "view_K": "4.2K",
+        "zan": "6",
+        "zan_K": "6"
+      },
+      {
+        "comment_K": "3",
+        "cover": [
+          {
+            "image": "https://img1.epetbar.com/2018-11/07/21/732862a3c2251b0adaca1c4ada86730d.jpg",
+            "img_size": ""
+          }
+        ],
+        "is_zan": 0,
+        "showtime": "2天前",
+        "taid": "0",
+        "target": {
+          "mode": "web",
+          "param": "https://wap.epet.com/union/trials_report_detail.html?trid=1868"
+        },
+        "title": "爱丽丝狗厕 让入厕更方便",
+        "trid": "1868",
+        "type": 2,
+        "uid": "960840",
+        "user": {
+          "avatar": {
+            "image": "https://img1.epetbar.com/2018-10/25/08/b01eda118b4c0a46834659500222b56b.jpg",
+            "img_size": "",
+            "target": {
+              "mode": "mengzhua_personhome",
+              "param": "960840"
+            }
+          },
+          "petmsg": "中华田园犬 3岁3个月26天",
+          "role": [
+            {
+              "background": "#e4f9e3",
+              "color": "#6fc8b0",
+              "title": "体验师"
+            }
+          ],
+          "username": "god_fy"
+        },
+        "view_K": "5.9K",
+        "zan": "9",
+        "zan_K": "9"
+      },
+      {
+        "comment_K": "8",
+        "cover": [
+          {
+            "image": "https://img1.epetbar.com/2018-09/29/10/668c1e859a9fe0fb7a86ab246b384066.jpg",
+            "img_size": ""
+          }
+        ],
+        "is_zan": 0,
+        "showtime": "2天前",
+        "taid": "0",
+        "target": {
+          "mode": "web",
+          "param": "https://wap.epet.com/union/trials_report_detail.html?trid=1725"
+        },
+        "title": "以便捷的方式，改善口腔问题。",
+        "trid": "1725",
+        "type": 2,
+        "uid": "1861365",
+        "user": {
+          "avatar": {
+            "image": "https://img1.epetbar.com/2017-05/27/18/4b69071eb3cf3494c39f6092bbda9442.jpg",
+            "img_size": "",
+            "target": {
+              "mode": "mengzhua_personhome",
+              "param": "1861365"
+            }
+          },
+          "petmsg": "吉娃娃 2岁1个月10天",
+          "role": [
+            {
+              "background": "#e4f9e3",
+              "color": "#6fc8b0",
+              "title": "超级体验师"
+            }
+          ],
+          "username": "ki宝子"
+        },
+        "view_K": "32.9K",
+        "zan": "5",
+        "zan_K": "5"
+      },
+      {
+        "comment_K": "4",
+        "cover": [
+          {
+            "image": "https://img1.epetbar.com/2018-11/06/21/5442487d72004dbfb43cf4518acc129c.jpg",
+            "img_size": ""
+          }
+        ],
+        "is_zan": 0,
+        "showtime": "3天前",
+        "taid": "0",
+        "target": {
+          "mode": "web",
+          "param": "https://wap.epet.com/union/trials_report_detail.html?trid=1869"
+        },
+        "title": "原之选走地鸡小型犬粮测评 老母亲为小主子口粮操碎了心",
+        "trid": "1869",
+        "type": 2,
+        "uid": "1846318",
+        "user": {
+          "avatar": {
+            "image": "https://img1.epetbar.com/2017-06/07/22/3d93fe56b3035d59da8a4c437dcb3506.jpg",
+            "img_size": "",
+            "target": {
+              "mode": "mengzhua_personhome",
+              "param": "1846318"
+            }
+          },
+          "petmsg": "贵宾 2岁4个月27天",
+          "role": [
+            {
+              "background": "#e4f9e3",
+              "color": "#6fc8b0",
+              "title": "体验师"
+            }
+          ],
+          "username": "zhaixuqin"
+        },
+        "view_K": "9.1K",
+        "zan": "14",
+        "zan_K": "14"
+      },
+      {
+        "comment_K": "3",
+        "cover": [
+          {
+            "image": "https://img1.epetbar.com/2018-11/06/15/78776f6357690f497bd7f285dc6b26b9.jpg",
+            "img_size": ""
+          }
+        ],
+        "is_zan": 0,
+        "showtime": "3天前",
+        "taid": "0",
+        "target": {
+          "mode": "web",
+          "param": "https://wap.epet.com/union/trials_report_detail.html?trid=1866"
+        },
+        "title": "俘获沉沉的达福德零食",
+        "trid": "1866",
+        "type": 2,
+        "uid": "2814142",
+        "user": {
+          "avatar": {
+            "image": "https://img1.epetbar.com/2018-01/29/23/6b22599af6b27288a59ae4bdbb36a984.jpg",
+            "img_size": "",
+            "target": {
+              "mode": "mengzhua_personhome",
+              "param": "2814142"
+            }
+          },
+          "petmsg": "金毛 11个月15天",
+          "role": [
+            {
+              "background": "#e4f9e3",
+              "color": "#6fc8b0",
+              "title": "体验师"
+            }
+          ],
+          "username": "主人_LAcuCJTyy7"
+        },
+        "view_K": "1.7K",
+        "zan": "2",
+        "zan_K": "2"
+      },
+      {
+        "comment_K": "5",
+        "cover": [
+          {
+            "image": "https://img1.epetbar.com/2018-11/06/14/d7f4e962ab936876fb53faba62107787.jpg",
+            "img_size": ""
+          }
+        ],
+        "is_zan": 0,
+        "showtime": "3天前",
+        "taid": "43",
+        "target": {
+          "mode": "web",
+          "param": "https://wap.epet.com/union/trials_report_detail.html?trid=1865"
+        },
+        "title": "绝魅让你柔顺飘逸就是这么自信",
+        "trid": "1865",
+        "type": 2,
+        "uid": "3128268",
+        "user": {
+          "avatar": {
+            "image": "https://img1.epetbar.com/2018-10/26/08/e1cd3e5f9e40b08affd534c5b8aebe5b.jpg",
+            "img_size": "",
+            "target": {
+              "mode": "mengzhua_personhome",
+              "param": "3128268"
+            }
+          },
+          "petmsg": "金毛 8个月20天",
+          "role": [
+            {
+              "background": "#e4f9e3",
+              "color": "#6fc8b0",
+              "title": "体验师"
+            }
+          ],
+          "username": "眉眼如墨"
+        },
+        "view_K": "4.5K",
+        "zan": "11",
+        "zan_K": "11"
+      },
+      {
+        "comment_K": "6",
+        "cover": [
+          {
+            "image": "https://img1.epetbar.com/2018-11/05/11/c7bfdfea63813e5327fea0cb947c1c5a.jpg",
+            "img_size": ""
+          }
+        ],
+        "is_zan": 0,
+        "showtime": "3天前",
+        "taid": "43",
+        "target": {
+          "mode": "web",
+          "param": "https://wap.epet.com/union/trials_report_detail.html?trid=1857"
+        },
+        "title": "Qrijen渴望六种鱼配方粮——给你最顶级的宠爱",
+        "trid": "1857",
+        "type": 2,
+        "uid": "1515135",
+        "user": {
+          "avatar": {
+            "image": "https://img1.epetbar.com/2018-10/11/12/48881e5e3efb8679450faf3304d5c69f.jpg",
+            "img_size": "",
+            "target": {
+              "mode": "mengzhua_personhome",
+              "param": "1515135"
+            }
+          },
+          "petmsg": "雪纳瑞 2岁10个月22天",
+          "role": [
+            {
+              "background": "#e4f9e3",
+              "color": "#6fc8b0",
+              "title": "体验师"
+            }
+          ],
+          "username": "Hardy哈迪"
+        },
+        "view_K": "5.4K",
+        "zan": "10",
+        "zan_K": "10"
+      },
+      {
+        "comment_K": "0",
+        "cover": [
+          {
+            "image": "https://img2.epetbar.com/nowater/2018-11/11/16/beb789c928357ab62d2d897e78d05e14.png",
+            "img_size": ""
+          }
+        ],
+        "is_zan": 0,
+        "showtime": "3天前",
+        "taid": "0",
+        "target": {
+          "mode": "web",
+          "param": "https://wap.epet.com/union/trials_report_detail.html?trid=1847"
+        },
+        "title": "体验馆体验报告 ——达福德Darford 无谷三文鱼烘培零食",
+        "trid": "1847",
+        "type": 2,
+        "uid": "3271067",
+        "user": {
+          "avatar": {
+            "image": "https://img1.epetbar.com/2018-09/19/17/e07c901ed240944f255c89f359d44b0f.jpg",
+            "img_size": "",
+            "target": {
+              "mode": "mengzhua_personhome",
+              "param": "3271067"
+            }
+          },
+          "petmsg": "比熊犬 3个月6天",
+          "role": [
+            {
+              "background": "#e4f9e3",
+              "color": "#6fc8b0",
+              "title": "体验师"
+            }
+          ],
+          "username": "slbb"
+        },
+        "view_K": "1.4K",
+        "zan": "2",
+        "zan_K": "2"
+      },
+      {
+        "comment_K": "0",
+        "cover": [
+          {
+            "image": "https://img2.epetbar.com/nowater/2018-11/09/09/611c56c60cf799be91bc25812f82645d.png",
+            "img_size": ""
+          }
+        ],
+        "is_zan": 0,
+        "showtime": "4天前",
+        "taid": "0",
+        "target": {
+          "mode": "web",
+          "param": "https://wap.epet.com/union/trials_report_detail.html?trid=1862"
+        },
+        "title": "爱它就要给它最天然的饼干零食",
+        "trid": "1862",
+        "type": 2,
+        "uid": "1129122",
+        "user": {
+          "avatar": {
+            "image": "https://img1.epetbar.com/2018-11/08/21/ef68211491fb5d5624129cb16bebdac2.jpg",
+            "img_size": "",
+            "target": {
+              "mode": "mengzhua_personhome",
+              "param": "1129122"
+            }
+          },
+          "petmsg": "贵宾 3岁7个月23天",
+          "role": [
+            {
+              "background": "#e4f9e3",
+              "color": "#6fc8b0",
+              "title": "体验师"
+            }
+          ],
+          "username": "珊珊妹儿"
+        },
+        "view_K": "3.7K",
+        "zan": "8",
+        "zan_K": "8"
+      },
+      {
+        "comment_K": "6",
+        "cover": [
+          {
+            "image": "https://img1.epetbar.com/2018-11/01/18/e2be606a520e14ee407ff532793cad3d.jpg",
+            "img_size": ""
+          }
+        ],
+        "is_zan": 0,
+        "showtime": "5天前",
+        "taid": "41",
+        "target": {
+          "mode": "web",
+          "param": "https://wap.epet.com/union/trials_report_detail.html?trid=1844"
+        },
+        "title": "妮克威尔，你可萌化",
+        "trid": "1844",
+        "type": 2,
+        "uid": "1798198",
+        "user": {
+          "avatar": {
+            "image": "https://img1.epetbar.com/2018-04/16/11/cd163be6f311b4c20cfab9264dee2389.jpg",
+            "img_size": "",
+            "target": {
+              "mode": "mengzhua_personhome",
+              "param": "1798198"
+            }
+          },
+          "petmsg": "贵宾 2岁1个月9天",
+          "role": [
+            {
+              "background": "#e4f9e3",
+              "color": "#6fc8b0",
+              "title": "体验师"
+            }
+          ],
+          "username": "咘叮妈咪"
+        },
+        "view_K": "10.0K",
+        "zan": "14",
+        "zan_K": "14"
+      }
+    ],
+  "epet_site": "epet",
+  "hash": "",
+  "login_status": 0,
+  "mall_uid": "epet_0",
+  "mall_user": "",
+  "msg": "",
+  "page_title_photo": {
+    "image": "https://static.epetbar.com/static_web/wap/src/images/qpet/app/mz_logo.png",
+    "img_size": "200x38"
+  },
+  "right_icon": {
+    "image": "https://static.epetbar.com/static_web/wap/src/images/qpet/app/join.png",
+    "img_size": "60x60",
+    "mode": "web",
+    "param": "https://wap.epet.com/union/trials_intr_main.html"
+  },
+  "sys_time": 1542011642
+}
