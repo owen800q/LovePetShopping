@@ -9,6 +9,9 @@ buildscript {
         classpath 'com.android.tools.build:gradle:3.2.0'
         classpath 'com.jakewharton:butterknife-gradle-plugin:8.4.0'
 
+        // BUGLY tinkersupport插件, 其中lastest.release指拉取最新版本，也可以指定明确版本号，例如1.0.4
+//        classpath 'com.tencent.bugly:tinker-support:1.0.4'
+
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
@@ -62,6 +65,9 @@ ext {
     arouterCompilerVersion = '1.2.2'
     easypermissionVersion = '0.3.1'
     autoScrollViewPagerVersion = '2.1.7'
+    buglyCrashreport = '2.1.9'
+    nativecrashreport = '3.0'
+    buglyTinkersupport = '1.0.4'
 
     //控制模块是否参与编译
     buildMain = true

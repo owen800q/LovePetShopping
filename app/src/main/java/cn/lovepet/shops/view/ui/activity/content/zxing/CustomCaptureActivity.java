@@ -20,6 +20,9 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.TextView;
+
+import com.umeng.analytics.MobclickAgent;
+
 import cn.lovepet.shops.R;
 import cn.lovepet.shops.helper.zxing.CaptureActivity;
 import cn.lovepet.shops.util.StatusBarUtils;
@@ -27,6 +30,8 @@ import cn.lovepet.shops.view.ui.activity.content.ZxingQrcodeActivity;
 
 /**
  * @author dingcl
+ * 自定义扫描界面
+ *   带手电筒操作功能
  */
 public class CustomCaptureActivity extends CaptureActivity {
 
@@ -82,5 +87,17 @@ public class CustomCaptureActivity extends CaptureActivity {
                 clickFlash(v);
                 break;
         }
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        MobclickAgent.onResume(this);
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        MobclickAgent.onPause(this);
     }
 }

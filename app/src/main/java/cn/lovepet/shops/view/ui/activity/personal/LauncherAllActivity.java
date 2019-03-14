@@ -11,6 +11,8 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageView;
 
+import com.umeng.analytics.MobclickAgent;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -23,14 +25,10 @@ import cn.lovepet.shops.helper.basequickadapter.BaseViewHolder;
 import cn.lovepet.shops.helper.imageview.DashlineItemDivider;
 import cn.lovepet.shops.helper.immersive.title.OnTitleBarListener;
 import cn.lovepet.shops.helper.immersive.title.TitleBar;
-
-//import com.github.library.BaseQuickAdapter;
-//import com.github.library.BaseViewHolder;
-
 /**
  * @author JSYL-DCL
  * @date 2018/11/6 17:25
- * @des
+ * @des 应用程序统计
  */
 public class LauncherAllActivity extends BaseActivity{
     private static final java.lang.String TAG1 = LauncherAllActivity.class.getSimpleName();
@@ -169,5 +167,17 @@ public class LauncherAllActivity extends BaseActivity{
             public void onRightClick(View v) {
             }
         });
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        MobclickAgent.onResume(this);
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        MobclickAgent.onPause(this);
     }
 }

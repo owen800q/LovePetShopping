@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.jet.flowtaglayout.FlowTagLayout;
+import com.umeng.analytics.MobclickAgent;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -127,5 +128,17 @@ public class SearchQueryActivity extends BaseActivity {
     @Override
     protected int setImmersiveStatusBarColor() {
         return 0;
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        MobclickAgent.onResume(this);
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        MobclickAgent.onPause(this);
     }
 }

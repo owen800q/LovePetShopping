@@ -18,6 +18,8 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 
+import com.umeng.analytics.MobclickAgent;
+
 import cn.lovepet.shops.R;
 import cn.lovepet.shops.helper.webview.FullscreenHolder;
 import cn.lovepet.shops.helper.webview.IWebPageView;
@@ -318,6 +320,7 @@ public class LoginActivity extends AppCompatActivity implements IWebPageView {
     protected void onPause() {
         super.onPause();
         webView.onPause();
+        MobclickAgent.onPause(this);
     }
 
     @Override
@@ -330,6 +333,8 @@ public class LoginActivity extends AppCompatActivity implements IWebPageView {
         if (getRequestedOrientation() != ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE) {
             setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         }
+
+        MobclickAgent.onResume(this);
     }
 
     @Override
@@ -371,4 +376,6 @@ public class LoginActivity extends AppCompatActivity implements IWebPageView {
         intent.putExtra("mTitle", "详情");
         mContext.startActivity(intent);
     }
+
+
 }

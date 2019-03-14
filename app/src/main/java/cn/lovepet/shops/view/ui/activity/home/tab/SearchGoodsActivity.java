@@ -3,6 +3,8 @@ package cn.lovepet.shops.view.ui.activity.home.tab;
 import android.content.Intent;
 import android.os.Bundle;
 
+import com.umeng.analytics.MobclickAgent;
+
 import cn.lovepet.shops.R;
 import cn.lovepet.shops.base.BaseActivity;
 
@@ -50,5 +52,17 @@ public class SearchGoodsActivity extends BaseActivity{
     @Override
     protected int setImmersiveStatusBarColor() {
         return 0;
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        MobclickAgent.onResume(this);
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        MobclickAgent.onPause(this);
     }
 }

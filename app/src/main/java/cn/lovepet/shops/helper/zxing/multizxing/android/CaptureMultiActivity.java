@@ -23,6 +23,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.zxing.Result;
+import com.umeng.analytics.MobclickAgent;
 
 import java.io.IOException;
 
@@ -42,6 +43,7 @@ import cn.lovepet.shops.util.UriUtils;
 
 /**
  * @declare :扫一扫
+ * 多样式
  */
 
 public class CaptureMultiActivity extends AppCompatActivity implements SurfaceHolder.Callback, View.OnClickListener {
@@ -240,6 +242,9 @@ public class CaptureMultiActivity extends AppCompatActivity implements SurfaceHo
         beepManager.updatePrefs();
         inactivityTimer.onResume();
 
+        //umeng
+        MobclickAgent.onResume(this);
+
     }
 
     private void initCamera(SurfaceHolder surfaceHolder) {
@@ -290,7 +295,9 @@ public class CaptureMultiActivity extends AppCompatActivity implements SurfaceHo
 
             surfaceHolder.removeCallback(this);
         }
+
         super.onPause();
+        MobclickAgent.onPause(this);
     }
 
     @Override
@@ -406,6 +413,8 @@ public class CaptureMultiActivity extends AppCompatActivity implements SurfaceHo
     private void asyncThread(Runnable runnable) {
         new Thread(runnable).start();
     }
+
+
 
 
 }

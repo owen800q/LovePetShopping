@@ -25,6 +25,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.google.zxing.BarcodeFormat;
+import com.umeng.analytics.MobclickAgent;
 
 import cn.lovepet.shops.R;
 import cn.lovepet.shops.helper.zxing.util.CodeUtils;
@@ -32,6 +33,8 @@ import cn.lovepet.shops.view.ui.activity.content.ZxingQrcodeActivity;
 
 /**
  * @author Jenly <a href="mailto:jenly1314@gmail.com">Jenly</a>
+ *
+ * 生成二维码界面
  */
 public class CodeActivity extends AppCompatActivity {
 
@@ -84,5 +87,17 @@ public class CodeActivity extends AppCompatActivity {
                 onBackPressed();
                 break;
         }
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        MobclickAgent.onResume(this);
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        MobclickAgent.onPause(this);
     }
 }

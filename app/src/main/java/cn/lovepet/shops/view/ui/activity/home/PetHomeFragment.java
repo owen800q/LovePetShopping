@@ -161,10 +161,6 @@ public class PetHomeFragment extends BaseFragment {
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         String areaName = data.getStringExtra("areaName");
         int areaId = data.getIntExtra("areaId",500);
-        ILog.e(TAG, "[PetMainActivity]获取requestCode111----------->>:" + requestCode);
-        ILog.e(TAG, "[PetMainActivity]获取resultCode111----------->>:" + resultCode);
-        ILog.e(TAG, "[PetMainActivity]获取areaName111----------->>:" + areaName);
-        ILog.e(TAG, "[PetMainActivity]获取areaId111----------->>:" + areaId);
         //地点
         mTvAreaResult.setText(areaName);
 

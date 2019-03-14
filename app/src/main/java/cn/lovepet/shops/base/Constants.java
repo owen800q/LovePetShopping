@@ -16,6 +16,8 @@ public class Constants {
     public  static int ACTIVITY_RESULT_CODE_1 = 990;
     public  static int ACTIVITY_REQUEST_CODE_2 = 100;
     public  static int ACTIVITY_RESULT_CODE_2 = 1000;
+    public  static String APPLICATION_BUGLY_APPID = "3b241f3459";
+    public  static String APPLICATION_UMENG_APPKEY = "5c89bfb5203657804c00076d";
     //联盟-一级导航页签状态
     public  static boolean UNION_TAB_DOG = false;
     public  static boolean UNION_TAB_CAT = false;

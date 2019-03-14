@@ -1,5 +1,7 @@
 apply plugin: 'com.android.application'
 //apply plugin: 'com.jakewharton.butterknife'
+// 依赖插件脚本
+//apply from: 'tinker-support.gradle'
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
 //    buildToolsVersion "27.0.3"
@@ -10,11 +12,18 @@ android {
         applicationId "cn.lovepet.shops"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "1.2.3"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
         multiDexEnabled true
+
+        ndk {
+            // 设置支持的SO库架构
+            abiFilters 'armeabi' //, 'x86', 'armeabi-v7a', 'x86_64', 'arm64-v8a'
+        }
+
+//        flavorDimensions "versionCode"
     }
     buildTypes {
         release {
@@ -64,6 +73,14 @@ android {
         exclude 'META-INF/maven/data.domybox.com/data.sdk/pom.xml'
         exclude 'META-INF/LICENSE.txt'
     }
+
+    /*配置渠道*/
+    flavorDimensions "default"
+    productFlavors {
+        tongjibao{
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "tongjibao"]
+        }
+    }
 }
 
 dependencies {
@@ -111,4 +128,10 @@ dependencies {
     implementation 'pub.devrel:easypermissions:1.0.1'
     implementation 'com.yanzhenjie:permission:2.0.0-rc4'
     implementation files('libs/core-3.3.3.jar')
+    //bugly
+    implementation "com.tencent.bugly:crashreport:$rootProject.buglyCrashreport" //其中latest.release指代最新Bugly SDK版本号，也可以指定明确的版本号，例如2.1.9
+    implementation "com.tencent.bugly:nativecrashreport:$rootProject.nativecrashreport" //其中latest.release指代最新Bugly NDK版本号，也可以指定明确的版本号，例如3.0
+    //umeng 统计需要的最新版本组件化基础库和统计SDK
+    implementation 'com.umeng.sdk:common:latest.integration'
+    implementation 'com.umeng.sdk:analytics:latest.integration'
 }

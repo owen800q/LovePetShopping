@@ -41,6 +41,8 @@ import android.view.WindowManager;
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.DecodeHintType;
 import com.google.zxing.Result;
+import com.umeng.analytics.MobclickAgent;
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collection;
@@ -158,6 +160,7 @@ public class CaptureActivity extends Activity implements SurfaceHolder.Callback 
     @Override
     protected void onResume() {
         super.onResume();
+        MobclickAgent.onResume(this);
 
         // historyManager must be initialized here to update the history preference
 //        historyManager = new HistoryManager(this);
@@ -324,6 +327,7 @@ public class CaptureActivity extends Activity implements SurfaceHolder.Callback 
             surfaceHolder.removeCallback(this);
         }
         super.onPause();
+        MobclickAgent.onPause(this);
     }
 
     @Override
@@ -934,6 +938,8 @@ public class CaptureActivity extends Activity implements SurfaceHolder.Callback 
         }
         return x;
     }
+
+
 
 
 }

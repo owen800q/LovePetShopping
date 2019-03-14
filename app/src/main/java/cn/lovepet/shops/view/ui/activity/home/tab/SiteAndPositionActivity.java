@@ -11,6 +11,7 @@ import android.widget.TextView;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
+import com.umeng.analytics.MobclickAgent;
 
 import java.lang.reflect.Type;
 import java.util.ArrayList;
@@ -180,9 +181,19 @@ public class SiteAndPositionActivity extends BaseActivity {
         }.getType();
         PetAreaOneLevel petAreaOneLevel = gson.fromJson(jsonFromAsset, type);
         List<PetAreaOneLevel.Places> places = petAreaOneLevel.getPlaces();
-        ILog.e(TAG, "获取一级数据petAreaOneLevel----------->>:" + new Gson().toJson(petAreaOneLevel));
-        ILog.e(TAG, "获取一级数据----------->>:" + new Gson().toJson(places));
         placesList.addAll(places);
         mAreaAdapter.notifyDataSetChanged();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        MobclickAgent.onResume(this);
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        MobclickAgent.onPause(this);
     }
 }

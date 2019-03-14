@@ -20,6 +20,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.TextView;
 
+import com.umeng.analytics.MobclickAgent;
+
 import cn.lovepet.shops.R;
 import cn.lovepet.shops.helper.zxing.CaptureActivity;
 import cn.lovepet.shops.util.StatusBarUtils;
@@ -27,6 +29,7 @@ import cn.lovepet.shops.view.ui.activity.content.ZxingQrcodeActivity;
 
 /**
  * @author dingcl
+ * 自定义扫描
  */
 public class EasyCaptureActivity extends CaptureActivity {
 
@@ -52,5 +55,17 @@ public class EasyCaptureActivity extends CaptureActivity {
                 onBackPressed();
                 break;
         }
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        MobclickAgent.onResume(this);
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        MobclickAgent.onPause(this);
     }
 }

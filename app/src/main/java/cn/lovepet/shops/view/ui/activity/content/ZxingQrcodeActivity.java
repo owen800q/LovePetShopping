@@ -28,6 +28,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.umeng.analytics.MobclickAgent;
+
 import java.util.List;
 
 import butterknife.OnClick;
@@ -278,4 +280,15 @@ public class ZxingQrcodeActivity extends BaseActivity implements EasyPermissions
         }
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        MobclickAgent.onResume(this);
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        MobclickAgent.onPause(this);
+    }
 }

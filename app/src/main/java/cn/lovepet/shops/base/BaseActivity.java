@@ -24,6 +24,8 @@ import cn.lovepet.shops.util.ApplicationUtil;
 import cn.lovepet.shops.util.KeyBoardUtils;
 import cn.lovepet.shops.util.SharePreferenceHelper;
 
+import static com.umeng.analytics.MobclickAgent.onKillProcess;
+
 /**
  * Activity的父类
  */

@@ -10,6 +10,8 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 
+import com.umeng.analytics.MobclickAgent;
+
 import butterknife.BindView;
 import cn.lovepet.shops.R;
 import cn.lovepet.shops.base.BaseActivity;
@@ -255,4 +257,15 @@ public class MainGoodsShopActivity extends BaseActivity implements HeaderView.Re
         },1000);
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        MobclickAgent.onResume(this);
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        MobclickAgent.onPause(this);
+    }
 }

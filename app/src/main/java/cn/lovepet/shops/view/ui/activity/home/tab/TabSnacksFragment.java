@@ -28,6 +28,7 @@ import com.bumptech.glide.request.target.SimpleTarget;
 import com.bumptech.glide.request.target.Target;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
+import com.tencent.bugly.crashreport.CrashReport;
 import com.youth.banner.Banner;
 import com.youth.banner.BannerConfig;
 import com.youth.banner.listener.OnBannerListener;
@@ -452,6 +453,13 @@ public class TabSnacksFragment extends BaseFragment implements AdapterView.OnIte
                     final ImageView imageView1 = (ImageView) helper.getView(R.id.ivTwoImg1);
                     final ImageView imageView2 = (ImageView) helper.getView(R.id.ivTwoImg2);
                     String image = datalist.get(0).getImage();
+
+//                    imageView1.setOnClickListener(new View.OnClickListener() {
+//                        @Override
+//                        public void onClick(View v) {
+//                            CrashReport.testJavaCrash();
+//                        }
+//                    });
 
                     Glide.with(mContext)
                             .load(datalist.get(0).getImage())

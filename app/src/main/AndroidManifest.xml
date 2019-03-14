@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="cn.lovepet.shops">
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -21,6 +22,14 @@
     <!--手电筒-->
     <uses-permission android:name="android.permission.FLASHLIGHT" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!--bugly-->
+    <!--umeng-->
+    <!--友盟统计所需权限-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_LOGS"
+        tools:ignore="ProtectedPermissions" />
+
 
     <application
         android:name=".base.MApplication"
@@ -119,6 +128,11 @@
         <activity
             android:name=".helper.zxing.CaptureActivity"
             android:screenOrientation="portrait"/>
+
+        <!--value的值填写你在友盟后台申请的应用Appkey-->
+        <meta-data android:value="5c89bfb5203657804c00076d" android:name="UMENG_APPKEY"/>
+        <!--value的值填写渠道名称，例如yingyongbao。这里设置动态渠道名称变量-->
+        <meta-data android:value="${UMENG_CHANNEL_VALUE}" android:name="UMENG_CHANNEL"/>
     </application>
 
 </manifest>
